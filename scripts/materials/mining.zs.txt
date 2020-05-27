@@ -1,0 +1,41 @@
+#loader contenttweaker
+
+import mods.contenttweaker.Material;
+import mods.contenttweaker.MaterialPart;
+import mods.contenttweaker.MaterialPartData;
+import mods.contenttweaker.Part;
+import crafttweaker.item.IItemStack;
+
+import scripts.materials.baseMaterials.materials;
+
+print("--- loading mining.zs ---");
+
+var clusterMaterials as Material[] = [
+	materials.thorium,
+	materials.boron,
+	materials.lithium,
+	materials.magnesium
+];
+
+for material in clusterMaterials {
+	material.registerPart("cluster");
+}
+
+var oreMaterials as Material[] = [
+	materials.monazite,
+	materials.ulexite,
+	materials.pegmatite,
+	materials.dolomite
+];
+
+var oreDrops as string[Material] = {
+	materials.monazite: "contenttweaker:material_part:13",
+	materials.ulexite: "contenttweaker:material_part:2",
+	materials.pegmatite: "contenttweaker:material_part:3",
+	materials.dolomite: "contenttweaker:material_part:4"
+};
+
+for material in oreMaterials {
+	material.registerPart("ore").getData().addDataValue("drops", oreDrops[material]);
+	material.registerPart("ore_sample").getData().addDataValue("drops", oreDrops[material]);
+}

@@ -1,0 +1,223 @@
+import mods.geolosys.ores;
+import mods.geolosys.stones;
+
+# Modded dims: -1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44
+# Planetary dims: 0,300,301,302
+
+# Coal
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore_vanilla:variant=coal>],
+	[100],
+	[<blockstate:geolosys:ore_sample_vanilla:variant=coal>],
+	[100],
+	8, 78, 64, 8, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Cinnabar
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore_vanilla:variant=cinnabar>],
+	[100],
+	[<blockstate:geolosys:ore_sample_vanilla:variant=cinnabar>],
+	[100],
+	5, 12, 40, 7, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Gold
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore_vanilla:variant=gold>],
+	[100],
+	[<blockstate:geolosys:ore_sample_vanilla:variant=gold>],
+	[100],
+	5, 30, 40, 4, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Lapis
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore_vanilla:variant=lapis>],
+	[100],
+	[<blockstate:geolosys:ore_sample_vanilla:variant=lapis>],
+	[100],
+	10, 24, 32, 5, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Quartz
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore_vanilla:variant=quartz>],
+	[100],
+	[<blockstate:geolosys:ore_sample_vanilla:variant=quartz>],
+	[100],
+	6, 29, 40, 6, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Kimberlite (Diamond)
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore_vanilla:variant=kimberlite>],
+	[100],
+	[<blockstate:geolosys:ore_sample_vanilla:variant=kimberlite>],
+	[100],
+	2, 15, 20, 3, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Beryl (Emerald)
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore_vanilla:variant=beryl>],
+	[100],
+	[<blockstate:geolosys:ore_sample_vanilla:variant=beryl>],
+	[100],
+	4, 32, 16, 3, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Hematite (Iron)
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore:variant=hematite>],
+	[100],
+	[<blockstate:geolosys:ore_sample:variant=hematite>],
+	[100],
+	32, 60, 24, 6, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Limonite (Nickel)
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore:variant=limonite>],
+	[100],
+	[<blockstate:geolosys:ore_sample:variant=limonite>],
+	[100],
+	6, 32, 80, 4, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Malachite + Azurite (Copper)
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore:variant=malachite>,<blockstate:geolosys:ore:variant=azurite>],
+	[40,60],
+	[<blockstate:geolosys:ore_sample:variant=malachite>,<blockstate:geolosys:ore_sample:variant=azurite>],
+	[40,60],
+	12, 44, 80, 4, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Cassiterite (Tin)
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore:variant=cassiterite>],
+	[100],
+	[<blockstate:geolosys:ore_sample:variant=cassiterite>],
+	[100],
+	44, 68, 24, 6, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+
+# Teallite (Tin)
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore:variant=teallite>,<blockstate:geolosys:ore_vanilla:variant=beryl>],
+	[90,10],
+	[<blockstate:geolosys:ore_sample:variant=teallite>,<blockstate:geolosys:ore_sample_vanilla:variant=beryl>],
+	[100, 0],
+	8, 43, 80, 2, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Galena (Silver + Lead)
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore:variant=galena>],
+	[100],
+	[<blockstate:geolosys:ore_sample:variant=galena>],
+	[100],
+	16, 50, 72, 6, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Bauxite (Aluminum)
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore:variant=bauxite>],
+	[100],
+	[<blockstate:geolosys:ore_sample:variant=bauxite>],
+	[100],
+	45, 70, 64, 4, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Platinum
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore:variant=platinum>],
+	[100],
+	[<blockstate:geolosys:ore_sample:variant=platinum>],
+	[100],
+	3, 25, 32, 4, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+	
+# Sphalerite (Zinc)
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore:variant=sphalerite>],
+	[100],
+	[<blockstate:geolosys:ore_sample:variant=sphalerite>],
+	[100],
+	37, 46, 24, 5, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		300,301,302
+	]);
+
+# Uranium
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore:variant=autunite>],
+	[100],
+	[<blockstate:geolosys:ore_sample:variant=autunite>],
+	[100],
+	8, 33, 48, 4, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		0,300,301,302
+	]);
+	
+# Thorium
+mods.geolosys.ores.addOre(
+	[<blockstate:geolosys:ore:variant=autunite>],
+	[100],
+	[<blockstate:geolosys:ore_sample:variant=autunite>],
+	[100],
+	8, 33, 48, 4, 1.0 as float,
+	[
+		-1,1,-30,66,-23,17,84,22,26,24,21,20,23,27,76,77,19,-127,5,44,
+		0,300,301,302
+	]);
+
+	

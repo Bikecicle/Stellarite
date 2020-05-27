@@ -1,0 +1,145 @@
+
+
+var processingTime = 400;
+var power = 128;
+
+# ---- GAIA DIMENSION ----
+
+# benitoite
+	val benitoite = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_benitoite", "crystal_decomposer", processingTime);
+	benitoite.addEnergyPerTickInput(power);
+	benitoite.addItemInput(<gaiadimension:benitoite> * 14);
+	benitoite.addItemOutput(<libvulpes:productdust:7> * 1); # titanium
+	benitoite.addItemOutput(<libvulpes:productdust:3> * 3); # silicon
+	benitoite.build();
+	
+# carnelian
+	val carnelian = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_carnelian", "crystal_decomposer", processingTime);
+	carnelian.addEnergyPerTickInput(power);
+	carnelian.addItemInput(<gaiadimension:carnelian> * 3);
+	carnelian.addItemOutput(<libvulpes:productdust:3> * 1); # silicon
+	carnelian.build();
+	
+# chalcedony
+	val chalcedony = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_chalcedony", "crystal_decomposer", processingTime);
+	chalcedony.addEnergyPerTickInput(power);
+	chalcedony.addItemInput(<gaiadimension:chalcedony> * 3);
+	chalcedony.addItemOutput(<libvulpes:productdust:3> * 1); # silicon
+	chalcedony.build();
+	
+# cinnabar
+	val cinnabar = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_cinnabar", "crystal_decomposer", processingTime);
+	cinnabar.addEnergyPerTickInput(power);
+	cinnabar.addItemInput(<gaiadimension:cinnabar> * 2);
+	cinnabar.addItemOutput(<thermalfoundation:material:771> * 1); # sulfur
+	cinnabar.build();
+	
+# diopside
+	val diopside = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_diopside", "crystal_decomposer", processingTime);
+	diopside.addEnergyPerTickInput(power);
+	diopside.addItemInput(<gaiadimension:diopside> * 10);
+	diopside.addItemOutput(<libvulpes:productdust:3> * 2); # silicon
+	diopside.addItemOutput(<nuclearcraft:dust:7> * 1); # magnesium
+	diopside.build();
+	
+# euclase
+	val euclase = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_euclase", "crystal_decomposer", processingTime);
+	euclase.addEnergyPerTickInput(power);
+	euclase.addItemInput(<gaiadimension:euclase> * 7);
+	euclase.addItemOutput(<nuclearcraft:dust:9> * 1); # beryllium
+	euclase.addItemOutput(<thermalfoundation:material:68> * 1); # aluminum
+	euclase.addItemOutput(<libvulpes:productdust:3> * 1); # silicon
+	euclase.build();
+	
+# hematite
+	val hematite = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_hematite", "crystal_decomposer", processingTime);
+	hematite.addEnergyPerTickInput(power);
+	hematite.addItemInput(<gaiadimension:hematite> * 5);
+	hematite.addItemOutput(<thermalfoundation:material:0> * 2); # iron
+	hematite.build();
+	
+# ixiolite
+	val ixiolite = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_ixiolite", "crystal_decomposer", processingTime);
+	ixiolite.addEnergyPerTickInput(power);
+	ixiolite.addItemInput(<gaiadimension:ixiolite> * 12);
+	ixiolite.addItemOutput(<thermalfoundation:material:0> * 2); # iron
+	ixiolite.addItemOutput(<thermalfoundation:material:65> * 2); # tin
+	ixiolite.build();
+	
+# labradorite
+	val labradorite = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_labradorite", "crystal_decomposer", processingTime);
+	labradorite.addEnergyPerTickInput(power);
+	labradorite.addItemInput(<gaiadimension:labradorite> * 12);
+	labradorite.addItemOutput(<thermalfoundation:material:68> * 2); # aluminum
+	labradorite.addItemOutput(<libvulpes:productdust:3> * 2); # silicon
+	labradorite.build();
+	
+# leucite
+	val leucite = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_leucite", "crystal_decomposer", processingTime);
+	leucite.addEnergyPerTickInput(power);
+	leucite.addItemInput(<gaiadimension:leucite> * 10);
+	leucite.addItemOutput(<thermalfoundation:material:68> * 1); # aluminum
+	leucite.addItemOutput(<libvulpes:productdust:3> * 2); # silicon
+	leucite.build();
+	
+# moonstone
+	val moonstone = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_moonstone", "crystal_decomposer", processingTime);
+	moonstone.addEnergyPerTickInput(power);
+	moonstone.addItemInput(<gaiadimension:moonstone> * 13);
+	moonstone.addItemOutput(<thermalfoundation:material:68> * 1); # aluminum
+	moonstone.addItemOutput(<libvulpes:productdust:3> * 3); # silicon
+	moonstone.build();
+	
+# proustite
+	val proustite = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_proustite", "crystal_decomposer", processingTime);
+	proustite.addEnergyPerTickInput(power);
+	proustite.addItemInput(<gaiadimension:proustite> * 7);
+	proustite.addItemOutput(<thermalfoundation:material:66> * 3); # silver
+	proustite.addItemOutput(<nuclearcraft:gem_dust:10> * 1); # arsenic
+	proustite.addItemOutput(<libvulpes:productdust:3> * 3); # silicon
+	proustite.build();
+	
+# pyrite
+	val pyrite = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_pyrite", "crystal_decomposer", processingTime);
+	pyrite.addEnergyPerTickInput(power);
+	pyrite.addItemInput(<gaiadimension:pyrite> * 3);
+	pyrite.addItemOutput(<thermalfoundation:material:0> * 1); # iron
+	pyrite.addItemOutput(<thermalfoundation:material:771> * 2); # sulfur
+	pyrite.build();
+	
+# sugilite
+	val sugilite = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_sugilite", "crystal_decomposer", processingTime);
+	sugilite.addEnergyPerTickInput(power);
+	sugilite.addItemInput(<gaiadimension:sugilite> * 3);
+	sugilite.addItemOutput(<thermalfoundation:material:0> * 1); # iron
+	sugilite.addItemOutput(<thermalfoundation:material:68> * 1); # aluminum
+	sugilite.addItemOutput(<nuclearcraft:dust:6> * 3); # lithium
+	sugilite.addItemOutput(<libvulpes:productdust:3> * 12); # silicon
+	sugilite.build();
+	
+# ---- TROPICRAFT ----
+
+# azurite
+	val azurite = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_azurite", "crystal_decomposer", processingTime);
+	azurite.addEnergyPerTickInput(power);
+	azurite.addItemInput(<tropicraft:azurite> * 15);
+	azurite.addItemOutput(<thermalfoundation:material:64> * 3); # copper
+	azurite.addItemOutput(<thermalfoundation:material:768> * 2); # carbon
+	azurite.build();
+	
+# eudialyte
+	val eudialyte = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_eudialyte", "crystal_decomposer", processingTime);
+	eudialyte.addEnergyPerTickInput(power);
+	eudialyte.addItemInput(<tropicraft:eudialyte> * 40);
+	eudialyte.addItemOutput(<thermalfoundation:material:0> * 1); # iron
+	eudialyte.addItemOutput(<nuclearcraft:dust:10> * 1); # zirconium
+	eudialyte.addItemOutput(<libvulpes:productdust:3> * 8); # silicon
+	eudialyte.build();
+	
+# zircon
+	val zircon = mods.modularmachinery.RecipeBuilder.newBuilder("crystal_decomposer_zircon", "crystal_decomposer", processingTime);
+	zircon.addEnergyPerTickInput(power);
+	zircon.addItemInput(<tropicraft:zircon> * 6);
+	zircon.addItemOutput(<nuclearcraft:dust:10> * 1); # zirconium
+	zircon.addItemOutput(<libvulpes:productdust:3> * 1); # silicon
+	zircon.build();
