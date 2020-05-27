@@ -1,0 +1,50 @@
+{
+	"dependencies": "abyssalcraft",
+	"populate": {
+	
+		"abyssalnite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "abyssalcraft:abyore",
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					310
+				]
+			}
+		},
+		
+		"coralium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "abyssalcraft:coraliumore",
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					309
+				]
+			}
+		}
+		
+	}
+}

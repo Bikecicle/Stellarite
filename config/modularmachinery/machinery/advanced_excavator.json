@@ -1,0 +1,19 @@
+{
+    "registryname": "advanced_excavator",
+    "localizedname": "Advanced Excavator",
+    "modifiers": [],
+    "parts": [
+		{
+			"x": 1,
+			"y": 0,
+			"z": 0,
+			"elements": "modularmachinery:blockoutputbus"
+		},
+		{
+			"x": -1,
+			"y": 0,
+			"z": 0,
+			"elements": "modularmachinery:blockenergyinputhatch"
+		}
+    ]
+}

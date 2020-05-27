@@ -1,0 +1,21 @@
+{
+    "machine": "advanced_excavator",
+
+    "registryName": "excavate_coal",
+	
+    "recipeTime": 20,
+
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 10
+        },
+		{
+			"type": "mineral",
+			"io-type": "output",
+			"name": "Aenia Coal",
+			"amount" = 32
+		}
+    ]
+}

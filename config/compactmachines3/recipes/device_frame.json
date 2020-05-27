@@ -1,0 +1,237 @@
+{
+  "name": "compactmachines3:device_frame",
+  "target-item": "thermalexpansion:frame",
+  "target-meta": 64,
+  "target-count": 1,
+
+  "duration": 400,
+
+  "catalyst": "midnight:dark_pearl",
+  "catalyst-meta": 0,
+  
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 1
+    },
+    "b": {
+      "id": "midnight:nagrilite_block",
+      "meta": 0
+    },
+    "c": {
+      "id": "libvulpes:enhancedmotor",
+      "meta": 3
+    },
+    "d": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 3
+    },
+    "e": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 5
+    },
+    "f": {
+      "id": "nuclearcraft:lithium_ion_battery_basic",
+      "meta": 0
+    }
+  },
+  "input-nbt": {
+    "d:A": {
+      "nbt": "{casingColor:16777215,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"minecraft:tilecolorablemachinecomponent\"}"
+    },
+    "e:A": {
+      "nbt": "{casingColor:16777215,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"minecraft:tilecolorablemachinecomponent\"}"
+    },
+    "f:A": {
+      "nbt": "{energyConnections0:0,isRedstonePowered:0b,energyConnections4:0,energyConnections3:0,energyConnections2:0,energyConnections1:0,alternateComparator:0b,energyConnections5:0,capacity:32000000,redstoneControl:0b,maxTransfer:1600000,radiationLevel:0.0d,comparatorStrength:0,ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"nuclearcraft:lithium_ion_battery_basic\",energy:0}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "d:A",
+        "_",
+        "_",
+        "_",
+        "d:A"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "f:A",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "e:A",
+        "_",
+        "_",
+        "_",
+        "e:A"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "c",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+
+}

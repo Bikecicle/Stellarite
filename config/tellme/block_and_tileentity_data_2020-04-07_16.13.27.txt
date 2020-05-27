@@ -1,0 +1,16 @@
+tconstruct:blueslime (tconstruct:blueslime - 1813:0) no TileEntity
+Full block state: tconstruct:blueslime[level=0]
+Hardness: 0.0000, Explosion resistance: 0.0000, Material: WATER
+Block class: slimeknights.tconstruct.shared.block.BlockLiquidSlime
+IBlockState properties, including getActualState():
+PropertyInteger{name=level, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}: 0
+IExtendedBlockState properties:
+PropertyFloat{name=flow_direction, clazz=class java.lang.Float, value=Optional[1.5707964]}
+PropertyFloat{name=level_corner_0, clazz=class java.lang.Float, value=Optional[0.7539683]}
+UnlistedPropertyBool{name=side_overlay_0, clazz=class java.lang.Boolean, value=Optional[false]}
+PropertyFloat{name=level_corner_1, clazz=class java.lang.Float, value=Optional[0.7539683]}
+UnlistedPropertyBool{name=side_overlay_1, clazz=class java.lang.Boolean, value=Optional[false]}
+PropertyFloat{name=level_corner_2, clazz=class java.lang.Float, value=Optional[0.6984128]}
+UnlistedPropertyBool{name=side_overlay_2, clazz=class java.lang.Boolean, value=Optional[false]}
+PropertyFloat{name=level_corner_3, clazz=class java.lang.Float, value=Optional[0.6984128]}
+UnlistedPropertyBool{name=side_overlay_3, clazz=class java.lang.Boolean, value=Optional[false]}

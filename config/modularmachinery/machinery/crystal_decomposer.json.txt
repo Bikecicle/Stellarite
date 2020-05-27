@@ -1,0 +1,337 @@
+{
+    "registryname": "crystal_decomposer",
+    "localizedname": "Crystalline Disassembler",
+    "modifiers": [],
+    "parts": [
+		{
+			"x": -1,
+			"y": -1,
+			"z": 0,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": 0,
+			"y": -1,
+			"z": 0,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": 1,
+			"y": -1,
+			"z": 0,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": 2,
+			"y": -1,
+			"z": 1,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": 2,
+			"y": -1,
+			"z": 2,
+			"elements": "modularmachinery:blockoutputbus"
+		},
+		{
+			"x": 2,
+			"y": -1,
+			"z": 3,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": 1,
+			"y": -1,
+			"z": 4,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": 0,
+			"y": -1,
+			"z": 4,
+			"elements": "modularmachinery:blockenergyinputhatch"
+		},
+		{
+			"x": -1,
+			"y": -1,
+			"z": 4,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": -2,
+			"y": -1,
+			"z": 3,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": -2,
+			"y": -1,
+			"z": 2,
+			"elements": "modularmachinery:blockinputbus"
+		},
+		{
+			"x": -2,
+			"y": -1,
+			"z": 1,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": -1,
+			"y": 1,
+			"z": 0,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": 0,
+			"y": 1,
+			"z": 0,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": 1,
+			"y": 1,
+			"z": 0,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": 2,
+			"y": 1,
+			"z": 1,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": 2,
+			"y": 1,
+			"z": 2,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": 2,
+			"y": 1,
+			"z": 3,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": 1,
+			"y": 1,
+			"z": 4,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": 0,
+			"y": 1,
+			"z": 4,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": -1,
+			"y": 1,
+			"z": 4,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": -2,
+			"y": 1,
+			"z": 3,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": -2,
+			"y": 1,
+			"z": 2,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": -2,
+			"y": 1,
+			"z": 1,
+			"elements": "modularmachinery:blockcasing@0"
+		},
+		{
+			"x": -1,
+			"y": 0,
+			"z": 0,
+			"elements": "gaiadimension:foggy_glass"
+		},
+		{
+			"x": 1,
+			"y": 0,
+			"z": 0,
+			"elements": "gaiadimension:foggy_glass"
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"z": 1,
+			"elements": "gaiadimension:foggy_glass"
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"z": 2,
+			"elements": "gaiadimension:foggy_glass"
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"z": 3,
+			"elements": "gaiadimension:foggy_glass"
+		},
+		{
+			"x": 1,
+			"y": 0,
+			"z": 4,
+			"elements": "gaiadimension:foggy_glass"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"z": 4,
+			"elements": "gaiadimension:foggy_glass"
+		},
+		{
+			"x": -1,
+			"y": 0,
+			"z": 4,
+			"elements": "gaiadimension:foggy_glass"
+		},
+		{
+			"x": -2,
+			"y": 0,
+			"z": 3,
+			"elements": "gaiadimension:foggy_glass"
+		},
+		{
+			"x": -2,
+			"y": 0,
+			"z": 2,
+			"elements": "gaiadimension:foggy_glass"
+		},
+		{
+			"x": -2,
+			"y": 0,
+			"z": 1,
+			"elements": "gaiadimension:foggy_glass"
+		},
+		{
+			"x": -1,
+			"y": -1,
+			"z": 1,
+			"elements": "gaiadimension:tektite_block"
+		},
+		{
+			"x": 0,
+			"y": -1,
+			"z": 1,
+			"elements": "gaiadimension:tektite_block"
+		},
+		{
+			"x": 1,
+			"y": -1,
+			"z": 1,
+			"elements": "gaiadimension:tektite_block"
+		},
+		{
+			"x": 1,
+			"y": -1,
+			"z": 2,
+			"elements": "gaiadimension:tektite_block"
+		},
+		{
+			"x": 1,
+			"y": -1,
+			"z": 3,
+			"elements": "gaiadimension:tektite_block"
+		},
+		{
+			"x": 0,
+			"y": -1,
+			"z": 3,
+			"elements": "gaiadimension:tektite_block"
+		},
+		{
+			"x": -1,
+			"y": -1,
+			"z": 3,
+			"elements": "gaiadimension:tektite_block"
+		},
+		{
+			"x": -1,
+			"y": -1,
+			"z": 2,
+			"elements": "gaiadimension:tektite_block"
+		},
+		{
+			"x": 0,
+			"y": -1,
+			"z": 2,
+			"elements": "gaiadimension:aura_block"
+		},
+		{
+			"x": 0,
+			"y": -1,
+			"z": 2,
+			"elements": "gaiadimension:aura_block"
+		},
+		{
+			"x": -1,
+			"y": 1,
+			"z": 1,
+			"elements": "gaiadimension:goldstone_block"
+		},
+		{
+			"x": 0,
+			"y": 1,
+			"z": 1,
+			"elements": "gaiadimension:goldstone_block"
+		},
+		{
+			"x": 1,
+			"y": 1,
+			"z": 1,
+			"elements": "gaiadimension:goldstone_block"
+		},
+		{
+			"x": 1,
+			"y": 1,
+			"z": 2,
+			"elements": "gaiadimension:goldstone_block"
+		},
+		{
+			"x": 1,
+			"y": 1,
+			"z": 3,
+			"elements": "gaiadimension:goldstone_block"
+		},
+		{
+			"x": 0,
+			"y": 1,
+			"z": 3,
+			"elements": "gaiadimension:goldstone_block"
+		},
+		{
+			"x": -1,
+			"y": 1,
+			"z": 3,
+			"elements": "gaiadimension:goldstone_block"
+		},
+		{
+			"x": -1,
+			"y": 1,
+			"z": 2,
+			"elements": "gaiadimension:goldstone_block"
+		},
+		{
+			"x": 0,
+			"y": 1,
+			"z": 2,
+			"elements": "modularmachinery:blockcasing@1"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"z": 2,
+			"elements": "gaiadimension:active_rock"
+		}
+    ]
+}

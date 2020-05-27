@@ -1,0 +1,28 @@
+{
+	"dependencies": "matteroverdrive",
+	"populate": {
+		"tritanium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "matteroverdrive:tritanium_ore",
+				},
+
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					307
+				]
+			}
+		}
+	}
+}

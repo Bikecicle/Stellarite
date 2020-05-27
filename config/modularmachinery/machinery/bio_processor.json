@@ -1,0 +1,559 @@
+{
+    "registryname": "bio_processor",
+    "localizedname": "Bio Processor",
+    "modifiers": [],
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": "modularmachinery:blockinputbus"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@3"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": "modularmachinery:blockoutputbus"
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": "modularmachinery:blockfluidinputhatch"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": "modularmachinery:blockenergyinputhatch"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "netherex:smooth_basalt_wall"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": "netherex:smooth_basalt_wall"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": "netherex:smooth_basalt_wall"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": "netherex:smooth_basalt_wall"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": "netherex:smooth_basalt_wall"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": "advancedrocketry:fueltank"
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": "advancedrocketry:fueltank"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": "thebetweenlands:aqua_middle_gem_block"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": "advancedrocketry:fueltank"
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": "advancedrocketry:fueltank"
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": "netherex:smooth_basalt_wall"
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": "netherex:smooth_basalt_wall"
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": "netherex:smooth_basalt_wall"
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": "netherex:smooth_basalt_wall"
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": "netherex:smooth_basalt_wall"
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": "thermalfoundation:glass_alloy@6"
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@3"
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+		{
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": "gaiadimension:goldstone_block"
+        },
+		{
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": "gaiadimension:goldstone_block"
+        }
+    ]
+}

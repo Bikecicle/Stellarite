@@ -1,0 +1,18 @@
+{
+    "machine": "oxygen_collector",
+    "registryName": "collect_oxygen",
+    "recipeTime": 720,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 10
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "oxygen",
+            "amount": 100
+        }
+    ]
+}

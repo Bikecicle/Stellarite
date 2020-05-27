@@ -1,0 +1,68 @@
+{
+	"dependencies": "defiledlands",
+	"populate": {
+		"hephaestite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "defiledlands:hephaestite_ore",
+				},
+				"material": "minecraft:stone_defiled",
+				"cluster-size": 17
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					306
+				]
+			}
+		},
+		"umbrium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "defiledlands:umbrium_ore",
+				},
+				"material": "minecraft:stone_defiled",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					306
+				]
+			}
+		},
+		"scarlite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "defiledlands:scarlite_ore",
+				},
+				"material": "minecraft:stone_defiled",
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					306
+				]
+			}
+		}
+	}
+}

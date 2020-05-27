@@ -1,0 +1,217 @@
+{
+  "name": "compactmachines3:energy_cell",
+  "target-item": "thermalexpansion:cell",
+  "target-meta": 0,
+  "target-count": 1,
+
+  "duration": 400,
+
+  "catalyst": "thermalfoundation:material",
+  "catalyst-meta": 515,
+  
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 2
+    },
+    "b": {
+      "id": "minecraft:concrete",
+      "meta": 3
+    },
+    "c": {
+      "id": "thermalfoundation:glass",
+      "meta": 3
+    },
+    "d": {
+      "id": "thermalfoundation:fluid_redstone",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "a"
+      ],
+      [
+        "b",
+        "c",
+        "c",
+        "c",
+        "b"
+      ],
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "a"
+      ],
+      [
+        "c",
+        "d",
+        "d",
+        "d",
+        "c"
+      ],
+      [
+        "c",
+        "d",
+        "d",
+        "d",
+        "c"
+      ],
+      [
+        "c",
+        "d",
+        "d",
+        "d",
+        "c"
+      ],
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "c",
+        "c",
+        "c",
+        "b"
+      ],
+      [
+        "c",
+        "d",
+        "d",
+        "d",
+        "c"
+      ],
+      [
+        "c",
+        "d",
+        "d",
+        "d",
+        "c"
+      ],
+      [
+        "c",
+        "d",
+        "d",
+        "d",
+        "c"
+      ],
+      [
+        "b",
+        "c",
+        "c",
+        "c",
+        "b"
+      ]
+    ],
+    [
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "a"
+      ],
+      [
+        "c",
+        "d",
+        "d",
+        "d",
+        "c"
+      ],
+      [
+        "c",
+        "d",
+        "d",
+        "d",
+        "c"
+      ],
+      [
+        "c",
+        "d",
+        "d",
+        "d",
+        "c"
+      ],
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "a"
+      ],
+      [
+        "b",
+        "c",
+        "c",
+        "c",
+        "b"
+      ],
+      [
+        "a",
+        "c",
+        "c",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "b",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+}

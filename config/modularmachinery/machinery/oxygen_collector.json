@@ -1,0 +1,114 @@
+{
+    "registryname": "oxygen_collector",
+    "localizedname": "Oxygen Collector",
+    "modifiers": [],
+    "parts": [
+		{
+			"x": 1,
+			"y": 0,
+			"z": 1,
+			"elements": [
+                "modularmachinery:blockfluidoutputhatch"
+            ]
+		},
+		{
+			"x": -1,
+			"y": 0,
+			"z": 1,
+			"elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+		},
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+		{
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "advancedrocketry:oxygenvent"
+        },
+		{
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": "minecraft:leaves"
+        },
+		{
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": "minecraft:leaves"
+        },
+		{
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": "minecraft:leaves"
+        },
+		{
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": "minecraft:leaves"
+        },
+		{
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": "minecraft:leaves"
+        },
+		{
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": "minecraft:leaves"
+        },
+		{
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": "minecraft:leaves"
+        },
+		{
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": "minecraft:leaves"
+        },
+		{
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": "minecraft:leaves"
+        },
+		{
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": "minecraft:leaves"
+        },
+		{
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": "minecraft:leaves"
+        },
+		{
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": "minecraft:leaves"
+        },
+		{
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": "minecraft:leaves"
+        }
+		
+    ]
+}

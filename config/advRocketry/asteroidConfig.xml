@@ -1,0 +1,49 @@
+<Asteroids>
+	<!--T1 motor d:50-->
+	<asteroid name="Comet" distance="50" mass="200" massVariability="0.5" minLevel="0" probability="20" richness="0.75" richnessVariability="0.5">
+		<ore itemStack="minecraft:ice" chance="25" />
+		<ore itemStack="minecraft:packed_ice" chance="5" />
+	</asteroid>
+	<asteroid name="Ferrous Asteroid" distance="50" mass="150" massVariability="0.5" minLevel="0" probability="20" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="minecraft:iron_ore" chance="25" />
+		<ore itemStack="thermalfoundation:ore 5" chance="5" />
+	</asteroid>
+	<asteroid name="Low-Density Asteroid" distance="50" mass="125" massVariability="0.5" minLevel="0" probability="10" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="thermalfoundation:ore 4" chance="15" />
+		<ore itemStack="thermalfoundation:ore 1" chance="10" />
+	</asteroid>
+	<asteroid name="Conductive Asteroid" distance="50" mass="125" massVariability="0.5" minLevel="0" probability="10" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="minecraft:redstone_ore" chance="12" />
+		<ore itemStack="thermalfoundation:ore 0" chance="10" />
+		<ore itemStack="minecraft:gold_ore" chance="1" />
+	</asteroid>
+	<asteroid name="Rutile Asteroid" distance="50" mass="75" massVariability="0.5" minLevel="0" probability="5" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="libvulpes:ore0 8" chance="15" />
+	</asteroid>
+	<asteroid name="Organic Asteroid" distance="75" mass="125" massVariability="0.5" minLevel="0" probability="20" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="minecraft:coal_ore" chance="25" />
+		<ore itemStack="minecraft:diamond_ore" chance="1" />
+	</asteroid>
+	<!--T2 advanced motor d:75-->
+	<asteroid name="Heavy Asteroid" distance="75" mass="50" massVariability="0.5" minLevel="0" probability="5" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="nuclearcraft:ore 5" chance="15" />
+		<ore itemStack="thermalfoundation:ore 3" chance="15" />
+	</asteroid>
+	<asteroid name="Sky Stone" distance="75" mass="40" massVariability="0.5" minLevel="0" probability="5" richness="1.0" richnessVariability="0.5">
+		<ore itemStack="libvulpes:ore0 8" chance="15" />
+	</asteroid>
+	<!--T3 enhanced motor d:125-->
+	<asteroid name="Aquamarine Asteroid" distance="75" mass="50" massVariability="0.5" minLevel="0" probability="10" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="minecraft:lapis_ore" chance="25" />
+		<ore itemStack="minecraft:emerald_ore" chance="5" />
+	</asteroid>
+	<asteroid name="Shiny Asteroid" distance="75" mass="100" massVariability="0.5" minLevel="0" probability="5" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="thermalfoundation:ore 2" chance="25" />
+		<ore itemStack="thermalfoundation:ore 6" chance="1" />
+	</asteroid>
+	<!--T4 elite motor d:200-->
+	<asteroid name="Iridium Enriched Asteroid" distance="200" mass="25" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
+		<ore itemStack="minecraft:iron_ore" chance="25" />
+		<ore itemStack="libvulpes:ore0 10" chance="5" />
+	</asteroid>
+</Asteroids>

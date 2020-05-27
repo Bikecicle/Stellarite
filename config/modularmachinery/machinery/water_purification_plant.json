@@ -1,0 +1,121 @@
+{
+    "registryname": "water_purification_plant",
+    "localizedname": "Water Purification Plant",
+    "modifiers": [],
+    "parts": [
+		{
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": "modularmachinery:blockfluidoutputhatch"
+        },
+		{
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": "emergingtechnology:aquaponicport"
+        },
+		{
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": "modularmachinery:blockoutputbus"
+        },
+		{
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": "modularmachinery:blockenergyinputhatch"
+        },
+		{
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": "emergingtechnology:clearplasticblock"
+        },
+		{
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": "emergingtechnology:clearplasticblock"
+        },
+		{
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": "emergingtechnology:clearplasticblock"
+        },
+		{
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": "emergingtechnology:clearplasticblock"
+        },
+		{
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": "emergingtechnology:clearplasticblock"
+        },
+		{
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": "emergingtechnology:clearplasticblock"
+        },
+		{
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": "emergingtechnology:clearplasticblock"
+        },
+		{
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": "emergingtechnology:clearplasticblock"
+        },
+		{
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+		{
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": "modularmachinery:blockfluidinputhatch"
+        },
+		{
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+		{
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": "modularmachinery:blockinputbus"
+        },
+		{
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+		{
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": "chisel:ironpane@4"
+        },
+		{
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "chisel:technical@4"
+        }
+	]
+}

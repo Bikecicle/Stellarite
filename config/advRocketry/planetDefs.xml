@@ -1,0 +1,444 @@
+<galaxy>
+    <star name="Beta Crion (G2V)" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+		<planet name="Nodiclite" DIMID="13" customIcon="gasgiantred">
+			<isKnown>true</isKnown>
+			<GasGiant>true</GasGiant>
+			<gas>helium</gas>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.956,0.690,0.305</skyColor>
+			<gravitationalMultiplier>150</gravitationalMultiplier>
+			<orbitalDistance>100</orbitalDistance>
+			<orbitalTheta>120</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>54000</rotationalPeriod>
+			<atmosphereDensity>200</atmosphereDensity>
+			<!--Homeworld-->
+			<planet name="Aenia" DIMID="300" customIcon="earthlike">
+				<isKnown>true</isKnown>
+				<orbitalDistance>50</orbitalDistance>
+				<orbitalTheta>79</orbitalTheta>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>24000</rotationalPeriod>
+				<biomeIds>minecraft:plains</biomeIds>
+				<generateStructures>false</generateStructures>
+			</planet>
+			<!--Nether-->
+			<planet name="Zuniter" DIMID="301" customIcon="marslike">
+				<isKnown>true</isKnown>
+				<fogColor>0.5,0,0</fogColor>
+				<skyColor>0.5,0,0</skyColor>
+				<atmosphereDensity>50</atmosphereDensity>
+				<orbitalDistance>75</orbitalDistance>
+				<orbitalTheta>346</orbitalTheta>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>24000</rotationalPeriod>
+				<biomeIds>biometweaker:ruthless_sands,biometweaker:arctic_abyss,biometweaker:torrid_wasteland,biometweaker:nethic_forest</biomeIds>
+				<generateStructures>false</generateStructures>
+			</planet>
+			<planet name="Oziri" DIMID="302" customIcon="moon">
+				<isKnown>true</isKnown>
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>50</gravitationalMultiplier>
+				<orbitalDistance>100</orbitalDistance>
+				<orbitalTheta>313</orbitalTheta>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>72000</rotationalPeriod>
+				<biomeIds>advancedrocketry:crystalchasms</biomeIds>
+				<generateStructures>false</generateStructures>
+			</planet>
+			<!--Gaia-->
+			<planet name="Gitera" DIMID="-30" dimMapping="" customIcon="earthlike">
+				<isKnown>true</isKnown>
+				<orbitalDistance>125</orbitalDistance>
+				<orbitalTheta>33</orbitalTheta>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>24000</rotationalPeriod>
+			</planet>
+		</planet>
+		<!--Slime forests-->
+		<planet name="Cruathea" DIMID="305" customIcon="earthlike">
+			<isKnown>true</isKnown>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>75</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>biometweaker:blue_slime_forest,biometweaker:purple_slime_forest,biometweaker:magma_slime_forest</biomeIds>
+			<generateStructures>false</generateStructures>
+			<!--Savanna-->
+			<planet name="Laoruta" DIMID="318" customIcon="earthlike">
+				<isKnown>true</isKnown>
+				<atmosphereDensity>80</atmosphereDensity>
+				<gravitationalMultiplier>100</gravitationalMultiplier>
+				<orbitalDistance>75</orbitalDistance>
+				<orbitalTheta>0</orbitalTheta>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>24000</rotationalPeriod>
+				<biomeIds>minecraft:savanna</biomeIds>
+				<generateStructures>false</generateStructures>
+			</planet>
+        </planet>
+		<!--Lost City-->
+		<planet name="Senguvis" DIMID="111" dimMapping="" customIcon="marslike">
+			<isKnown>true</isKnown>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>125</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<planet name="Satis" DIMID="303" customIcon="marslike">
+				<isKnown>true</isKnown>
+				<fogColor>0.5,0.7,0</fogColor>
+				<skyColor>0.5,0.7,0</skyColor>
+				<gravitationalMultiplier>100</gravitationalMultiplier>
+				<orbitalDistance>75</orbitalDistance>
+				<orbitalTheta>313</orbitalTheta>
+				<orbitalPhi>0</orbitalPhi>s
+				<rotationalPeriod>24000</rotationalPeriod>
+				<atmosphereDensity>150</atmosphereDensity>
+				<biomeIds>biometweaker:nuclear_wasteland</biomeIds>
+				<generateStructures>false</generateStructures>
+			</planet>
+        </planet>
+		<!--Betweenlands-->
+		<planet name="Xeovis" DIMID="19" dimMapping="" customIcon="earthlike">
+			<isKnown>true</isKnown>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>150</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<generateStructures>true</generateStructures>
+        </planet>
+		<!--Ocean-->
+		<planet name="Neobos" DIMID="311" customIcon="gasgiantblue">
+			<isKnown>true</isKnown>
+			<fogColor>1,1,1</fogColor>
+			<skyColor>0.12,0.14,0.2</skyColor>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>175</orbitalDistance>
+			<orbitalTheta>313</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<atmosphereDensity>200</atmosphereDensity>
+			<biomeIds>minecraft:deep_ocean</biomeIds>
+			<fillerBlock>minecraft:cobblestone</fillerBlock>
+			<generateStructures>true</generateStructures>
+			<!--Tropicraft-->
+			<planet name="Zumadus" DIMID="-127" dimMapping="" customIcon="earthlike">
+				<isKnown>true</isKnown>
+				<atmosphereDensity>100</atmosphereDensity>
+				<gravitationalMultiplier>100</gravitationalMultiplier>
+				<orbitalDistance>75</orbitalDistance>
+				<orbitalTheta>0</orbitalTheta>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>24000</rotationalPeriod>
+				<generateStructures>true</generateStructures>
+			</planet>
+			<!--Desert-->
+			<planet name="Kubos" DIMID="312" customIcon="marslike">
+				<isKnown>true</isKnown>
+				<fogColor>0.95,1,0.65</fogColor>
+				<skyColor>0.95,1,0.65</skyColor>
+				<atmosphereDensity>150</atmosphereDensity>
+				<gravitationalMultiplier>100</gravitationalMultiplier>
+				<orbitalDistance>100</orbitalDistance>
+				<orbitalTheta>0</orbitalTheta>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>24000</rotationalPeriod>
+				<biomeIds>minecraft:desert</biomeIds>
+				<generateStructures>false</generateStructures>
+			</planet>
+		</planet>
+	</star>
+	<star name="Gamma Shuen (A0Ib)" temp="150" x="100" y="100" numPlanets="0" numGasGiants="0">
+		<!--experience orb-->
+		<planet name="Strillon" DIMID="314" customIcon="gasgiantblue">
+			<isKnown>true</isKnown>
+			<GasGiant>true</GasGiant>
+			<gas>experience</gas>
+			<fogColor>0.0,1.0,0.0</fogColor>
+			<skyColor>0.0,1.0,0.0</skyColor>
+			<gravitationalMultiplier>150</gravitationalMultiplier>
+			<orbitalDistance>75</orbitalDistance>
+			<orbitalTheta>120</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>54000</rotationalPeriod>
+			<atmosphereDensity>200</atmosphereDensity>
+			<artifact>contenttweaker:warp_upgrade_red</artifact>
+			<!--volcanic-->
+			<planet name="Sevimia" DIMID="313" customIcon="moon">
+				<isKnown>true</isKnown>
+				<skyColor>0.3,0.1,0</skyColor>
+				<gravitationalMultiplier>100</gravitationalMultiplier>
+				<orbitalDistance>75</orbitalDistance>
+				<orbitalTheta>313</orbitalTheta>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>24000</rotationalPeriod>
+				<atmosphereDensity>100</atmosphereDensity>
+				<biomeIds>biomesoplenty:volcanic_island</biomeIds>
+				<generateVolcanos>true</generateVolcanos>
+				<artifact>contenttweaker:warp_upgrade_red</artifact>
+			</planet>
+			<!--giant asteroid-->
+			<planet name="Docides" DIMID="304" customIcon="moon">
+				<isKnown>true</isKnown>
+				<fogColor>1,1,1</fogColor>
+				<skyColor>1,1,1</skyColor>
+				<gravitationalMultiplier>25</gravitationalMultiplier>
+				<orbitalDistance>100</orbitalDistance>
+				<orbitalTheta>313</orbitalTheta>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>6000</rotationalPeriod>
+				<atmosphereDensity>0</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon</biomeIds>
+				<fillerBlock>appliedenergistics2:sky_stone_block</fillerBlock>
+				<generateStructures>false</generateStructures>
+				<artifact>contenttweaker:warp_upgrade_red</artifact>
+			</planet>
+		</planet>
+		<!--Defiled lands-->
+		<planet name="Roletov" DIMID="306" customIcon="marslike">
+			<isKnown>true</isKnown>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>biometweaker:hills_defiled,biometweaker:forest_tenebra,biometweaker:desert_defiled</biomeIds>
+			<artifact>contenttweaker:warp_upgrade_red</artifact>
+        </planet>
+		<!--Midnight-->
+		<planet name="Chiyopra" DIMID="-200" dimMapping="" customIcon="moon">
+			<isKnown>true</isKnown>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>125</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<artifact>contenttweaker:warp_upgrade_red</artifact>
+        </planet>
+		<!--Android planet-->
+		<planet name="Ulillon" DIMID="307" customIcon="earthlike">
+			<isKnown>true</isKnown>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>150</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>biomesoplenty:lavender_fields</biomeIds>
+			<generateStructures>false</generateStructures>
+			<artifact>contenttweaker:warp_upgrade_red</artifact>
+			<!--Village planet-->
+			<planet name="Ginus" DIMID="308" customIcon="moon">
+				<isKnown>true</isKnown>
+				<atmosphereDensity>100</atmosphereDensity>
+				<gravitationalMultiplier>75</gravitationalMultiplier>
+				<orbitalDistance>75</orbitalDistance>
+				<orbitalTheta>0</orbitalTheta>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>24000</rotationalPeriod>
+				<biomeIds>biomesoplenty:xeric_shrubland</biomeIds>
+				<generateStructures>true</generateStructures>
+				<artifact>contenttweaker:warp_upgrade_red</artifact>
+			</planet>
+        </planet>
+		<!--Everbright-->
+		<planet name="Aetune" DIMID="76" dimMapping="" customIcon="earthlike">
+			<isKnown>true</isKnown>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>175</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<artifact>contenttweaker:warp_upgrade_red</artifact>
+			<!--Everdawn-->
+			<planet name="Troathea" DIMID="77" dimMapping="" customIcon="earthlike">
+				<isKnown>true</isKnown>
+				<atmosphereDensity>100</atmosphereDensity>
+				<gravitationalMultiplier>100</gravitationalMultiplier>
+				<orbitalDistance>75</orbitalDistance>
+				<orbitalTheta>0</orbitalTheta>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>24000</rotationalPeriod>
+				<artifact>contenttweaker:warp_upgrade_red</artifact>
+			</planet>
+        </planet>
+	</star>
+	<star name="Alpha Iqualt (O7V)" temp="200" x="143" y="36" numPlanets="0" numGasGiants="0">
+		<!--Erebus-->
+		<planet name="Thibos" DIMID="66" dimMapping="" customIcon="moon">
+			<isKnown>true</isKnown>
+			<orbitalDistance>75</orbitalDistance>
+			<orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<artifact>contenttweaker:warp_upgrade_green</artifact>
+		</planet>
+		<!--Aurorian-->
+		<planet name="Caopra" DIMID="44" dimMapping="" customIcon="earthlike">
+			<isKnown>true</isKnown>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<artifact>contenttweaker:warp_upgrade_green</artifact>
+        </planet>
+		<planet name="Tenao" DIMID="315" customIcon="moon">
+			<isKnown>true</isKnown>
+			<atmosphereDensity>100</atmosphereDensity>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>125</orbitalDistance>
+			<orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>biomesoplenty:alps,biomesoplenty:alps_foothills,biomesoplenty:cold_desert,biomesoplenty:glacier</biomeIds>
+			<generateStructures>false</generateStructures>
+			<artifact>contenttweaker:warp_upgrade_green</artifact>
+		</planet>
+	</star>
+	<star name="Cibru (O9V)" temp="200" x="-4" y="-42" numPlanets="0" numGasGiants="0">
+		<!--Coralium swamp-->
+		<planet name="Zatera" DIMID="309" customIcon="earthlike">
+			<isKnown>true</isKnown>
+			<atmosphereDensity>100</atmosphereDensity>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>175</orbitalDistance>
+			<orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>biometweaker:coralium_infested_swamp,minecraft:swampland,minecraft:mutated_swampland</biomeIds>
+			<artifact>contenttweaker:warp_upgrade_green</artifact>
+		</planet>
+		<!--Darklands-->
+		<planet name="Olomia" DIMID="310" customIcon="earthlike">
+			<isKnown>true</isKnown>
+			<atmosphereDensity>50</atmosphereDensity>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>150</orbitalDistance>
+			<orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>biometweaker:darklands,biometweaker:darklands_mountains,biometweaker:darklands_hills,biometweaker:darklands_plains,biometweaker:darklands_forest</biomeIds>
+			<artifact>contenttweaker:warp_upgrade_green</artifact>
+			<artifact>abyssalcraft:transmutationgem</artifact>
+		</planet>
+		<!--Abyssal wasteland-->
+		<planet name="Theliuq" DIMID="50" dimMapping="" customIcon="earthlike">
+			<isKnown>true</isKnown>
+			<atmosphereDensity>100</atmosphereDensity>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>125</orbitalDistance>
+			<orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<artifact>contenttweaker:warp_upgrade_green</artifact>
+			<artifact>abyssalcraft:oc</artifact>
+		</planet>
+		<!--Dreadlands-->
+		<planet name="Ruclite" DIMID="51" dimMapping="" customIcon="marslike">
+			<isKnown>true</isKnown>
+			<atmosphereDensity>100</atmosphereDensity>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>100</orbitalDistance>
+			<orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<artifact>contenttweaker:warp_upgrade_green</artifact>
+			<artifact>abyssalcraft:platec</artifact>
+		</planet>
+		<!--Omothol-->
+		<planet name="Gogrov" DIMID="52" dimMapping="" customIcon="moon">
+			<isKnown>true</isKnown>
+			<atmosphereDensity>100</atmosphereDensity>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>75</orbitalDistance>
+			<orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<artifact>contenttweaker:warp_upgrade_green</artifact>
+			<artifact>abyssalcraft:dreadplate</artifact>
+		</planet>
+	</star>
+	<star name="Dros" temp="500" x="22" y="83" numPlanets="0" numGasGiants="0" blackHole="true">
+		<!--end portal-->
+		<planet name="Tulion" DIMID="317" customIcon="moon">
+			<isKnown>true</isKnown>
+            <atmosphereDensity>0</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>500</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>biometweaker:end_plains</biomeIds>
+			<artifact>contenttweaker:warp_upgrade_blue</artifact>
+        </planet>
+	</star>
+	<star name="unsorted" temp="100" x="-200" y="-200" numPlanets="0" numGasGiants="0">
+		<planet name="Mesa" DIMID="296" customIcon="marslike">
+			<isKnown>true</isKnown>
+			<fogColor>0.6,0.25,0.1</fogColor>
+			<skyColor>0.6,0.25,0.1</skyColor>
+            <atmosphereDensity>150</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>500</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>minecraft:mesa</biomeIds>
+			<generateStructures>true</generateStructures>
+        </planet>
+		<planet name="Mystic Grove" DIMID="290" customIcon="marslike">
+			<isKnown>true</isKnown>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>biomesoplenty:mystic_grove</biomeIds>
+			<generateStructures>true</generateStructures>
+        </planet>
+		<planet name="Ominous Woods" DIMID="289" customIcon="marslike">
+			<isKnown>true</isKnown>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>biomesoplenty:ominous_woods</biomeIds>
+			<generateStructures>true</generateStructures>
+        </planet>
+		<planet name="Overgrown cliffs" DIMID="288" customIcon="marslike">
+			<isKnown>true</isKnown>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>biomesoplenty:overgrown_cliffs</biomeIds>
+			<generateStructures>true</generateStructures>
+        </planet>
+		<planet name="Redwood forest" DIMID="287" customIcon="marslike">
+			<isKnown>true</isKnown>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>biomesoplenty:redwood_forest</biomeIds>
+			<generateStructures>true</generateStructures>
+        </planet>
+	</star>
+</galaxy>
