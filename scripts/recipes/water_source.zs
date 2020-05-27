@@ -80,5 +80,5 @@ function addFilterType(name as string, inputFluid as ILiquidStack, yield as int,
 # ---- CONDENSATION ----
 
 # compressed air
-	mods.rockhounding_chemistry.GasCondenser.add(<liquid:compressed_air>*200, <liquid:water>*1);
+	mods.rockhounding_chemistry.GasCondenser.add(<liquid:compressed_air>*100, <liquid:water>*1);
 

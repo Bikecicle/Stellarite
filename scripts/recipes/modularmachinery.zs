@@ -1,5 +1,5 @@
 
-print("--- loading modularMachinery.zs ---");
+print("--- loading modularmachinery.zs ---");
 
 # ---- GENERAL ----
 
@@ -46,16 +46,75 @@ print("--- loading modularMachinery.zs ---");
 # Small
 	recipes.remove(<modularmachinery:blockenergyinputhatch:1>);
 	recipes.addShaped(<modularmachinery:blockenergyinputhatch:1>,
-		[[<modularmachinery:blockcasing:0>, <nuclearcraft:lithium_ion_cell>, <modularmachinery:blockcasing:0>],
+		[[<modularmachinery:itemmodularium>, <nuclearcraft:lithium_ion_cell>, <modularmachinery:itemmodularium>],
 		[null, <modularmachinery:blockenergyinputhatch:0>, null],
-		[<modularmachinery:blockcasing:0>, <advancedrocketry:ic:3>, <modularmachinery:blockcasing:0>]]);
+		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:3>, <modularmachinery:itemmodularium>]]);
 	recipes.remove(<modularmachinery:blockenergyoutputhatch:1>);
 	recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:1>, [<modularmachinery:blockenergyinputhatch:1>]);
+	
+# Normal
+	recipes.remove(<modularmachinery:blockenergyinputhatch:2>);
+	recipes.addShaped(<modularmachinery:blockenergyinputhatch:2>,
+		[[<modularmachinery:itemmodularium>, null, <modularmachinery:itemmodularium>],
+		[<nuclearcraft:lithium_ion_cell>, <modularmachinery:blockenergyinputhatch:1>, <nuclearcraft:lithium_ion_cell>],
+		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:3>, <modularmachinery:itemmodularium>]]);
+	recipes.remove(<modularmachinery:blockenergyoutputhatch:2>);
+	recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:2>, [<modularmachinery:blockenergyinputhatch:2>]);
 
-# ---- ADVANCED WATER PUMP ----
+# ---- ITEM IO ----
 
-# Standard
-	val water = mods.modularmachinery.RecipeBuilder.newBuilder("pump_water", "advanced_water_pump", 1);
-	water.addEnergyPerTickInput(1000);
-	water.addFluidOutput(<liquid:water> * 1280);
-	water.build();
+# Tiny
+	recipes.remove(<modularmachinery:blockinputbus:0>);
+	recipes.addShaped(<modularmachinery:blockinputbus:0>,
+		[[null, <ore:chest>, null],
+		[null, <modularmachinery:blockcasing:0>, null],
+		[null, <advancedrocketry:ic:4>, null]]);
+	recipes.remove(<modularmachinery:blockoutputbus:0>);
+	recipes.addShapeless(<modularmachinery:blockoutputbus:0>, [<modularmachinery:blockinputbus:0>]);
+	
+# Small
+	recipes.remove(<modularmachinery:blockinputbus:1>);
+	recipes.addShaped(<modularmachinery:blockinputbus:1>,
+		[[<modularmachinery:itemmodularium>, <thermalexpansion:cache>, <modularmachinery:itemmodularium>],
+		[null, <modularmachinery:blockinputbus:0>, null],
+		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:4>, <modularmachinery:itemmodularium>]]);
+	recipes.remove(<modularmachinery:blockoutputbus:1>);
+	recipes.addShapeless(<modularmachinery:blockoutputbus:1>, [<modularmachinery:blockinputbus:1>]);
+	
+# Normal
+	recipes.remove(<modularmachinery:blockinputbus:2>);
+	recipes.addShaped(<modularmachinery:blockinputbus:2>,
+		[[<modularmachinery:itemmodularium>, null, <modularmachinery:itemmodularium>],
+		[<thermalexpansion:cache>, <modularmachinery:blockinputbus:1>, <thermalexpansion:cache>],
+		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:4>, <modularmachinery:itemmodularium>]]);
+	recipes.remove(<modularmachinery:blockoutputbus:2>);
+	recipes.addShapeless(<modularmachinery:blockoutputbus:2>, [<modularmachinery:blockinputbus:2>]);
+	
+# ---- FLUID IO ----
+
+# Tiny
+	recipes.remove(<modularmachinery:blockfluidinputhatch:0>);
+	recipes.addShaped(<modularmachinery:blockfluidinputhatch:0>,
+		[[null, <minecraft:bucket>, null],
+		[null, <modularmachinery:blockcasing:0>, null],
+		[null, <advancedrocketry:ic:5>, null]]);
+	recipes.remove(<modularmachinery:blockfluidoutputhatch:0>);
+	recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:0>, [<modularmachinery:blockfluidinputhatch:0>]);
+	
+# Small
+	recipes.remove(<modularmachinery:blockfluidinputhatch:1>);
+	recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>,
+		[[<modularmachinery:itemmodularium>, <thermalexpansion:tank>, <modularmachinery:itemmodularium>],
+		[null, <modularmachinery:blockfluidinputhatch:0>, null],
+		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:5>, <modularmachinery:itemmodularium>]]);
+	recipes.remove(<modularmachinery:blockfluidoutputhatch:1>);
+	recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:1>, [<modularmachinery:blockfluidinputhatch:1>]);
+	
+# Normal
+	recipes.remove(<modularmachinery:blockfluidinputhatch:2>);
+	recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>,
+		[[<modularmachinery:itemmodularium>, null, <modularmachinery:itemmodularium>],
+		[<thermalexpansion:tank>, <modularmachinery:blockfluidinputhatch:1>, <thermalexpansion:tank>],
+		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:5>, <modularmachinery:itemmodularium>]]);
+	recipes.remove(<modularmachinery:blockfluidoutputhatch:2>);
+	recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:2>, [<modularmachinery:blockfluidinputhatch:2>]);
