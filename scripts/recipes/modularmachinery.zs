@@ -48,7 +48,7 @@ print("--- loading modularmachinery.zs ---");
 	recipes.addShaped(<modularmachinery:blockenergyinputhatch:1>,
 		[[<modularmachinery:itemmodularium>, <nuclearcraft:lithium_ion_cell>, <modularmachinery:itemmodularium>],
 		[null, <modularmachinery:blockenergyinputhatch:0>, null],
-		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:3>, <modularmachinery:itemmodularium>]]);
+		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:0>, <modularmachinery:itemmodularium>]]);
 	recipes.remove(<modularmachinery:blockenergyoutputhatch:1>);
 	recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:1>, [<modularmachinery:blockenergyinputhatch:1>]);
 	
@@ -57,7 +57,7 @@ print("--- loading modularmachinery.zs ---");
 	recipes.addShaped(<modularmachinery:blockenergyinputhatch:2>,
 		[[<modularmachinery:itemmodularium>, null, <modularmachinery:itemmodularium>],
 		[<nuclearcraft:lithium_ion_cell>, <modularmachinery:blockenergyinputhatch:1>, <nuclearcraft:lithium_ion_cell>],
-		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:3>, <modularmachinery:itemmodularium>]]);
+		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:0>, <modularmachinery:itemmodularium>]]);
 	recipes.remove(<modularmachinery:blockenergyoutputhatch:2>);
 	recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:2>, [<modularmachinery:blockenergyinputhatch:2>]);
 
@@ -77,7 +77,7 @@ print("--- loading modularmachinery.zs ---");
 	recipes.addShaped(<modularmachinery:blockinputbus:1>,
 		[[<modularmachinery:itemmodularium>, <thermalexpansion:cache>, <modularmachinery:itemmodularium>],
 		[null, <modularmachinery:blockinputbus:0>, null],
-		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:4>, <modularmachinery:itemmodularium>]]);
+		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:0>, <modularmachinery:itemmodularium>]]);
 	recipes.remove(<modularmachinery:blockoutputbus:1>);
 	recipes.addShapeless(<modularmachinery:blockoutputbus:1>, [<modularmachinery:blockinputbus:1>]);
 	
@@ -86,7 +86,7 @@ print("--- loading modularmachinery.zs ---");
 	recipes.addShaped(<modularmachinery:blockinputbus:2>,
 		[[<modularmachinery:itemmodularium>, null, <modularmachinery:itemmodularium>],
 		[<thermalexpansion:cache>, <modularmachinery:blockinputbus:1>, <thermalexpansion:cache>],
-		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:4>, <modularmachinery:itemmodularium>]]);
+		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:0>, <modularmachinery:itemmodularium>]]);
 	recipes.remove(<modularmachinery:blockoutputbus:2>);
 	recipes.addShapeless(<modularmachinery:blockoutputbus:2>, [<modularmachinery:blockinputbus:2>]);
 	
@@ -106,7 +106,7 @@ print("--- loading modularmachinery.zs ---");
 	recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>,
 		[[<modularmachinery:itemmodularium>, <thermalexpansion:tank>, <modularmachinery:itemmodularium>],
 		[null, <modularmachinery:blockfluidinputhatch:0>, null],
-		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:5>, <modularmachinery:itemmodularium>]]);
+		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:0>, <modularmachinery:itemmodularium>]]);
 	recipes.remove(<modularmachinery:blockfluidoutputhatch:1>);
 	recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:1>, [<modularmachinery:blockfluidinputhatch:1>]);
 	
@@ -115,6 +115,6 @@ print("--- loading modularmachinery.zs ---");
 	recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>,
 		[[<modularmachinery:itemmodularium>, null, <modularmachinery:itemmodularium>],
 		[<thermalexpansion:tank>, <modularmachinery:blockfluidinputhatch:1>, <thermalexpansion:tank>],
-		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:5>, <modularmachinery:itemmodularium>]]);
+		[<modularmachinery:itemmodularium>, <advancedrocketry:ic:0>, <modularmachinery:itemmodularium>]]);
 	recipes.remove(<modularmachinery:blockfluidoutputhatch:2>);
 	recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:2>, [<modularmachinery:blockfluidinputhatch:2>]);

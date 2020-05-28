@@ -22,13 +22,13 @@ addFilterType("filter_moonwater", <liquid:tamoonwater>*1000, 1000, [
 		<theaurorian:scrapaurorianite>,
 		<theaurorian:scrapcrystalline>,
 		<theaurorian:scrapumbra>
-	], [0.04f, 0.03f, 0.02f]);
+	], [0.02f, 0.015f, 0.01f]);
 addFilterType("filter_swamp_water", <liquid:swamp_water>*1000, 1000, [
 		<emergingtechnology:algae>,
 		<thebetweenlands:crimson_middle_gem>,
 		<thebetweenlands:aqua_middle_gem>,
 		<thebetweenlands:green_middle_gem>
-	], [0.25f, 0.02f, 0.02f, 0.02f]);
+	], [0.25f, 0.01f, 0.01f, 0.01f]);
 addFilterType("filter_stagnant_water", <liquid:stagnant_water>*1000, 1000, [
 		<thebetweenlands:life_crystal>
 	], [0.01f]);
@@ -38,14 +38,14 @@ addFilterType("filter_mineral_water", <liquid:mineral_water>*1000, 1000, [
 		<gaiadimension:blue_opal>,
 		<gaiadimension:green_opal>,
 		<gaiadimension:white_opal>
-	], [0.2f, 0.02f, 0.02f, 0.02f, 0.04f]);
+	], [0.1f, 0.01f, 0.01f, 0.01f, 0.02f]);
 addFilterType("filter_tropics_water", <liquid:tropicraft.water>*1000, 1000, [
 		<rockhounding_chemistry:chemical_items:3>,
 		<tropicraft:seaweed>,
 		<tropicraft:azurite>,
 		<tropicraft:eudialyte>,
 		<tropicraft:zircon>
-	], [0.25f, 0.2f, 0.02f, 0.03f, 0.04f]);
+	], [0.25f, 0.2f, 0.01f, 0.015f, 0.02f]);
 
 function addMeltType(name as string, inputItem as IItemStack, yield as int) {
 	val melt = mods.modularmachinery.RecipeBuilder.newBuilder(name, "water_purification_plant", 40);
@@ -67,7 +67,7 @@ function addFilterType(name as string, inputFluid as ILiquidStack, yield as int,
 	val filter = mods.modularmachinery.RecipeBuilder.newBuilder(name, "water_purification_plant", 40);
 	filter.addEnergyPerTickInput(10);
 	filter.addItemInput(<ore:dustGraphite>);
-	filter.setChance(0.1);
+	filter.setChance(0.025);
 	filter.addFluidInput(inputFluid);
 	filter.addFluidOutput(<liquid:water>*yield);
 	for i, item in byproducts {

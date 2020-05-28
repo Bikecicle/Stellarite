@@ -57,7 +57,7 @@
 		</planet>
 		<!--Slime forests-->
 		<planet name="Cruathea" DIMID="305" customIcon="earthlike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
             <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>75</orbitalDistance>
@@ -68,7 +68,7 @@
 			<generateStructures>false</generateStructures>
 			<!--Savanna-->
 			<planet name="Laoruta" DIMID="318" customIcon="earthlike">
-				<isKnown>true</isKnown>
+				<isKnown>false</isKnown>
 				<atmosphereDensity>80</atmosphereDensity>
 				<gravitationalMultiplier>100</gravitationalMultiplier>
 				<orbitalDistance>75</orbitalDistance>
@@ -81,14 +81,14 @@
         </planet>
 		<!--Lost City-->
 		<planet name="Senguvis" DIMID="111" dimMapping="" customIcon="marslike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>125</orbitalDistance>
             <orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
 			<planet name="Satis" DIMID="303" customIcon="marslike">
-				<isKnown>true</isKnown>
+				<isKnown>false</isKnown>
 				<fogColor>0.5,0.7,0</fogColor>
 				<skyColor>0.5,0.7,0</skyColor>
 				<gravitationalMultiplier>100</gravitationalMultiplier>
@@ -103,7 +103,7 @@
         </planet>
 		<!--Betweenlands-->
 		<planet name="Xeovis" DIMID="19" dimMapping="" customIcon="earthlike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
             <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>150</orbitalDistance>
@@ -114,7 +114,7 @@
         </planet>
 		<!--Ocean-->
 		<planet name="Neobos" DIMID="311" customIcon="gasgiantblue">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
 			<fogColor>1,1,1</fogColor>
 			<skyColor>0.12,0.14,0.2</skyColor>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
@@ -128,7 +128,7 @@
 			<generateStructures>true</generateStructures>
 			<!--Tropicraft-->
 			<planet name="Zumadus" DIMID="-127" dimMapping="" customIcon="earthlike">
-				<isKnown>true</isKnown>
+				<isKnown>false</isKnown>
 				<atmosphereDensity>100</atmosphereDensity>
 				<gravitationalMultiplier>100</gravitationalMultiplier>
 				<orbitalDistance>75</orbitalDistance>
@@ -139,7 +139,7 @@
 			</planet>
 			<!--Desert-->
 			<planet name="Kubos" DIMID="312" customIcon="marslike">
-				<isKnown>true</isKnown>
+				<isKnown>false</isKnown>
 				<fogColor>0.95,1,0.65</fogColor>
 				<skyColor>0.95,1,0.65</skyColor>
 				<atmosphereDensity>150</atmosphereDensity>
@@ -156,7 +156,7 @@
 	<star name="Gamma Shuen (A0Ib)" temp="150" x="100" y="100" numPlanets="0" numGasGiants="0">
 		<!--experience orb-->
 		<planet name="Strillon" DIMID="314" customIcon="gasgiantblue">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
 			<GasGiant>true</GasGiant>
 			<gas>experience</gas>
 			<fogColor>0.0,1.0,0.0</fogColor>
@@ -170,7 +170,7 @@
 			<artifact>contenttweaker:warp_upgrade_red</artifact>
 			<!--volcanic-->
 			<planet name="Sevimia" DIMID="313" customIcon="moon">
-				<isKnown>true</isKnown>
+				<isKnown>false</isKnown>
 				<skyColor>0.3,0.1,0</skyColor>
 				<gravitationalMultiplier>100</gravitationalMultiplier>
 				<orbitalDistance>75</orbitalDistance>
@@ -184,7 +184,7 @@
 			</planet>
 			<!--giant asteroid-->
 			<planet name="Docides" DIMID="304" customIcon="moon">
-				<isKnown>true</isKnown>
+				<isKnown>false</isKnown>
 				<fogColor>1,1,1</fogColor>
 				<skyColor>1,1,1</skyColor>
 				<gravitationalMultiplier>25</gravitationalMultiplier>
@@ -201,7 +201,7 @@
 		</planet>
 		<!--Defiled lands-->
 		<planet name="Roletov" DIMID="306" customIcon="marslike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
             <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>100</orbitalDistance>
@@ -213,7 +213,7 @@
         </planet>
 		<!--Midnight-->
 		<planet name="Chiyopra" DIMID="-200" dimMapping="" customIcon="moon">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
             <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>125</orbitalDistance>
@@ -224,7 +224,7 @@
         </planet>
 		<!--Android planet-->
 		<planet name="Ulillon" DIMID="307" customIcon="earthlike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
             <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>150</orbitalDistance>
@@ -236,7 +236,7 @@
 			<artifact>contenttweaker:warp_upgrade_red</artifact>
 			<!--Village planet-->
 			<planet name="Ginus" DIMID="308" customIcon="moon">
-				<isKnown>true</isKnown>
+				<isKnown>false</isKnown>
 				<atmosphereDensity>100</atmosphereDensity>
 				<gravitationalMultiplier>75</gravitationalMultiplier>
 				<orbitalDistance>75</orbitalDistance>
@@ -250,7 +250,7 @@
         </planet>
 		<!--Everbright-->
 		<planet name="Aetune" DIMID="76" dimMapping="" customIcon="earthlike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
             <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>175</orbitalDistance>
@@ -260,7 +260,7 @@
 			<artifact>contenttweaker:warp_upgrade_red</artifact>
 			<!--Everdawn-->
 			<planet name="Troathea" DIMID="77" dimMapping="" customIcon="earthlike">
-				<isKnown>true</isKnown>
+				<isKnown>false</isKnown>
 				<atmosphereDensity>100</atmosphereDensity>
 				<gravitationalMultiplier>100</gravitationalMultiplier>
 				<orbitalDistance>75</orbitalDistance>
@@ -274,7 +274,7 @@
 	<star name="Alpha Iqualt (O7V)" temp="200" x="143" y="36" numPlanets="0" numGasGiants="0">
 		<!--Erebus-->
 		<planet name="Thibos" DIMID="66" dimMapping="" customIcon="moon">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
 			<orbitalDistance>75</orbitalDistance>
 			<orbitalTheta>0</orbitalTheta>
 			<orbitalPhi>0</orbitalPhi>
@@ -283,7 +283,7 @@
 		</planet>
 		<!--Aurorian-->
 		<planet name="Caopra" DIMID="44" dimMapping="" customIcon="earthlike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
             <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>100</orbitalDistance>
@@ -293,7 +293,7 @@
 			<artifact>contenttweaker:warp_upgrade_green</artifact>
         </planet>
 		<planet name="Tenao" DIMID="315" customIcon="moon">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
 			<atmosphereDensity>100</atmosphereDensity>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>125</orbitalDistance>
@@ -308,7 +308,7 @@
 	<star name="Cibru (O9V)" temp="200" x="-4" y="-42" numPlanets="0" numGasGiants="0">
 		<!--Coralium swamp-->
 		<planet name="Zatera" DIMID="309" customIcon="earthlike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
 			<atmosphereDensity>100</atmosphereDensity>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>175</orbitalDistance>
@@ -320,7 +320,7 @@
 		</planet>
 		<!--Darklands-->
 		<planet name="Olomia" DIMID="310" customIcon="earthlike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
 			<atmosphereDensity>50</atmosphereDensity>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>150</orbitalDistance>
@@ -333,7 +333,7 @@
 		</planet>
 		<!--Abyssal wasteland-->
 		<planet name="Theliuq" DIMID="50" dimMapping="" customIcon="earthlike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
 			<atmosphereDensity>100</atmosphereDensity>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>125</orbitalDistance>
@@ -345,7 +345,7 @@
 		</planet>
 		<!--Dreadlands-->
 		<planet name="Ruclite" DIMID="51" dimMapping="" customIcon="marslike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
 			<atmosphereDensity>100</atmosphereDensity>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>100</orbitalDistance>
@@ -357,7 +357,7 @@
 		</planet>
 		<!--Omothol-->
 		<planet name="Gogrov" DIMID="52" dimMapping="" customIcon="moon">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
 			<atmosphereDensity>100</atmosphereDensity>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>75</orbitalDistance>
@@ -371,7 +371,7 @@
 	<star name="Dros" temp="500" x="22" y="83" numPlanets="0" numGasGiants="0" blackHole="true">
 		<!--end portal-->
 		<planet name="Tulion" DIMID="317" customIcon="moon">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
             <atmosphereDensity>0</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>500</orbitalDistance>
@@ -384,7 +384,7 @@
 	</star>
 	<star name="unsorted" temp="100" x="-200" y="-200" numPlanets="0" numGasGiants="0">
 		<planet name="Mesa" DIMID="296" customIcon="marslike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
 			<fogColor>0.6,0.25,0.1</fogColor>
 			<skyColor>0.6,0.25,0.1</skyColor>
             <atmosphereDensity>150</atmosphereDensity>
@@ -397,7 +397,7 @@
 			<generateStructures>true</generateStructures>
         </planet>
 		<planet name="Mystic Grove" DIMID="290" customIcon="marslike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
             <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>100</orbitalDistance>
@@ -408,7 +408,7 @@
 			<generateStructures>true</generateStructures>
         </planet>
 		<planet name="Ominous Woods" DIMID="289" customIcon="marslike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
             <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>100</orbitalDistance>
@@ -419,7 +419,7 @@
 			<generateStructures>true</generateStructures>
         </planet>
 		<planet name="Overgrown cliffs" DIMID="288" customIcon="marslike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
             <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>100</orbitalDistance>
@@ -430,7 +430,7 @@
 			<generateStructures>true</generateStructures>
         </planet>
 		<planet name="Redwood forest" DIMID="287" customIcon="marslike">
-			<isKnown>true</isKnown>
+			<isKnown>false</isKnown>
             <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>100</orbitalDistance>

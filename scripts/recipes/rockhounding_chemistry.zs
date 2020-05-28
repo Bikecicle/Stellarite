@@ -5,7 +5,7 @@ print("--- loading rockhounding_chemistry.zs ---");
 
 # Machine Scaffold
 	recipes.remove(<rockhounding_chemistry:misc_blocks_a:0>);
-	recipes.addShaped(<rockhounding_chemistry:misc_blocks_a:0>,
+	recipes.addShaped(<rockhounding_chemistry:misc_blocks_a:0>*2,
 		[[<gaiadimension:scaynyx_ingot>, <rockhounding_chemistry:misc_items:5>, <gaiadimension:scaynyx_ingot>],
 		[<gaiadimension:goldstone>, <libvulpes:structuremachine>, <gaiadimension:goldstone>],
 		[<gaiadimension:scaynyx_ingot>, <rockhounding_chemistry:misc_items:5>, <gaiadimension:scaynyx_ingot>]]);

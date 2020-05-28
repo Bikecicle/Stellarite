@@ -2,6 +2,17 @@
 
 print("--- loading thermal.zs ---");
 
+# ---- RESOURCES ----
+
+# signalum
+	recipes.remove(<thermalfoundation:material:101>);
+	
+# lumium
+	recipes.remove(<thermalfoundation:material:102>);
+	
+# enderium
+	recipes.remove(<thermalfoundation:material:103>);
+
 # ---- COMPONENTS ----
 
 # Device frame
