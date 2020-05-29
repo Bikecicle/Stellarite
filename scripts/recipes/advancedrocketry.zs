@@ -1,4 +1,4 @@
-print("--- loading AdvancedRocketry.zs ---");
+print("--- loading advancedrocketry.zs ---");
 
 # ---- COMPONENTS ----
 
@@ -66,6 +66,14 @@ print("--- loading AdvancedRocketry.zs ---");
 		[[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
 		[<ore:plateIron>, <thermalexpansion:tank:0>, <ore:plateIron>],
 		[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+		
+# data storage unit
+	mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:dataunit:0>);
+	mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:dataunit:0>, 500, 60,
+		<minecraft:redstone>,
+		<opencomputers:card:12>,
+		<advancedrocketry:ic:0>
+	);
 		
 # ---- BLOCKS ----
 
