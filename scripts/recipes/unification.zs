@@ -110,6 +110,13 @@ import crafttweaker.item.IIngredient;
 	mods.jei.JEI.removeAndHide(<immersiveengineering:material:2>);
 	mods.jei.JEI.removeAndHide(<immersiveengineering:material:3>);
 	
+# remove smelting exploit
+	mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <libvulpes:productrod:1>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:copper>, <libvulpes:productrod:4>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <libvulpes:productrod:6>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:titanium>, <libvulpes:productrod:7>);
+	mods.tconstruct.Melting.removeRecipe(<liquid:iridium>, <libvulpes:productrod:10>);
+	
 # ---- INGOTS ----
 
 # remove duplicates
@@ -167,6 +174,9 @@ import crafttweaker.item.IIngredient;
 	furnace.addRecipe(<thermalfoundation:material:133>, <ore:dustNickel>);
 	furnace.addRecipe(<thermalfoundation:material:134>, <ore:dustPlatinum>);
 	furnace.addRecipe(<thermalfoundation:material:135>, <ore:dustIridium>);
+	
+	furnace.addRecipe(<libvulpes:productingot:3>, <ore:dustSilicon>);
+	furnace.addRecipe(<libvulpes:productingot:7>, <ore:dustTitanium>);
 	
 # arc furnace steel
 	mods.advancedrocketry.ArcFurnace.removeRecipe(<thermalfoundation:material:160>);

@@ -5,40 +5,72 @@ print("--- loading warpDrive.zs ---");
 	<contenttweaker:warp_upgrade_green>.displayName = "Interstellar Upgrade Class O";
 	<contenttweaker:warp_upgrade_blue>.displayName = "Interstellar Upgrade Class QSO";
 	
+# ---- FUEL PRODUCTION ----
+
+# dilithium dust
+	val fuel = mods.modularmachinery.RecipeBuilder.newBuilder("condense_warp_fuel", "cosmic_ray_accumulator", 24000);
+	fuel.addEnergyPerTickInput(20);
+	fuel.addItemInput(<appliedenergistics2:material:45>);
+	fuel.addItemOutput(<libvulpes:productdust:0>);
+	fuel.build();
+	
 # ---- ALLOYS ----	
 	
 # Class G Stellar Alloy
-	mods.advancedrocketry.ArcFurnace.addRecipe(<contenttweaker:material_part:12>*4, 12000, 1000,
-		<thebetweenlands:octine_block>,
-		<thebetweenlands:syrmorite_block>,
-		<thebetweenlands:valonite_block>,
-		<gaiadimension:bismuth_block>,
-		<tropicraft:oreblock:0>,
-		<tropicraft:oreblock:1>,
-		<tropicraft:oreblock:2>,
-		<netherex:amethyst_block>,
-		<netherex:rime_block>
-	);
+	val alloy_g = mods.modularmachinery.RecipeBuilder.newBuilder("stellar_alloy_g", "cosmic_ray_accumulator", 12000);
+	alloy_g.addEnergyPerTickInput(1000);
+	alloy_g.addItemInput(<ore:ingotOctine>, 16);
+	alloy_g.addItemInput(<ore:ingotSyrmorite>, 16);
+	alloy_g.addItemInput(<ore:gemValonite>, 16);
+	alloy_g.addItemInput(<gaiadimension:tektite>*16);
+	alloy_g.addItemInput(<gaiadimension:bismuth_crystal>*16);
+	alloy_g.addItemInput(<gaiadimension:aura_cluster>*16);
+	alloy_g.addItemInput(<ore:gemAzurite>, 16);
+	alloy_g.addItemInput(<ore:gemEudialyte>, 16);
+	alloy_g.addItemInput(<ore:gemZircon>, 16);
+	alloy_g.addItemInput(<netherex:amethyst_crystal>*16);
+	alloy_g.addItemInput(<ore:gemRime>, 16);
+	alloy_g.addItemInput(<ore:slimeballGreen>, 64);
+	alloy_g.addItemInput(<ore:slimeballBlue>, 64);
+	alloy_g.addItemInput(<ore:slimeballPurple>, 64);
+	alloy_g.addItemInput(<ore:slimeballMagma>, 64);
+	alloy_g.addItemOutput(<ore:ingotClassGStellarAlloy>.firstItem*4);
+	alloy_g.build();
 	
 # Class A Stellar Alloy
-	mods.advancedrocketry.ArcFurnace.addRecipe(<contenttweaker:material_part:13>*4, 24000, 2000,
-		<blue_skies:falsite_ingot>*9,
-		<blue_skies:ventium_ingot>*9,
-		<blue_skies:horizonite_block>,
-		<defiledlands:hephaestite_block>,
-		<defiledlands:umbrium_block>,
-		<matteroverdrive:tritanium_block>,
-		<midnight:ebonys_block>,
-		<thermalfoundation:storage_alloy:7>,
-		<thermalfoundation:storage_alloy:6>
-	);
+	val alloy_a = mods.modularmachinery.RecipeBuilder.newBuilder("stellar_alloy_a", "cosmic_ray_accumulator", 24000);
+	alloy_a.addEnergyPerTickInput(2000);
+	alloy_a.addItemInput(<blue_skies:falsite_ingot>*16);
+	alloy_a.addItemInput(<blue_skies:ventium_ingot>*16);
+	alloy_a.addItemInput(<blue_skies:horizonite_ingot>*16);
+	alloy_a.addItemInput(<ore:gemHephaestite>, 16);
+	alloy_a.addItemInput(<ore:ingotUmbrium>, 16);
+	alloy_a.addItemInput(<ore:gemScarlite>, 16);
+	alloy_a.addItemInput(<ore:ingotTritanium>, 16);
+	alloy_a.addItemInput(<midnight:ebonys>*16);
+	alloy_a.addItemInput(<midnight:tenebrum_ingot>*16);
+	alloy_a.addItemInput(<midnight:nagrilite_ingot>*16);
+	alloy_a.addItemInput(<ore:ingotSignalum>, 16);
+	alloy_a.addItemInput(<ore:ingotLumium>, 16);
+	alloy_a.addItemInput(<ore:ingotEnderium>, 16);
+	alloy_a.addItemOutput(<ore:ingotClassAStellarAlloy>.firstItem*4);
+	alloy_a.build();
 	
 # Class O Stellar Alloy
-	mods.advancedrocketry.ArcFurnace.addRecipe(<contenttweaker:material_part:14>*4, 48000, 4000,
-		<abyssalcraft:ingotblock:3>,
-		<abyssalcraft:ingotblock:2>,
-		<avaritia:block_resource:0>
-	);
+	val alloy_o = mods.modularmachinery.RecipeBuilder.newBuilder("stellar_alloy_o", "cosmic_ray_accumulator", 48000);
+	alloy_o.addEnergyPerTickInput(4000);
+	alloy_o.addItemInput(<ore:ingotAbyssalnite>, 16);
+	alloy_o.addItemInput(<ore:ingotLiquifiedCoralium>, 16);
+	alloy_o.addItemInput(<ore:ingotDreadium>, 16);
+	alloy_o.addItemInput(<ore:ingotEthaxium>, 16);
+	alloy_o.addItemInput(<ore:ingotCosmicNeutronium>, 16);
+	alloy_o.addItemInput(<ore:gemJade>, 16);
+	alloy_o.addItemInput(<erebus:materials:11>*16);
+	alloy_o.addItemInput(<erebus:materials:7>*16);
+	alloy_o.addItemInput(<theaurorian:auroriansteel>*64);
+	alloy_o.addItemInput(<ore:ingotCosmicNeutronium>, 16);
+	alloy_o.addItemOutput(<ore:ingotClassOStellarAlloy>.firstItem*4);
+	alloy_o.build();
 
 # ---- UPGRADES ----
 

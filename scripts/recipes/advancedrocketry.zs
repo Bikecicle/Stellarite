@@ -176,12 +176,15 @@ print("--- loading advancedrocketry.zs ---");
 		[null, <ore:coilIridium>, <ore:plateTitaniumIridium>]]);
 		
 # pressurized tank
-	recipes.remove(<advancedrocketry:liquidtank>);
 	recipes.addShaped(<advancedrocketry:liquidtank>,
 		[[<advancedrocketry:pressuretank:2>, <ore:blockGlassHardened>, <advancedrocketry:pressuretank:2>],
 		[<advancedrocketry:pressuretank:2>, <ore:blockGlassHardened>, <advancedrocketry:pressuretank:2>],
 		[<advancedrocketry:pressuretank:2>, <ore:blockGlassHardened>, <advancedrocketry:pressuretank:2>]]);
-		
+
+# drill
+	recipes.remove(<advancedrocketry:drill>);
+	recipes.addShapeless(<advancedrocketry:drill>, [<libvulpes:structuremachine>, <stevescarts:cartmodule:8>]);
+
 # ---- MACHINES ----
 
 # Small Plate Presser

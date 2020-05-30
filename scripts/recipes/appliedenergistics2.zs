@@ -1,5 +1,10 @@
 print("--- loading AppliedEnergistics2.zs ---");
 
+# ---- MATERIALS ----
+
+# Skystone dust
+	mods.nuclearcraft.manufactory.addRecipe([<appliedenergistics2:sky_stone_block>, <appliedenergistics2:material:45>]);
+
 # ---- COMPONENTS ----
 
 # Meteorite compass

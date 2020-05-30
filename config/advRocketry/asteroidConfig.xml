@@ -20,11 +20,11 @@
 	<asteroid name="Rutile Asteroid" distance="50" mass="75" massVariability="0.5" minLevel="0" probability="5" richness="0.2" richnessVariability="0.5">
 		<ore itemStack="libvulpes:ore0 8" chance="15" />
 	</asteroid>
+	<!--T2 advanced motor d:75-->
 	<asteroid name="Organic Asteroid" distance="75" mass="125" massVariability="0.5" minLevel="0" probability="20" richness="0.2" richnessVariability="0.5">
 		<ore itemStack="minecraft:coal_ore" chance="25" />
 		<ore itemStack="minecraft:diamond_ore" chance="1" />
 	</asteroid>
-	<!--T2 advanced motor d:75-->
 	<asteroid name="Heavy Asteroid" distance="75" mass="50" massVariability="0.5" minLevel="0" probability="5" richness="0.2" richnessVariability="0.5">
 		<ore itemStack="nuclearcraft:ore 5" chance="15" />
 		<ore itemStack="thermalfoundation:ore 3" chance="15" />
