@@ -384,6 +384,9 @@
         </planet>
 	</star>
 	<star name="unsorted" temp="100" x="-200" y="-200" numPlanets="0" numGasGiants="0">
+		<planet name="Earth" DIMID="0" dimMapping="" customIcon="earthlike">
+			<artifact>minecraft:bedrock</artifact>
+        </planet>
 		<planet name="Mesa" DIMID="296" customIcon="marslike">
 			<isKnown>false</isKnown>
 			<fogColor>0.6,0.25,0.1</fogColor>
@@ -396,6 +399,7 @@
             <rotationalPeriod>24000</rotationalPeriod>
 			<biomeIds>minecraft:mesa</biomeIds>
 			<generateStructures>true</generateStructures>
+			<artifact>minecraft:bedrock</artifact>
         </planet>
 		<planet name="Mystic Grove" DIMID="290" customIcon="marslike">
 			<isKnown>false</isKnown>
@@ -407,6 +411,7 @@
             <rotationalPeriod>24000</rotationalPeriod>
 			<biomeIds>biomesoplenty:mystic_grove</biomeIds>
 			<generateStructures>true</generateStructures>
+			<artifact>minecraft:bedrock</artifact>
         </planet>
 		<planet name="Ominous Woods" DIMID="289" customIcon="marslike">
 			<isKnown>false</isKnown>
@@ -418,6 +423,7 @@
             <rotationalPeriod>24000</rotationalPeriod>
 			<biomeIds>biomesoplenty:ominous_woods</biomeIds>
 			<generateStructures>true</generateStructures>
+			<artifact>minecraft:bedrock</artifact>
         </planet>
 		<planet name="Overgrown cliffs" DIMID="288" customIcon="marslike">
 			<isKnown>false</isKnown>
@@ -429,6 +435,7 @@
             <rotationalPeriod>24000</rotationalPeriod>
 			<biomeIds>biomesoplenty:overgrown_cliffs</biomeIds>
 			<generateStructures>true</generateStructures>
+			<artifact>minecraft:bedrock</artifact>
         </planet>
 		<planet name="Redwood forest" DIMID="287" customIcon="marslike">
 			<isKnown>false</isKnown>
@@ -440,6 +447,7 @@
             <rotationalPeriod>24000</rotationalPeriod>
 			<biomeIds>biomesoplenty:redwood_forest</biomeIds>
 			<generateStructures>true</generateStructures>
+			<artifact>minecraft:bedrock</artifact>
         </planet>
 	</star>
 </galaxy>
