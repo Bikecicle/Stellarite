@@ -6,12 +6,33 @@ print("--- loading water_source.zs ---");
 
 # ---- ADVANCED WATER PUMP ----
 
-# pump water
+# Pump Water
 	val water = mods.modularmachinery.RecipeBuilder.newBuilder("pump_water", "advanced_water_pump", 1);
 	water.addBiomeRequirement(["minecraft:ocean", "minecraft:deep_ocean"]);
 	water.addEnergyPerTickInput(1000);
 	water.addFluidOutput(<liquid:water>*1280);
 	water.build();
+	
+# ---- RIVER WATER PUMP ----
+
+addRiverPumpOutput("pump_water_mineral", <liquid:mineral_water>*25, ["gaiadimension:mineral_river"]);
+addRiverPumpOutput("pump_water_swamp", <liquid:swamp_water>*25, [
+		"thebetweenlands:patchy_islands",
+		"thebetweenlands:swamplands",
+		"thebetweenlands:coarse_islands",
+		"thebetweenlands:marsh_0",
+		"thebetweenlands:marsh_1",
+		"thebetweenlands:sludge_plains_clearing",
+	]);
+addRiverPumpOutput("pump_water_tropic", <liquid:tropicraft.water>*25, ["tropicraft:tc_tropics_river"]);
+	
+function addRiverPumpOutput(name as string, outFluid as ILiquidStack, biomes as string[]) {
+	val pump = mods.modularmachinery.RecipeBuilder.newBuilder(name, "river_water_pump", 1);
+	pump.addBiomeRequirement(biomes);
+	pump.addEnergyPerTickInput(10);
+	pump.addFluidOutput(outFluid);
+	pump.build();
+}
 	
 # ---- WATER PURIFICATION ----
 
