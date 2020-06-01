@@ -61,7 +61,7 @@
 			"x": 0,
 			"y": 0,
 			"z": 2,
-			"elements": "modulardiversity:blockbiomedetector"
+			"elements": "modularmachinery:blockcasing@0"
 		},
 		{
 			"x": -1,

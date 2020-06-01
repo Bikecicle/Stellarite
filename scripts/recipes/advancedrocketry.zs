@@ -81,8 +81,7 @@ print("--- loading advancedrocketry.zs ---");
 		<libvulpes:productrod:4>*2,
 		<libvulpes:productrod:7>,
 		<advancedrocketry:ic:2>,
-		<advancedrocketry:wafer:0>*2,
-		<naturescompass:naturescompass>
+		<advancedrocketry:wafer:0>*2
 	);
 		
 # ---- BLOCKS ----
