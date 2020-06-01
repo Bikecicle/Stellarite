@@ -9,6 +9,7 @@ print("--- loading warpDrive.zs ---");
 
 # dilithium dust
 	val fuel = mods.modularmachinery.RecipeBuilder.newBuilder("condense_warp_fuel", "cosmic_ray_accumulator", 24000);
+	fuel.addBiomeRequirement(["advancedrocketry:space"]);
 	fuel.addEnergyPerTickInput(20);
 	fuel.addItemInput(<appliedenergistics2:material:45>);
 	fuel.addItemOutput(<libvulpes:productdust:0>);
@@ -18,6 +19,7 @@ print("--- loading warpDrive.zs ---");
 	
 # Class G Stellar Alloy
 	val alloy_g = mods.modularmachinery.RecipeBuilder.newBuilder("stellar_alloy_g", "cosmic_ray_accumulator", 12000);
+	alloy_g.addBiomeRequirement(["advancedrocketry:space"]);
 	alloy_g.addEnergyPerTickInput(1000);
 	alloy_g.addItemInput(<ore:ingotOctine>, 16);
 	alloy_g.addItemInput(<ore:ingotSyrmorite>, 16);
@@ -39,6 +41,7 @@ print("--- loading warpDrive.zs ---");
 	
 # Class A Stellar Alloy
 	val alloy_a = mods.modularmachinery.RecipeBuilder.newBuilder("stellar_alloy_a", "cosmic_ray_accumulator", 24000);
+	alloy_a.addBiomeRequirement(["advancedrocketry:space"]);
 	alloy_a.addEnergyPerTickInput(2000);
 	alloy_a.addItemInput(<blue_skies:falsite_ingot>*16);
 	alloy_a.addItemInput(<blue_skies:ventium_ingot>*16);
@@ -58,6 +61,7 @@ print("--- loading warpDrive.zs ---");
 	
 # Class O Stellar Alloy
 	val alloy_o = mods.modularmachinery.RecipeBuilder.newBuilder("stellar_alloy_o", "cosmic_ray_accumulator", 48000);
+	alloy_o.addBiomeRequirement(["advancedrocketry:space"]);
 	alloy_o.addEnergyPerTickInput(4000);
 	alloy_o.addItemInput(<ore:ingotAbyssalnite>, 16);
 	alloy_o.addItemInput(<ore:ingotLiquifiedCoralium>, 16);

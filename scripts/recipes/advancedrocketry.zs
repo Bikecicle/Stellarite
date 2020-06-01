@@ -55,24 +55,34 @@ print("--- loading advancedrocketry.zs ---");
 		[<immersiveengineering:wirecoil:5>, <appliedenergistics2:sky_compass>, <immersiveengineering:wirecoil:5>],
 		[null, <advancedrocketry:ic:3>, null]]);
 		
-# planet id chip
+# Planet id Chip
 	recipes.addShaped(<advancedrocketry:planetidchip>,
 		[[<ore:gemPeridot>, <ore:gemPeridot>, <ore:gemPeridot>],
 		[<ore:gemPeridot>, <ore:blockLapis>, <ore:gemPeridot>],
 		[<ore:gemPeridot>, <advancedrocketry:ic:1>, <ore:gemPeridot>]]);
 		
-# low pressure tank
+# Low Pressure Tank
 	recipes.addShaped(<advancedrocketry:pressuretank:0>,
 		[[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
 		[<ore:plateIron>, <thermalexpansion:tank:0>, <ore:plateIron>],
 		[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 		
-# data storage unit
+# Data Storage Unit
 	mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:dataunit:0>);
 	mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:dataunit:0>, 500, 60,
 		<minecraft:redstone>,
 		<opencomputers:card:12>,
 		<advancedrocketry:ic:0>
+	);
+	
+# Biome Changer
+	mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:satelliteprimaryfunction:5>);
+	mods.advancedrocketry.PrecisionAssembler.addRecipe(<advancedrocketry:satelliteprimaryfunction:5>, 1000, 1,
+		<libvulpes:productrod:4>*2,
+		<libvulpes:productrod:7>,
+		<advancedrocketry:ic:2>,
+		<advancedrocketry:wafer:0>*2,
+		<naturescompass:naturescompass>
 	);
 		
 # ---- BLOCKS ----
@@ -151,28 +161,28 @@ print("--- loading advancedrocketry.zs ---");
 	recipes.remove(<libvulpes:motor>);
 	recipes.addShaped(<libvulpes:motor>,
 		[[null, <ore:coilCopper>, <ore:plateSteel>],
-		[<ore:gearSteel>, <ore:stickSteel>, <immersiveengineering:metal_decoration0:5>],
+		[<ore:gearSteel>, <ore:stickSteel>, <ore:plateSteel>],
 		[null, <ore:coilCopper>, <ore:plateSteel>]]);
 		
 # Advanced motor
 	recipes.remove(<libvulpes:advancedmotor>);
 	recipes.addShaped(<libvulpes:advancedmotor>,
 		[[null, <ore:coilAluminum>, <ore:plateTitanium>],
-		[<ore:gearHSLASteel>, <ore:stickHSLASteel>, <libvulpes:motor>],
+		[<ore:gearHSLASteel>, <ore:stickHSLASteel>, <ore:plateTitanium>],
 		[null, <ore:coilAluminum>, <ore:plateTitanium>]]);
 		
 # Enhanced motor
 	recipes.remove(<libvulpes:enhancedmotor>);
 	recipes.addShaped(<libvulpes:enhancedmotor>,
 		[[null, <ore:coilTitanium>, <ore:plateElite>],
-		[<ore:gearExtreme>, <ore:stickExtreme>, <libvulpes:advancedmotor>],
+		[<ore:gearExtreme>, <ore:stickExtreme>, <ore:plateElite>],
 		[null, <ore:coilTitanium>, <ore:plateElite>]]);
 		
 # Elite motor
 	recipes.remove(<libvulpes:elitemotor>);
 	recipes.addShaped(<libvulpes:elitemotor>,
 		[[null, <ore:coilIridium>, <ore:plateTitaniumIridium>],
-		[<ore:gearTitaniumIridium>, <ore:stickTitaniumIridium>, <libvulpes:enhancedmotor>],
+		[<ore:gearTitaniumIridium>, <ore:stickTitaniumIridium>, <ore:plateTitaniumIridium>],
 		[null, <ore:coilIridium>, <ore:plateTitaniumIridium>]]);
 		
 # pressurized tank

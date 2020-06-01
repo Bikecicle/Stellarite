@@ -30,6 +30,13 @@ print("--- loading modularmachinery.zs ---");
 		[[<modularmachinery:blockcasing:0>, null, <modularmachinery:blockcasing:0>],
 		[<advancedrocketry:ic:3>, <advancedrocketry:misc:0>, <advancedrocketry:ic:3>],
 		[<modularmachinery:blockcasing:0>, null, <modularmachinery:blockcasing:0>]]);
+	
+# Biome Detector
+	recipes.remove(<modulardiversity:blockbiomedetector>);
+	recipes.addShaped(<modulardiversity:blockbiomedetector>,
+		[[<modularmachinery:blockcasing:0>, <advancedrocketry:biomescanner>, <modularmachinery:blockcasing:0>],
+		[<ore:blockIron>, <ore:blockMotor>, <ore:blockIron>],
+		[<modularmachinery:blockcasing:0>, <ore:blockRedstone>, <modularmachinery:blockcasing:0>]]);
 
 	
 # ---- ENERGY ----

@@ -8,6 +8,7 @@ print("--- loading water_source.zs ---");
 
 # pump water
 	val water = mods.modularmachinery.RecipeBuilder.newBuilder("pump_water", "advanced_water_pump", 1);
+	water.addBiomeRequirement(["minecraft:ocean", "minecraft:deep_ocean"]);
 	water.addEnergyPerTickInput(1000);
 	water.addFluidOutput(<liquid:water>*1280);
 	water.build();

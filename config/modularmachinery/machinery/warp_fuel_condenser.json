@@ -61,7 +61,7 @@
 			"x": 0,
 			"y": 0,
 			"z": 2,
-			"elements": "modularmachinery:blockcasing@0"
+			"elements": "modulardiversity:blockbiomedetector"
 		},
 		{
 			"x": -1,
@@ -313,29 +313,11 @@
 			"x": 0,
 			"y": 9,
 			"z": 2,
-			"elements": "appliedenergistics2:quartz_vibrant_glass"
+			"elements": "thebetweenlands:polished_dentrothyst@0"
 		},
 		{
 			"x": -1,
 			"y": 9,
-			"z": 2,
-			"elements": "thebetweenlands:polished_dentrothyst@0"
-		},
-		{
-			"x": 1,
-			"y": 10,
-			"z": 2,
-			"elements": "thebetweenlands:polished_dentrothyst@0"
-		},
-		{
-			"x": 0,
-			"y": 10,
-			"z": 2,
-			"elements": "thebetweenlands:polished_dentrothyst@0"
-		},
-		{
-			"x": -1,
-			"y": 10,
 			"z": 2,
 			"elements": "thebetweenlands:polished_dentrothyst@0"
 		},

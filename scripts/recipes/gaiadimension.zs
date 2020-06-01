@@ -9,6 +9,9 @@ print("--- loading gaiadimension.zs ---");
 		[[<gaiadimension:crystal_growth>, <gaiadimension:crystal_growth>, <gaiadimension:crystal_growth>],
 		[<gaiadimension:crystal_growth>, <gaiadimension:heavy_soil>, <gaiadimension:crystal_growth>],
 		[<gaiadimension:crystal_growth>, <gaiadimension:crystal_growth>, <gaiadimension:crystal_growth>]]);
+		
+# Portal frame
+	mods.jei.JEI.removeAndHide(<gaiadimension:keystone_block>);
 
 # ---- MACHINES ----
 
