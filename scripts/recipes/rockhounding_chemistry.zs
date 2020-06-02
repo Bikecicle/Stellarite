@@ -63,3 +63,11 @@ print("--- loading rockhounding_chemistry.zs ---");
 	mods.rockhounding_chemistry.ChemicalExtractor.add("Carbonate", <tropicraft:azurite>, ["dustCopper", "dustCarbon"], [20, 13]);
 	mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <tropicraft:eudialyte>, ["dustSodium", "dustCalcium", "dustIron", "dustManganese", "dustZirconium", "dustSilicon"], [11, 5, 1, 1, 2, 19]);
 	mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <tropicraft:zircon>, ["dustZirconium", "dustSilicon"], [17, 17]);
+	
+# Biomes O Plenty
+	mods.rockhounding_chemistry.ChemicalExtractor.add("Oxide", <biomesoplenty:gem:1>, ["dustAluminum", "dustChromium"], [40, 2]); # ruby
+	mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <biomesoplenty:gem:2>, ["dustMagnesium", "dustIron", "dustSilicon"], [14, 14, 14]); # peridot
+	mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <biomesoplenty:gem:3>, ["dustAluminum", "dustSilicon", "dustFluorite"], [20, 10, 10]); # topaz
+	mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <biomesoplenty:gem:4>, ["dustCalcium", "dustAluminum", "dustSilicon", "dustChromium"], [9, 13, 13, 2]); # tanzanite
+	mods.rockhounding_chemistry.ChemicalExtractor.add("Carbonate", <biomesoplenty:gem:5>, ["dustCopper", "dustCarbon"], [20, 10]); # malachite
+	mods.rockhounding_chemistry.ChemicalExtractor.add("Oxide", <biomesoplenty:gem:6>, ["dustAluminum"], [40]); # sapphire

@@ -23,10 +23,17 @@ print("--- loading AppliedEnergistics2.zs ---");
 		
 # Quartz Fiber
 	recipes.remove(<appliedenergistics2:part:140>);
-	recipes.addShaped(<appliedenergistics2:part:140>*3,
-		[[<ore:gemScabyst>, <ore:gemScabyst>, <ore:gemScabyst>],
-		[<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>],
-		[<ore:gemScabyst>, <ore:gemScabyst>, <ore:gemScabyst>]]);
+	recipes.addShaped(<appliedenergistics2:part:140>*4,
+		[[<ore:gemScabyst>, <appliedenergistics2:quartz_glass>, <ore:gemScabyst>],
+		[<appliedenergistics2:quartz_glass>, <gaiadimension:chalcedony>, <appliedenergistics2:quartz_glass>],
+		[<ore:gemScabyst>, <appliedenergistics2:quartz_glass>, <ore:gemScabyst>]]);
+		
+# Glass Cable
+	recipes.remove(<appliedenergistics2:part:16>);
+	recipes.addShaped(<appliedenergistics2:part:16>*4,
+		[[null, <gaiadimension:sugilite>, null],
+		[<ore:crystalFluix>, <appliedenergistics2:part:140>, <ore:crystalFluix>],
+		[null, <gaiadimension:sugilite>, null]]);
 		
 # ---- MACHINES ----
 

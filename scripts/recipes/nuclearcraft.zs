@@ -1,7 +1,7 @@
 
 print("--- loading nuclearcraft.zs ---");
 
-# ---- COLLECTORS ----
+# ---- REMOVAL ----
 
 # liquid helium cooler
 	recipes.remove(<nuclearcraft:cooler:8>);
@@ -14,6 +14,11 @@ print("--- loading nuclearcraft.zs ---");
 	mods.jei.JEI.removeAndHide(<nuclearcraft:helium_collector_dense>);
 	
 	mods.jei.JEI.addDescription(<nuclearcraft:fluid_helium>,"Helium can be extracted from certain gas giants (such as Nodiclite) from orbit via unmanned vehicle.");
+	
+# plastic
+	mods.jei.JEI.removeAndHide(<nuclearcraft:part:6>);
+	mods.nuclearcraft.infuser.addRecipe([<ore:bioplastic>*2, <liquid:radaway>*250, <nuclearcraft:radaway>]);
+	mods.nuclearcraft.infuser.addRecipe([<ore:bioplastic>*2, <liquid:radaway_slow>*250, <nuclearcraft:radaway_slow>]);
 	
 # ---- MACHINES ----
 
@@ -102,9 +107,9 @@ print("--- loading nuclearcraft.zs ---");
 # chassis
 	recipes.remove(<nuclearcraft:part:10>);
 	recipes.addShaped(<nuclearcraft:part:10>,
-		[[<ore:ingotZircaloy>, <ore:ingotSteel>, <ore:ingotZircaloy>],
-		[<ore:ingotSteel>, <ore:ingotTough>, <ore:ingotSteel>],
-		[<ore:ingotZircaloy>, <ore:ingotSteel>, <ore:ingotZircaloy>]]);
+		[[<ore:ingotZircaloy>, <ore:ingotSyrmorite>, <ore:ingotZircaloy>],
+		[<ore:ingotSyrmorite>, <ore:ingotTough>, <ore:ingotSyrmorite>],
+		[<ore:ingotZircaloy>, <ore:ingotSyrmorite>, <ore:ingotZircaloy>]]);
 		
 # basic plating
 	recipes.remove(<nuclearcraft:part:0>);
@@ -112,6 +117,27 @@ print("--- loading nuclearcraft.zs ---");
 		[[<ore:dustGraphite>, <ore:ingotLead>, <ore:dustGraphite>],
 		[<ore:ingotLead>, <ore:slimecrystalBlue>, <ore:ingotLead>],
 		[<ore:dustGraphite>, <ore:ingotLead>, <ore:dustGraphite>]]);
+		
+# advanced plating
+	recipes.remove(<nuclearcraft:part:1>);
+	recipes.addShaped(<nuclearcraft:part:1>,
+		[[<ore:ingotSulfur>, <ore:ingotTough>, <ore:ingotSulfur>],
+		[<ore:ingotTough>, <ore:plateBasic>, <ore:ingotTough>],
+		[<ore:ingotSulfur>, <ore:ingotTough>, <ore:ingotSulfur>]]);
+		
+# DU plating
+	recipes.remove(<nuclearcraft:part:2>);
+	recipes.addShaped(<nuclearcraft:part:2>,
+		[[<ore:ingotUranium238>, <ore:ingotOctine>, <ore:ingotUranium238>],
+		[<ore:ingotOctine>, <ore:plateAdvanced>, <ore:ingotOctine>],
+		[<ore:ingotUranium238>, <ore:ingotOctine>, <ore:ingotUranium238>]]);
+		
+# elite plating
+	recipes.remove(<nuclearcraft:part:3>);
+	recipes.addShaped(<nuclearcraft:part:3>,
+		[[<ore:dustCrystalBinder>, <ore:ingotBoron>, <ore:dustCrystalBinder>],
+		[<ore:ingotBoron>, <ore:plateDU>, <ore:ingotBoron>],
+		[<ore:dustCrystalBinder>, <ore:ingotBoron>, <ore:dustCrystalBinder>]]);
 
 # extreme plating
 	<contenttweaker:extreme_plating>.displayName = "Extreme Plating";
@@ -129,3 +155,20 @@ print("--- loading nuclearcraft.zs ---");
 		[[<ore:plateExtremePolymer>, <ore:coilIridium>, <ore:plateExtremePolymer>],
 		[<nuclearcraft:chemical_reactor_idle>, <ore:chassis>, <nuclearcraft:chemical_reactor_idle>],
 		[<ore:plateExtremePolymer>, <ore:coilIridium>, <ore:plateExtremePolymer>]]);
+		
+# ---- UPGRADES ----
+
+# Speed
+	recipes.remove(<nuclearcraft:upgrade:0>);
+	recipes.addShaped(<nuclearcraft:upgrade:0>,
+		[[<ore:gemLapis>, <ore:dustRedstone>, <ore:gemLapis>],
+		[<ore:dustRedstone>, <ore:gearBam>, <ore:dustRedstone>],
+		[<ore:gemLapis>, <ore:dustRedstone>, <ore:gemLapis>]]);
+		
+# Eenrgy
+	recipes.remove(<nuclearcraft:upgrade:1>);
+	recipes.addShaped(<nuclearcraft:upgrade:1>,
+		[[<ore:dustObsidian>, <ore:dustQuartz>, <ore:dustObsidian>],
+		[<ore:dustQuartz>, <ore:gearCube>, <ore:dustQuartz>],
+		[<ore:dustObsidian>, <ore:dustQuartz>, <ore:dustObsidian>]]);
+		

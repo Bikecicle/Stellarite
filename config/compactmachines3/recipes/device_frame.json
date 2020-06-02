@@ -1,18 +1,18 @@
 {
-  "name": "compactmachines3:device_frame",
+  "name": "compactmachines3:machine_frame",
   "target-item": "thermalexpansion:frame",
-  "target-meta": 64,
+  "target-meta": 0,
   "target-count": 1,
 
   "duration": 400,
 
-  "catalyst": "midnight:dark_pearl",
+  "catalyst": "defiledlands:pellet_ravaging",
   "catalyst-meta": 0,
   
   "input-types": {
     "a": {
       "id": "immersiveengineering:sheetmetal",
-      "meta": 1
+      "meta": 8
     },
     "b": {
       "id": "midnight:nagrilite_block",
@@ -20,7 +20,7 @@
     },
     "c": {
       "id": "libvulpes:enhancedmotor",
-      "meta": 3
+      "meta": 0
     },
     "d": {
       "id": "modularmachinery:blockcasing",

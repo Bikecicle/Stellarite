@@ -144,6 +144,7 @@ import crafttweaker.item.IIngredient;
 		<nuclearcraft:ingot:13>,
 		<nuclearcraft:alloy:0>,
 		<nuclearcraft:alloy:5>,
+		<nuclearcraft:alloy:12>,
 		<rockhounding_chemistry:metal_items:1>,
 		<rockhounding_chemistry:metal_items:3>,
 		<rockhounding_chemistry:metal_items:4>,

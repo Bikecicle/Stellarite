@@ -17,17 +17,13 @@ print("--- loading thermal.zs ---");
 
 # Device frame
 	recipes.remove(<thermalexpansion:frame:64>);
+	recipes.addShaped(<thermalexpansion:frame:64>,
+		[[<ore:platePlastic>, <ore:gearTin>, <ore:platePlastic>],
+		[<advancedrocketry:ic:0>, <libvulpes:structuremachine>, <advancedrocketry:ic:0>],
+		[<ore:platePlastic>, <ore:gearTin>, <ore:platePlastic>]]);
 
 # Machine frame
 	recipes.remove(<thermalexpansion:frame:0>);
-	mods.advancedrocketry.PrecisionAssembler.addRecipe(<thermalexpansion:frame:0>, 1000, 500,
-		<thermalexpansion:frame:64>,
-		<immersiveengineering:metal_decoration0:5>*4,
-		<immersiveengineering:metal_decoration0:3>,
-		<midnight:tenebrum_block>,
-		<defiledlands:ravaging_decoration:0>*2,
-		<defiledlands:glass_obscure>*4
-	);
 		
 # Reception coil
 	recipes.remove(<thermalfoundation:material:513>);

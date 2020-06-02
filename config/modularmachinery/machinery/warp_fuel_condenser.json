@@ -43,7 +43,7 @@
 			"x": -2,
 			"y": 0,
 			"z": 1,
-			"elements": "modularmachinery:blockcasing@0"
+			"elements": "modularmachinery:blockinputbus"
 		},
 		{
 			"x": 2,
@@ -73,7 +73,7 @@
 			"x": -2,
 			"y": 0,
 			"z": 2,
-			"elements": "modularmachinery:blockinputbus"
+			"elements": "modularmachinery:blockcasing@0"
 		},
 		{
 			"x": 2,
@@ -103,7 +103,7 @@
 			"x": -2,
 			"y": 0,
 			"z": 3,
-			"elements": "modularmachinery:blockcasing@0"
+			"elements": "modularmachinery:blockfluidinputhatch"
 		},
 		{
 			"x": 1,
