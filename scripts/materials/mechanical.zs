@@ -18,7 +18,8 @@ print("--- loading mechanical.zs ---");
 	var defaultPartNames as string[] = [
 		"gear",
 		"plate",
-		"rod"
+		"rod",
+		"block"
 	];
 
 	for i, metal in materailsForDefaultParts {

@@ -17,8 +17,11 @@ print("--- loading nuclearcraft.zs ---");
 	
 # plastic
 	mods.jei.JEI.removeAndHide(<nuclearcraft:part:6>);
-	mods.nuclearcraft.infuser.addRecipe([<ore:bioplastic>*2, <liquid:radaway>*250, <nuclearcraft:radaway>]);
-	mods.nuclearcraft.infuser.addRecipe([<ore:bioplastic>*2, <liquid:radaway_slow>*250, <nuclearcraft:radaway_slow>]);
+	mods.nuclearcraft.infuser.removeRecipeWithOutput([<nuclearcraft:radaway>]);
+	mods.nuclearcraft.infuser.removeRecipeWithOutput([<nuclearcraft:radaway_slow>]);
+	mods.nuclearcraft.infuser.addRecipe([<emergingtechnology:plasticsheet>*2, <liquid:radaway>*250, <nuclearcraft:radaway>]);
+	mods.nuclearcraft.infuser.addRecipe([<emergingtechnology:plasticsheet>*2, <liquid:radaway_slow>*250, <nuclearcraft:radaway_slow>]);
+	mods.nuclearcraft.infuser.addRecipe([<nuclearcraft:radaway>, <liquid:redstone>*200, <nuclearcraft:radaway_slow>]);
 	
 # ---- MACHINES ----
 

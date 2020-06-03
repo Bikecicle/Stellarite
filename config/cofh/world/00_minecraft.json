@@ -18,7 +18,6 @@
 				"restriction": "whitelist",
 				"value": [
 					300,
-					111,
 					308,
 					309,
 					310,
@@ -43,7 +42,6 @@
 				"restriction": "whitelist",
 				"value": [
 					300,
-					111,
 					308,
 					309,
 					310,
@@ -73,7 +71,6 @@
 				"restriction": "whitelist",
 				"value": [
 					300,
-					111,
 					308,
 					309,
 					310,
@@ -103,7 +100,6 @@
 				"restriction": "whitelist",
 				"value": [
 					300,
-					111,
 					308,
 					309,
 					310,
@@ -133,7 +129,6 @@
 				"restriction": "whitelist",
 				"value": [
 					300,
-					111,
 					308,
 					309,
 					310,
@@ -158,7 +153,6 @@
 				"restriction": "whitelist",
 				"value": [
 					300,
-					111,
 					312,
 					308,
 					309,
@@ -184,7 +178,6 @@
 				"restriction": "whitelist",
 				"value": [
 					300,
-					111,
 					308,
 					309,
 					310,
@@ -209,7 +202,6 @@
 				"restriction": "whitelist",
 				"value": [
 					300,
-					111,
 					308,
 					309,
 					310,
@@ -254,7 +246,6 @@
 				"restriction": "whitelist",
 				"value": [
 					300,
-					111,
 					308,
 					309,
 					310,
@@ -279,7 +270,6 @@
 				"restriction": "whitelist",
 				"value": [
 					300,
-					111,
 					312,
 					308,
 					309,
@@ -305,8 +295,6 @@
 				"restriction": "whitelist",
 				"value": [
 					300,
-					111,
-					311,
 					308,
 					309,
 					310,
@@ -335,7 +323,6 @@
 				"restriction": "whitelist",
 				"value": [
 					300,
-					111,
 					308
 				]
 			}

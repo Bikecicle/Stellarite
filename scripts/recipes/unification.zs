@@ -102,6 +102,10 @@ import crafttweaker.item.IIngredient;
 		[[null, <ore:stone>, null],
 		[<ore:stone>, <thermalfoundation:material:22>, <ore:stone>],
 		[null, <ore:stone>, null]]);
+		
+# uncastable gears
+	mods.rockhounding_chemistry.ProfilingBench.add(<ore:blockHSLASteel>.firstItem, <ore:gearHSLASteel>.firstItem*2, 6);
+	mods.rockhounding_chemistry.ProfilingBench.add(<ore:blockExtreme>.firstItem, <ore:gearExtreme>.firstItem*2, 6);
 
 # ---- RODS ----
 
