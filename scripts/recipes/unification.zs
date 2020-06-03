@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
 	
 # ---- PLATES ----
 
@@ -214,6 +215,16 @@ import crafttweaker.item.IIngredient;
 	
 	for block in blockDuplicates {
 		mods.jei.JEI.removeAndHide(block);
+	}
+	
+	ingotToBlock(<ore:ingotHSLASteel>, <ore:blockHSLASteel>);
+	ingotToBlock(<ore:ingotExtreme>, <ore:blockExtreme>);
+	
+	function ingotToBlock(ingot as IOreDictEntry, block as IOreDictEntry) {
+		recipes.addShaped(block.firstItem,
+			[[ingot, ingot, ingot],
+			[ingot, ingot, ingot],
+			[ingot, ingot, ingot]]);
 	}
 	
 # ---- NUGGETS ----
