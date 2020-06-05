@@ -104,6 +104,8 @@ print("--- loading MiscRecipes.zs ---");
 # ---- STICK CRAFTING ----
 	
 	var sticks as IItemStack[] = [
+		<thebetweenlands:items_misc:20>,
+		<thebetweenlands:nibblestick>,
 		<minecraft:stick>,
 		<blue_skies:bluebright_stick>,
 		<blue_skies:lunar_stick>,
@@ -111,8 +113,6 @@ print("--- loading MiscRecipes.zs ---");
 		<immersiveengineering:material:0>,
 		<midnight:dark_stick>,
 		<theaurorian:silentwoodstick>,
-		<thebetweenlands:items_misc:20>,
-		<thebetweenlands:nibblestick>,
 		<gaiadimension:agate_stick>,
 		<tconstruct:stone_stick>,
 		<tropicraft:bamboo_stick>

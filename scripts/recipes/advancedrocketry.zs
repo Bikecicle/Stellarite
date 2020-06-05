@@ -92,6 +92,10 @@ print("--- loading advancedrocketry.zs ---");
 		[[<ore:stickSteel>, <ore:plateAluminum>, <ore:stickSteel>],
 		[<ore:plateAluminum>, null, <ore:plateAluminum>],
 		[<ore:stickSteel>, <ore:plateAluminum>, <ore:stickSteel>]]);
+	recipes.addShaped(<libvulpes:structuremachine>,
+		[[<ore:stickSteel>, <ore:platePlastic>, <ore:stickSteel>],
+		[<ore:platePlastic>, null, <ore:platePlastic>],
+		[<ore:stickSteel>, <ore:platePlastic>, <ore:stickSteel>]]);
 		
 # Power input
 	recipes.remove(<libvulpes:forgepowerinput>);

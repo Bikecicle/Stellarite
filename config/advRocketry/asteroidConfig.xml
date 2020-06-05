@@ -30,7 +30,7 @@
 		<ore itemStack="thermalfoundation:ore 3" chance="15" />
 	</asteroid>
 	<asteroid name="Sky Stone" distance="75" mass="40" massVariability="0.5" minLevel="0" probability="5" richness="1.0" richnessVariability="0.25">
-		<ore itemStack="libvulpes:ore0 8" chance="15" />
+		<ore itemStack="appliedenergistics2:sky_stone_block" chance="15" />
 	</asteroid>
 	<!--T3 enhanced motor d:125-->
 	<asteroid name="Aquamarine Asteroid" distance="75" mass="50" massVariability="0.5" minLevel="0" probability="10" richness="0.8" richnessVariability="0.25">

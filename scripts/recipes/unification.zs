@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.liquid.ILiquidStack;
 	
 # ---- PLATES ----
 
@@ -320,3 +321,15 @@ import crafttweaker.oredict.IOreDictEntry;
 # niter
 	mods.jei.JEI.removeAndHide(<immersiveengineering:material:24>);
 	
+# ---- GASSES ----
+
+# add gasses to transposer
+	var gasses as ILiquidStack[] = [
+		<liquid:nitrogen>,
+		<liquid:oxygen>,
+		<liquid:ammonia>
+	];
+	
+	for gas in gasses {
+		mods.rockhounding_chemistry.Transposer.add(gas*1000, gas*1000);
+	}
