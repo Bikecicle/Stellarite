@@ -33,11 +33,11 @@
 		<ore itemStack="appliedenergistics2:sky_stone_block" chance="15" />
 	</asteroid>
 	<!--T3 enhanced motor d:125-->
-	<asteroid name="Aquamarine Asteroid" distance="75" mass="50" massVariability="0.5" minLevel="0" probability="10" richness="0.8" richnessVariability="0.25">
+	<asteroid name="Aquamarine Asteroid" distance="125" mass="50" massVariability="0.5" minLevel="0" probability="10" richness="0.8" richnessVariability="0.25">
 		<ore itemStack="minecraft:lapis_ore" chance="25" />
 		<ore itemStack="minecraft:emerald_ore" chance="5" />
 	</asteroid>
-	<asteroid name="Shiny Asteroid" distance="75" mass="100" massVariability="0.5" minLevel="0" probability="5" richness="0.8" richnessVariability="0.25">
+	<asteroid name="Shiny Asteroid" distance="125" mass="100" massVariability="0.5" minLevel="0" probability="5" richness="0.8" richnessVariability="0.25">
 		<ore itemStack="thermalfoundation:ore 2" chance="25" />
 		<ore itemStack="thermalfoundation:ore 6" chance="5" />
 	</asteroid>

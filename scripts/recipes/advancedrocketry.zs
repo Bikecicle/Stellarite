@@ -83,6 +83,20 @@ print("--- loading advancedrocketry.zs ---");
 		<advancedrocketry:ic:2>,
 		<advancedrocketry:wafer:0>*2
 	);
+	
+# Jetpack
+	mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:jetpack>);
+	recipes.addShaped(<advancedrocketry:jetpack>,
+		[[<advancedrocketry:pressuretank:3>, <ore:plateElite>, <advancedrocketry:pressuretank:3>],
+		[<ore:leather>, <advancedrocketry:ic:2>, <ore:leather>],
+		[<advancedrocketry:advrocketmotor>, null, <advancedrocketry:advrocketmotor>]]);
+		
+# Basic Solar Panel
+	recipes.remove(<advancedrocketry:satellitepowersource:0>);
+	recipes.addShaped(<advancedrocketry:satellitepowersource:0>,
+		[[<ore:platePlastic>, <ore:platePlastic>, <ore:platePlastic>],
+		[<ore:waferSilicon>, <ore:gemLapis>, <ore:waferSilicon>],
+		[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>]]);
 		
 # ---- BLOCKS ----
 
@@ -150,7 +164,7 @@ print("--- loading advancedrocketry.zs ---");
 	recipes.remove(<libvulpes:coil0:7>);
 	recipes.addShaped(<libvulpes:coil0:7>,
 		[[null, <ore:plateTitanium>, null],
-		[<ore:solenoidMagnesiumDiboride>, <ore:solenoidMagnesiumDiboride>, <ore:solenoidMagnesiumDiboride>],
+		[null, <nuclearcraft:accelerator_electromagnet_idle>, null],
 		[null, <ore:plateTitanium>, null]]);
 		
 # Iridium coil
@@ -188,15 +202,22 @@ print("--- loading advancedrocketry.zs ---");
 		[<ore:gearTitaniumIridium>, <ore:stickTitaniumIridium>, <ore:plateTitaniumIridium>],
 		[null, <ore:coilIridium>, <ore:plateTitaniumIridium>]]);
 		
-# pressurized tank
+# Pressurized Tank
 	recipes.addShaped(<advancedrocketry:liquidtank>,
 		[[<advancedrocketry:pressuretank:2>, <ore:blockGlassHardened>, <advancedrocketry:pressuretank:2>],
 		[<advancedrocketry:pressuretank:2>, <ore:blockGlassHardened>, <advancedrocketry:pressuretank:2>],
 		[<advancedrocketry:pressuretank:2>, <ore:blockGlassHardened>, <advancedrocketry:pressuretank:2>]]);
 
-# drill
+# Drill
 	recipes.remove(<advancedrocketry:drill>);
 	recipes.addShapeless(<advancedrocketry:drill>, [<libvulpes:structuremachine>, <stevescarts:cartmodule:8>]);
+	
+# Solar Panel
+	recipes.remove(<advancedrocketry:solarpanel>);
+	recipes.addShaped(<advancedrocketry:solarpanel>,
+		[[<ore:platePlastic>, <ore:platePlastic>, <ore:platePlastic>],
+		[<ore:waferSilicon>, <libvulpes:structuremachine>, <ore:waferSilicon>],
+		[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>]]);
 
 # ---- MACHINES ----
 

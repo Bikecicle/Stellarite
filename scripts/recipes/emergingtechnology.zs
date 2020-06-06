@@ -158,9 +158,9 @@ print("--- loading emergingtechnology.zs ---");
 # wind generator
 	recipes.remove(<emergingtechnology:wind>);
 	recipes.addShaped(<emergingtechnology:wind>,
-		[[<emergingtechnology:turbine>, <emergingtechnology:turbine>, <emergingtechnology:turbine>],
+		[[<emergingtechnology:turbine>, <ore:coilGold>, <emergingtechnology:turbine>],
 		[<ore:platePlastic>, <emergingtechnology:machinecase>, <ore:platePlastic>],
-		[<ore:platePlastic>, <libvulpes:battery:1>, <ore:platePlastic>]]);
+		[<ore:blockPlastic>, <libvulpes:battery:1>, <ore:blockPlastic>]]);
 		
 # battery
 	recipes.remove(<emergingtechnology:battery>);

@@ -42,7 +42,7 @@
 # Gitera
 	mods.immersiveengineering.Excavator.addMineral("Gitera Pyrite", 60, failRate, ["orePyrite","oreHematite","oreCinnabar"], [0.002,0.002,0.001], [-30]);
 	mods.immersiveengineering.Excavator.addMineral("Gitera Silicate", 50, failRate, ["oreSugilite","oreLabradorite","oreMoonstone"], [0.004,0.002,0.001], [-30]);
-	mods.immersiveengineering.Excavator.addMineral("Gitera Opal", 20, failRate, ["oreRedOpal","oreBlueOpal","oreGreenOpal","oreWhiteOpal"], [0.004,0.003,0.002,0.001], [-30]);
+	mods.immersiveengineering.Excavator.addMineral("Gitera Opal", 20, failRate + 0.025, ["oreRedOpal","oreBlueOpal","oreGreenOpal","oreWhiteOpal"], [0.002,0.002,0.002,0.004], [-30]);
 	
 # Senguvis
 	mods.immersiveengineering.Excavator.addMineral("Senguvis Pegmatite", 60, failRate, ["oreLithium"], [0.005], [111]);

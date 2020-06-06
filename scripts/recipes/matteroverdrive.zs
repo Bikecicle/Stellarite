@@ -28,9 +28,9 @@ print("--- loading matteroverdrive.zs ---");
 # Superconductor magnet
 	recipes.remove(<matteroverdrive:s_magnet>);
 	recipes.addShaped(<matteroverdrive:s_magnet>,
-		[[<ore:dustRedstone>, <matteroverdrive:tritanium_plate>, <ore:dustRedstone>],
-		[<matteroverdrive:tritanium_plate>, <nuclearcraft:accelerator_electromagnet_idle>, <matteroverdrive:tritanium_plate>],
-		[<ore:dustRedstone>, <matteroverdrive:tritanium_plate>, <ore:dustRedstone>]]);
+		[[<ore:plateTinite>, <ore:ingotTritanium>, <ore:plateTinite>],
+		[<ore:ingotTritanium>, <ore:stickTitaniumAluminide>, <ore:ingotTritanium>],
+		[<ore:plateTinite>, <ore:ingotTritanium>, <ore:plateTinite>]]);
 		
 # Empty matter container
 	recipes.remove(<matteroverdrive:matter_container>);
