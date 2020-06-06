@@ -54,7 +54,7 @@ print("--- loading AppliedEnergistics2.zs ---");
 	recipes.remove(<appliedenergistics2:energy_acceptor>);
 	recipes.addShaped(<appliedenergistics2:energy_acceptor>,
 		[[<ore:ingotIron>, <appliedenergistics2:quartz_glass>, <ore:ingotIron>],
-		[<appliedenergistics2:quartz_glass>, <nuclearcraft:lithium_ion_battery_basic>, <appliedenergistics2:quartz_glass>],
+		[<appliedenergistics2:quartz_glass>, <nuclearcraft:voltaic_pile_advanced>, <appliedenergistics2:quartz_glass>],
 		[<appliedenergistics2:fluix_block>, <modularmachinery:blockenergyinputhatch:2>, <appliedenergistics2:fluix_block>]]);
 		
 # Inscriber
