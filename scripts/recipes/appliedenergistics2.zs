@@ -5,6 +5,12 @@ print("--- loading AppliedEnergistics2.zs ---");
 # Skystone dust
 	mods.nuclearcraft.manufactory.addRecipe([<appliedenergistics2:sky_stone_block>, <appliedenergistics2:material:45>]);
 
+# ---- BLOCKS ----
+
+# Vibrant quartz glass
+	recipes.remove(<appliedenergistics2:quartz_vibrant_glass>);
+	recipes.addShapeless(<appliedenergistics2:quartz_vibrant_glass>, [<appliedenergistics2:quartz_glass>, <thebetweenlands:shimmer_stone>]);
+
 # ---- COMPONENTS ----
 
 # Meteorite compass

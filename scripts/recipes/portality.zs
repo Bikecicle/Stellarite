@@ -18,9 +18,9 @@ print("--- loading portality.zs ---");
 	<portality:module_interdimensional>.displayName = "Interplanetary Module";
 	recipes.remove(<portality:module_interdimensional>);
 	recipes.addShaped(<portality:module_interdimensional>,
-		[[<portality:frame>, <ore:gemDilithium>, <portality:frame>],
-		[<ore:gemDilithium>, <advancedrocketry:warpcore>, <ore:gemDilithium>],
-		[<portality:frame>, <ore:gemDilithium>, <portality:frame>]]);
+		[[<portality:frame>, <matteroverdrive:h_compensator>, <portality:frame>],
+		[<ore:blockTitanium>, <advancedrocketry:warpcore>, <ore:blockTitanium>],
+		[<portality:frame>, <matteroverdrive:integration_matrix>, <portality:frame>]]);
 		
 # Item module
 	recipes.remove(<portality:module_items>);
