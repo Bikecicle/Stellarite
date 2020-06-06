@@ -41,13 +41,20 @@ print("--- loading AppliedEnergistics2.zs ---");
 		[<ore:crystalFluix>, <appliedenergistics2:part:140>, <ore:crystalFluix>],
 		[null, <gaiadimension:sugilite>, null]]);
 		
+# 1k Storage Component
+	recipes.remove(<appliedenergistics2:part:16>);
+	recipes.addShaped(<appliedenergistics2:part:16>*4,
+		[[<ore:dustRedstone>, <appliedenergistics2:material:22>, <ore:dustRedstone>],
+		[<ore:crystalCertusQuartz>, <opencomputers:storage:2>, <ore:crystalCertusQuartz>],
+		[<ore:dustRedstone>, <ore:crystalCertusQuartz>, <ore:dustRedstone>]]);
+		
 # ---- MACHINES ----
 
 # ME Controller
 	recipes.remove(<appliedenergistics2:controller>);
 	recipes.addShaped(<appliedenergistics2:controller>,
 		[[<appliedenergistics2:smooth_sky_stone_block>, <ore:crystalPureFluix>, <appliedenergistics2:smooth_sky_stone_block>],
-		[<appliedenergistics2:material:24>, <modularmachinery:blockcasing:5>, <appliedenergistics2:material:24>],
+		[<appliedenergistics2:material:24>, <opencomputers:component:17>, <appliedenergistics2:material:24>],
 		[<appliedenergistics2:fluix_block>, <appliedenergistics2:energy_acceptor>, <appliedenergistics2:fluix_block>]]);
 		
 # Energy acceptor
@@ -63,6 +70,20 @@ print("--- loading AppliedEnergistics2.zs ---");
 		[[<ore:ingotIron>, <tropicraft:oreblock:0>, <ore:ingotIron>],
 		[<ore:crystalFluix>, null, <ore:ingotIron>],
 		[<ore:ingotIron>, <tropicraft:oreblock:0>, <ore:ingotIron>]]);
+		
+# Inscriber
+	recipes.remove(<appliedenergistics2:charger>);
+	recipes.addShaped(<appliedenergistics2:charger>,
+		[[<ore:ingotIron>, <ore:crystalFluix>, <ore:ingotIron>],
+		[<tropicraft:oreblock:0>, null, null],
+		[<ore:ingotIron>, <ore:crystalFluix>, <ore:ingotIron>]]);
+		
+# ME Drive
+	recipes.remove(<appliedenergistics2:drive>);
+	recipes.addShaped(<appliedenergistics2:drive>,
+		[[<ore:ingotIron>, <appliedenergistics2:material:24>, <ore:ingotIron>],
+		[<appliedenergistics2:part:16>, <opencomputers:component:20>, <appliedenergistics2:part:16>],
+		[<ore:ingotIron>, <appliedenergistics2:material:24>, <ore:ingotIron>]]);
 		
 # ---- RESOURCES ----
 
