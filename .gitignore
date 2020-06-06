@@ -30,3 +30,7 @@ config/acronym/saved
 config/biomesoplenty/biomes/defaults
 config/BiomeTweaker/output
 config/brandon3055/ProjectIntelligence
+config/craftpresence.properties
+config/splash.properties
+config/worldedit/worldedit.properties
+config/InvTweaks.cfg
