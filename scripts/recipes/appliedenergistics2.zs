@@ -42,11 +42,18 @@ print("--- loading AppliedEnergistics2.zs ---");
 		[null, <gaiadimension:sugilite>, null]]);
 		
 # 1k Storage Component
-	recipes.remove(<appliedenergistics2:part:16>);
-	recipes.addShaped(<appliedenergistics2:part:16>*4,
+	recipes.remove(<appliedenergistics2:material:35>);
+	recipes.addShaped(<appliedenergistics2:material:35>*4,
 		[[<ore:dustRedstone>, <appliedenergistics2:material:22>, <ore:dustRedstone>],
 		[<ore:crystalCertusQuartz>, <opencomputers:storage:2>, <ore:crystalCertusQuartz>],
 		[<ore:dustRedstone>, <ore:crystalCertusQuartz>, <ore:dustRedstone>]]);
+		
+# 1k Fluid Storage Component
+	recipes.remove(<appliedenergistics2:material:54>);
+	recipes.addShaped(<appliedenergistics2:material:54>*4,
+		[[<ore:gemLapis>, <appliedenergistics2:material:22>, <ore:gemLapis>],
+		[<ore:crystalCertusQuartz>, <opencomputers:storage:2>, <ore:crystalCertusQuartz>],
+		[<ore:gemLapis>, <ore:crystalCertusQuartz>, <ore:gemLapis>]]);
 		
 # ---- MACHINES ----
 
