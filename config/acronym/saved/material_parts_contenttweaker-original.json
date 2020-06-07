@@ -1,0 +1,28 @@
+{
+  "materialMappings": {
+    "class_o_stellar_alloy_ingot": 14,
+    "class_g_stellar_alloy_ingot": 12,
+    "solid_rocket_fuel_dust": 0,
+    "uranium_plate": 11,
+    "h_s_l_a_steel_plate": 8,
+    "caopra_polymer": 22,
+    "cibru_polymer": 24,
+    "thibos_extract": 20,
+    "chiyopra_extract": 25,
+    "h_s_l_a_steel_rod": 9,
+    "uranium_block": 36,
+    "h_s_l_a_steel_block": 35,
+    "extreme_block": 34,
+    "extreme_gear": 31,
+    "class_a_stellar_alloy_ingot": 13,
+    "chiyopra_polymer": 26,
+    "cibru_extract": 23,
+    "uranium_rod": 15,
+    "uranium_gear": 10,
+    "caopra_extract": 18,
+    "extreme_rod": 33,
+    "h_s_l_a_steel_gear": 7,
+    "thibos_polymer": 30,
+    "extreme_plate": 32
+  }
+}
