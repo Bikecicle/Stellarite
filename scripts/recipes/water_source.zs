@@ -89,7 +89,7 @@ function addFilterType(name as string, inputFluid as ILiquidStack, yield as int,
 	val filter = mods.modularmachinery.RecipeBuilder.newBuilder(name, "water_purification_plant", 40);
 	filter.addEnergyPerTickInput(10);
 	filter.addItemInput(<ore:dustGraphite>);
-	filter.setChance(0.025);
+	filter.setChance(0.01);
 	filter.addFluidInput(inputFluid);
 	filter.addFluidOutput(<liquid:water>*yield);
 	for i, item in byproducts {

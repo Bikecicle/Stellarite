@@ -3,8 +3,9 @@ print("--- loading nuclearcraft.zs ---");
 
 # ---- REMOVAL ----
 
-# liquid helium cooler
+# Fluid coolers
 	recipes.remove(<nuclearcraft:cooler:8>);
+	recipes.remove(<nuclearcraft:cooler:10>);
 	
 	mods.jei.JEI.hideCategory("nuclearcraft_collector");
 
@@ -107,7 +108,7 @@ print("--- loading nuclearcraft.zs ---");
 	mods.nuclearcraft.ingot_former.addRecipe([<liquid:neutron>*144, <avaritia:resource:4>, 1200.0, 1000.0, 70.0]);
 	
 # silicon (remove)
-	mods.nuclearcraft.manufactory.removeRecipeWithOutput(<libvulpes:productingot:3>);
+	# mods.nuclearcraft.manufactory.removeRecipeWithOutput(<libvulpes:productingot:3>);
 	
 # ---- COMPONENTS ----
 

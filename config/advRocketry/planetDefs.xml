@@ -80,7 +80,7 @@
 				<fogColor>0.5,0.7,0</fogColor>
 				<skyColor>0.5,0.7,0</skyColor>
 				<gravitationalMultiplier>100</gravitationalMultiplier>
-				<orbitalDistance>75</orbitalDistance>
+				<orbitalDistance>100</orbitalDistance>
 				<orbitalTheta>313</orbitalTheta>
 				<orbitalPhi>0</orbitalPhi>s
 				<rotationalPeriod>24000</rotationalPeriod>

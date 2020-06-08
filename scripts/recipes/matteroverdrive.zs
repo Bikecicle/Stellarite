@@ -144,7 +144,7 @@ print("--- loading matteroverdrive.zs ---");
 		<matteroverdrive:isolinear_circuit:0>,
 		<matteroverdrive:tritanium_plate>*3,
 		<matteroverdrive:battery>,
-		<advancedrocketry:blocklens>
+		<industrialforegoing:laser_lens:*>
 	);
 	
 # Plasma shotgun
@@ -156,7 +156,7 @@ print("--- loading matteroverdrive.zs ---");
 		<matteroverdrive:isolinear_circuit:0>,
 		<matteroverdrive:tritanium_plate>*3,
 		<matteroverdrive:battery>,
-		<advancedrocketry:blocklens>
+		<industrialforegoing:laser_lens:*>
 	);
 	
 # Ion sniper
@@ -168,7 +168,7 @@ print("--- loading matteroverdrive.zs ---");
 		<matteroverdrive:isolinear_circuit:1>,
 		<matteroverdrive:tritanium_plate>*3,
 		<matteroverdrive:battery>,
-		<advancedrocketry:blocklens>
+		<industrialforegoing:laser_lens:*>
 	);
 	
 # Omni tool
@@ -180,7 +180,7 @@ print("--- loading matteroverdrive.zs ---");
 		<matteroverdrive:isolinear_circuit:1>,
 		<matteroverdrive:tritanium_plate>*3,
 		<matteroverdrive:battery>,
-		<advancedrocketry:blocklens>,
+		<industrialforegoing:laser_lens:*>,
 		<matteroverdrive:forcefield_emitter>
 	);
 	

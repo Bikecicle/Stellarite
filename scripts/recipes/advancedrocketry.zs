@@ -111,6 +111,14 @@ print("--- loading advancedrocketry.zs ---");
 		[<ore:platePlastic>, null, <ore:platePlastic>],
 		[<ore:stickSteel>, <ore:platePlastic>, <ore:stickSteel>]]);
 		
+		
+# Advanced Machine Structure
+	recipes.remove(<libvulpes:advstructuremachine>);
+	recipes.addShaped(<libvulpes:advstructuremachine>,
+		[[<ore:stickTitanium>, <ore:plateEnderium>, <ore:stickTitanium>],
+		[<ore:plateEnderium>, null, <ore:plateEnderium>],
+		[<ore:stickTitanium>, <ore:plateEnderium>, <ore:stickTitanium>]]);
+
 # Power input
 	recipes.remove(<libvulpes:forgepowerinput>);
 	recipes.addShaped(<libvulpes:forgepowerinput>,
@@ -235,6 +243,13 @@ print("--- loading advancedrocketry.zs ---");
 		[[<ore:stickSteel>, <advancedrocketry:misc:0>, <ore:stickSteel>],
 		[<advancedrocketry:ic:3>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>],
 		[<ore:gearSteel>, <ore:concrete>, <ore:gearSteel>]]);
+		
+# Orbital Laser Drill
+	recipes.remove(<advancedrocketry:spacelaser>);
+	recipes.addShaped(<advancedrocketry:spacelaser>,
+		[[<nuclearcraft:cooler:10>, <advancedrocketry:guidancecomputer>, <nuclearcraft:cooler:10>],
+		[<matteroverdrive:plasma_core>, <thermalfoundation:glass_alloy:6>, <matteroverdrive:plasma_core>],
+		[<ore:gearTitanium>, <industrialforegoing:laser_lens:*>, <ore:gearTitanium>]]);
 		
 # ---- RESOURCES ----
 

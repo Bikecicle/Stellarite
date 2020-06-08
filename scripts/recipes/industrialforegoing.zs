@@ -1,9 +1,10 @@
 
-print("--- loading industrialForegoing.zs ---");
+print("--- loading industrialforegoing.zs ---");
 
-# ---- DISABLE MACHINE FRAME ----
-	
-	mods.jei.JEI.removeAndHide(<teslacorelib:machine_case>);
+# ---- MATERIALS ----
+
+# Plastic (rename)
+	<industrialforegoing:plastic>.displayName = "Rubber Sheet";
 	
 # ---- BLACK HOLE STORAGE ----
 

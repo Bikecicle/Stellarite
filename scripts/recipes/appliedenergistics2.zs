@@ -2,6 +2,11 @@ print("--- loading AppliedEnergistics2.zs ---");
 
 # ---- MATERIALS ----
 
+# Variables
+	var certusQuartz = <appliedenergistics2:material:0> | <appliedenergistics2:material:1> | <appliedenergistics2:material:10>;
+	var netherQuartz = <minecraft:quartz> | <appliedenergistics2:material:11>;
+	var fluix = <appliedenergistics2:material:7> | <appliedenergistics2:material:12>;
+
 # Skystone dust
 	mods.nuclearcraft.manufactory.addRecipe([<appliedenergistics2:sky_stone_block>, <appliedenergistics2:material:45>]);
 
@@ -16,9 +21,9 @@ print("--- loading AppliedEnergistics2.zs ---");
 # Meteorite compass
 	recipes.remove(<appliedenergistics2:sky_compass>);
 	recipes.addShaped(<appliedenergistics2:sky_compass>,
-		[[<ore:dustRedstone>, <ore:crystalCertusQuartz>, <ore:dustRedstone>],
-		[<ore:crystalCertusQuartz>, <minecraft:compass>, <ore:crystalCertusQuartz>],
-		[<ore:dustRedstone>, <ore:crystalCertusQuartz>, <ore:dustRedstone>]]);
+		[[<ore:dustRedstone>, certusQuartz, <ore:dustRedstone>],
+		[certusQuartz, <minecraft:compass>, certusQuartz],
+		[<ore:dustRedstone>, certusQuartz, <ore:dustRedstone>]]);
 		
 # Illuminated panel
 	recipes.remove(<appliedenergistics2:part:180>);
@@ -38,21 +43,21 @@ print("--- loading AppliedEnergistics2.zs ---");
 	recipes.remove(<appliedenergistics2:part:16>);
 	recipes.addShaped(<appliedenergistics2:part:16>*4,
 		[[null, <gaiadimension:sugilite>, null],
-		[<ore:crystalFluix>, <appliedenergistics2:part:140>, <ore:crystalFluix>],
+		[fluix, <appliedenergistics2:part:140>, fluix],
 		[null, <gaiadimension:sugilite>, null]]);
 		
 # 1k Storage Component
 	recipes.remove(<appliedenergistics2:material:35>);
-	recipes.addShaped(<appliedenergistics2:material:35>*4,
+	recipes.addShaped(<appliedenergistics2:material:35>,
 		[[<ore:dustRedstone>, <appliedenergistics2:material:22>, <ore:dustRedstone>],
-		[<ore:crystalCertusQuartz>, <opencomputers:storage:2>, <ore:crystalCertusQuartz>],
+		[certusQuartz, <opencomputers:storage:2>, certusQuartz],
 		[<ore:dustRedstone>, <ore:crystalCertusQuartz>, <ore:dustRedstone>]]);
 		
 # 1k Fluid Storage Component
 	recipes.remove(<appliedenergistics2:material:54>);
-	recipes.addShaped(<appliedenergistics2:material:54>*4,
+	recipes.addShaped(<appliedenergistics2:material:54>,
 		[[<ore:gemLapis>, <appliedenergistics2:material:22>, <ore:gemLapis>],
-		[<ore:crystalCertusQuartz>, <opencomputers:storage:2>, <ore:crystalCertusQuartz>],
+		[certusQuartz, <opencomputers:storage:2>, certusQuartz],
 		[<ore:gemLapis>, <ore:crystalCertusQuartz>, <ore:gemLapis>]]);
 		
 # ---- MACHINES ----
@@ -75,15 +80,15 @@ print("--- loading AppliedEnergistics2.zs ---");
 	recipes.remove(<appliedenergistics2:inscriber>);
 	recipes.addShaped(<appliedenergistics2:inscriber>,
 		[[<ore:ingotIron>, <tropicraft:oreblock:0>, <ore:ingotIron>],
-		[<ore:crystalFluix>, null, <ore:ingotIron>],
+		[fluix, null, <ore:ingotIron>],
 		[<ore:ingotIron>, <tropicraft:oreblock:0>, <ore:ingotIron>]]);
 		
 # Inscriber
 	recipes.remove(<appliedenergistics2:charger>);
 	recipes.addShaped(<appliedenergistics2:charger>,
-		[[<ore:ingotIron>, <ore:crystalFluix>, <ore:ingotIron>],
+		[[<ore:ingotIron>, fluix, <ore:ingotIron>],
 		[<tropicraft:oreblock:0>, null, null],
-		[<ore:ingotIron>, <ore:crystalFluix>, <ore:ingotIron>]]);
+		[<ore:ingotIron>, fluix, <ore:ingotIron>]]);
 		
 # ME Drive
 	recipes.remove(<appliedenergistics2:drive>);
