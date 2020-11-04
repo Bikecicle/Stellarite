@@ -11,7 +11,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:tooltables",
@@ -94,7 +94,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -149,7 +149,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -203,7 +203,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -258,7 +258,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -313,7 +313,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -368,7 +368,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -414,7 +414,8 @@
       "questID:3": 7,
       "preRequisites:11": [
         6,
-        15
+        15,
+        18
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -423,7 +424,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -478,7 +479,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -532,7 +533,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -549,7 +550,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Mining Level 8",
+          "name:8": "Mining Level 8: Sugilite",
           "desc:8": ""
         }
       },
@@ -586,7 +587,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -640,7 +641,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -694,7 +695,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -748,7 +749,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -802,7 +803,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -856,10 +857,10 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "tconstruct:smeltery_controller",
+            "id:8": "tcomplement:melter",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -884,10 +885,28 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "tconstruct:materials",
-              "Count:3": 4,
+              "id:8": "tcomplement:melter",
+              "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "ingotBrickSeared"
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tcomplement:melter",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:faucet",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "tconstruct:casting",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -905,7 +924,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:grass",
@@ -955,7 +974,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "forge:bucketfilled",
@@ -1014,7 +1033,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:netherrack",
@@ -1064,7 +1083,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:snow",
@@ -1114,7 +1133,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gaiadimension:glitter_grass",
@@ -1164,7 +1183,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:warpcore",
@@ -1221,7 +1240,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:slime_grass",
@@ -1271,7 +1290,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "biomesoplenty:dried_sand",
@@ -1321,7 +1340,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:dry_earth",
@@ -1371,7 +1390,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thebetweenlands:swamp_grass",
@@ -1421,7 +1440,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:water_bucket",
@@ -1471,7 +1490,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tropicraft:bundle",
@@ -1521,7 +1540,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:sand",
@@ -1571,7 +1590,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:warp_upgrade_red",
@@ -1622,7 +1641,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "forge:bucketfilled",
@@ -1676,7 +1695,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "netherex:basalt",
@@ -1726,7 +1745,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "appliedenergistics2:sky_stone_block",
@@ -1776,7 +1795,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "defiledlands:grass_defiled",
@@ -1826,7 +1845,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "midnight:midnight_grass",
@@ -1876,7 +1895,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "biomesoplenty:flower_1",
@@ -1926,7 +1945,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "biomesoplenty:dirt",
@@ -1976,7 +1995,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "blue_skies:turquoise_grass",
@@ -2026,7 +2045,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "blue_skies:lunar_grass",
@@ -2076,7 +2095,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:warp_upgrade_green",
@@ -2127,7 +2146,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "abyssalcraft:coraliumore",
@@ -2177,7 +2196,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "abyssalcraft:dltlog2",
@@ -2244,7 +2263,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "abyssalcraft:stone",
@@ -2311,7 +2330,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "abyssalcraft:stone",
@@ -2378,7 +2397,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "abyssalcraft:stone",
@@ -2445,7 +2464,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "erebus:umberstone",
@@ -2495,7 +2514,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "theaurorian:auroriangrass",
@@ -2545,7 +2564,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "biomesoplenty:hard_ice",
@@ -2595,7 +2614,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:warp_upgrade_blue",
@@ -2646,7 +2665,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:end_stone",
@@ -2687,7 +2706,7 @@
     "50:10": {
       "questID:3": 50,
       "preRequisites:11": [
-        15
+        119
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2696,7 +2715,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tcomplement:high_oven_controller",
@@ -2710,8 +2729,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Steelworks",
-          "desc:8": "Coke oven? Blast furnace? Nope, we do things a little differently around here."
+          "name:8": "Ironworks",
+          "desc:8": "The seared heater isn\u0027t quite hot enough to melt iron. You\u0027ll need a high furnace for that. This will also be your first option for creating steel."
         }
       },
       "tasks:9": {
@@ -2733,18 +2752,6 @@
               "id:8": "tcomplement:high_oven_io",
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "tcomplement:high_oven_io",
-              "Count:3": 1,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "tcomplement:high_oven_io",
-              "Count:3": 1,
-              "Damage:2": 2,
               "OreDict:8": ""
             }
           },
@@ -2770,7 +2777,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:fireworks",
@@ -2821,7 +2828,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:launchpad",
@@ -2869,7 +2876,8 @@
     "53:10": {
       "questID:3": 53,
       "preRequisites:11": [
-        58
+        58,
+        121
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2878,7 +2886,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:rocketbuilder",
@@ -2929,7 +2937,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:spacehelmet",
@@ -2944,7 +2952,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Suit Up",
-          "desc:8": "What\u0027s deadlier than a zombie and [OVERFLOW ERROR] times bigger? The vacuum of space."
+          "desc:8": "What\u0027s deadlier than a zombie and [OVERFLOW ERROR] times bigger? The vacuum of space. Use the suit workstation to add upgrades to your suit (i.e. put the low-pressure tank in your chestpiece to hold oxygen)."
         }
       },
       "tasks:9": {
@@ -2979,6 +2987,18 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "advancedrocketry:pressuretank",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "advancedrocketry:suitworkstation",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2998,7 +3018,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:oxygencharger",
@@ -3085,7 +3105,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:bucketrocketfuel",
@@ -3120,7 +3140,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "contenttweaker:material_part",
-              "Count:3": 9,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": "dustSolidRocketFuel"
             }
@@ -3142,7 +3162,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:rocketmotor",
@@ -3211,7 +3231,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:platepress",
@@ -3268,7 +3288,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gaiadimension:sweet_muckball",
@@ -3283,7 +3303,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Gummy",
-          "desc:8": "Go to the Purple Agate Swamp on Gitera and make some slimy friends. Then murder them."
+          "desc:8": "Go to the Purple Agate Swamp on Gitera and make some slimy friends. Then murder them. You might find them deep underground sometimes too."
         }
       },
       "tasks:9": {
@@ -3319,7 +3339,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gaiadimension:restructurer_lit",
@@ -3371,7 +3391,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gaiadimension:purifier_lit",
@@ -3422,7 +3442,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gaiadimension:goldstone_dust",
@@ -3464,7 +3484,7 @@
     "63:10": {
       "questID:3": 63,
       "preRequisites:11": [
-        92
+        69
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3473,7 +3493,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_c",
@@ -3627,7 +3647,8 @@
     "64:10": {
       "questID:3": 64,
       "preRequisites:11": [
-        92
+        65,
+        67
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3636,7 +3657,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_c",
@@ -3734,7 +3755,7 @@
     "65:10": {
       "questID:3": 65,
       "preRequisites:11": [
-        92
+        71
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3743,7 +3764,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_c",
@@ -3867,7 +3888,7 @@
     "66:10": {
       "questID:3": 66,
       "preRequisites:11": [
-        92
+        68
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3876,7 +3897,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_b",
@@ -3976,7 +3997,7 @@
     "67:10": {
       "questID:3": 67,
       "preRequisites:11": [
-        92
+        66
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3985,7 +4006,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_b",
@@ -4095,7 +4116,7 @@
     "68:10": {
       "questID:3": 68,
       "preRequisites:11": [
-        92
+        123
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4104,7 +4125,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_b",
@@ -4154,7 +4175,8 @@
     "69:10": {
       "questID:3": 69,
       "preRequisites:11": [
-        92
+        70,
+        73
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4163,7 +4185,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_a",
@@ -4249,7 +4271,7 @@
     "70:10": {
       "questID:3": 70,
       "preRequisites:11": [
-        92
+        64
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4258,7 +4280,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_c",
@@ -4338,7 +4360,7 @@
     "71:10": {
       "questID:3": 71,
       "preRequisites:11": [
-        92
+        72
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4347,7 +4369,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_b",
@@ -4446,7 +4468,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_b",
@@ -4515,7 +4537,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_a",
@@ -4584,7 +4606,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_a",
@@ -4643,7 +4665,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_a",
@@ -4702,7 +4724,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:machines_a",
@@ -4759,7 +4781,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gbook:guidebook",
@@ -4807,7 +4829,7 @@
     "78:10": {
       "questID:3": 78,
       "preRequisites:11": [
-        79
+        81
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4816,7 +4838,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:precisionassemblingmachine",
@@ -4899,7 +4921,9 @@
     },
     "79:10": {
       "questID:3": 79,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        58
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4907,7 +4931,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "libvulpes:holoprojector",
@@ -4949,7 +4973,7 @@
     "80:10": {
       "questID:3": 80,
       "preRequisites:11": [
-        79
+        106
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4958,7 +4982,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:crystallizer",
@@ -5014,12 +5038,6 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
-            },
-            "5:10": {
-              "id:8": "advancedrocketry:quartzcrucible",
-              "Count:3": 6,
-              "Damage:2": 0,
-              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5030,7 +5048,7 @@
     "81:10": {
       "questID:3": 81,
       "preRequisites:11": [
-        79
+        80
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5039,7 +5057,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:cuttingmachine",
@@ -5120,7 +5138,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:lathe",
@@ -5201,7 +5219,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:rollingmachine",
@@ -5296,7 +5314,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:stationbuilder",
@@ -5347,7 +5365,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:warpcore",
@@ -5365,7 +5383,25 @@
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "advancedrocketry:warpcore",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "86:10": {
@@ -5380,7 +5416,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:warpmonitor",
@@ -5393,12 +5429,30 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Warp Controller",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "advancedrocketry:warpmonitor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "87:10": {
@@ -5413,7 +5467,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:electrolyser",
@@ -5494,7 +5548,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:chemicalreactor",
@@ -5507,9 +5561,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Chemical Reactor",
-          "desc:8": "No Description"
+          "ismain:1": 1,
+          "name:8": "Cheap Fuel",
+          "desc:8": "A little water goes a long way. Get oxygen and hydrogen from the electrolyzer and combined them using the chemical reactor to create rocket fuel. It\u0027s slow without upgraded components, but magnitudes cheaper and easier than grinding down sandstone for niter."
         }
       },
       "tasks:9": {
@@ -5578,7 +5632,8 @@
     "89:10": {
       "questID:3": 89,
       "preRequisites:11": [
-        90
+        90,
+        93
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5587,7 +5642,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:satellitebuilder",
@@ -5635,10 +5690,7 @@
     "90:10": {
       "questID:3": 90,
       "preRequisites:11": [
-        80,
-        81,
-        78,
-        106
+        78
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5647,7 +5699,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:ic",
@@ -5698,7 +5750,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:ic",
@@ -5750,7 +5802,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "rockhounding_chemistry:misc_blocks_a",
@@ -5801,10 +5853,10 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "libvulpes:productgear",
+            "id:8": "libvulpes:productingot",
             "Count:3": 1,
             "Damage:2": 7,
             "OreDict:8": ""
@@ -5814,7 +5866,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Titanium",
           "desc:8": "Now that you have a fancy chemistry setup, I\u0027m sure you can find something around here to extract titanium from."
         }
@@ -5829,10 +5881,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "libvulpes:productgear",
-              "Count:3": 2,
+              "id:8": "libvulpes:productdust",
+              "Count:3": 1,
               "Damage:2": 7,
-              "OreDict:8": ""
+              "OreDict:8": "dustTitanium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5853,7 +5905,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "libvulpes:productgem",
@@ -5894,7 +5946,12 @@
     },
     "95:10": {
       "questID:3": 95,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        139,
+        140,
+        141,
+        156
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5902,10 +5959,10 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "contenttweaker:warp_upgrade_red",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -5916,11 +5973,29 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Escape the System",
           "desc:8": "No Description"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:warp_upgrade_red",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "96:10": {
@@ -5935,7 +6010,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -5989,7 +6064,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -6043,7 +6118,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -6097,7 +6172,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -6151,7 +6226,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -6205,7 +6280,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -6259,7 +6334,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -6313,7 +6388,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -6367,7 +6442,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "tconstruct:sharpening_kit",
@@ -6421,7 +6496,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "avaritia:resource",
@@ -6463,8 +6538,8 @@
     "106:10": {
       "questID:3": 106,
       "preRequisites:11": [
-        79,
-        107
+        107,
+        79
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6473,7 +6548,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:arcfurnace",
@@ -6554,7 +6629,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:blaze_rod",
@@ -6596,7 +6671,6 @@
     "108:10": {
       "questID:3": 108,
       "preRequisites:11": [
-        89,
         115
       ],
       "properties:10": {
@@ -6606,7 +6680,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:monitoringstation",
@@ -6657,7 +6731,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:satellitecontrolcenter",
@@ -6699,7 +6773,8 @@
     "110:10": {
       "questID:3": 110,
       "preRequisites:11": [
-        89
+        109,
+        108
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6708,7 +6783,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:satelliteprimaryfunction",
@@ -6780,7 +6855,7 @@
     "111:10": {
       "questID:3": 111,
       "preRequisites:11": [
-        89
+        110
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6789,7 +6864,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:satelliteprimaryfunction",
@@ -6861,7 +6936,7 @@
     "112:10": {
       "questID:3": 112,
       "preRequisites:11": [
-        89
+        111
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6870,7 +6945,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:satelliteprimaryfunction",
@@ -6942,8 +7017,7 @@
     "113:10": {
       "questID:3": 113,
       "preRequisites:11": [
-        110,
-        109
+        110
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6952,7 +7026,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:observatory",
@@ -7039,7 +7113,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:planetanalyser",
@@ -7118,7 +7192,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "libvulpes:linker",
@@ -7169,7 +7243,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:drill",
@@ -7182,7 +7256,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Asteroid Mining",
           "desc:8": "Build a new unmanned rocket or uprade an old one with drills and storage. Then all you have to do is place a programmed asteroid chip (upgraded in the astrobody data processor to your satisfaction) in the guidance computer, make sure it\u0027s fueled, and click launch in the linked rocket monitoring station. It will return after a while with your resources (more drills \u003d less time)!"
         }
@@ -7226,7 +7300,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:spaceelevatorcontroller",
@@ -7307,7 +7381,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "advancedrocketry:railgun",
@@ -7374,6 +7448,2156 @@
               "id:8": "libvulpes:advstructuremachine",
               "Count:3": 28,
               "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "119:10": {
+      "questID:3": 119,
+      "preRequisites:11": [
+        15
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tcomplement:alloy_tank",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Alloying",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tcomplement:alloy_tank",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "120:10": {
+      "questID:3": 120,
+      "preRequisites:11": [
+        50
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:grindstone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Grindstone",
+          "desc:8": "This has multiple uses, but extracting niter from sandstone might be the most important."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:grindstone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:crank",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "121:10": {
+      "questID:3": 121,
+      "preRequisites:11": [
+        120
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:glowstone_dust",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Alternative Glowstone",
+          "desc:8": "Using this method, you should be able to make enough glowstone to get the machinery you need to get a rocket off the ground and find a place to mine it directly."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "biomesoplenty:mushroom",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:sand",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "122:10": {
+      "questID:3": 122,
+      "preRequisites:11": [
+        91
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "naturescompass:naturescompass",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Biome Tracker",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "naturescompass:naturescompass",
+              "Count:3": 1,
+              "tag:10": {},
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "123:10": {
+      "questID:3": 123,
+      "preRequisites:11": [
+        92
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "rockhounding_chemistry:machines_a",
+            "Count:3": 1,
+            "tag:10": {
+              "Energy:3": 0,
+              "Fuel:3": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Mineral Sizer",
+          "desc:8": "This machine is useful for breaking down uninspected mineral into different materials. However, it is also a ver efficient way to produce cracked coal."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "rockhounding_chemistry:machines_a",
+              "Count:3": 1,
+              "tag:10": {
+                "Energy:3": 0,
+                "Fuel:3": 0
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "rockhounding_chemistry:machines_a",
+              "Count:3": 2,
+              "tag:10": {
+                "Energy:3": 0,
+                "Fuel:3": 0
+              },
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "rockhounding_chemistry:machines_a",
+              "Count:3": 1,
+              "tag:10": {
+                "Energy:3": 0,
+                "Fuel:3": 0
+              },
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "rockhounding_chemistry:machines_a",
+              "Count:3": 1,
+              "tag:10": {
+                "Energy:3": 0,
+                "Fuel:3": 0
+              },
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "rockhounding_chemistry:crushing_gear",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "124:10": {
+      "questID:3": 124,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "libvulpes:motor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Basic",
+          "desc:8": "Provided you use actual lenses instead of glass in your observatory, you should be able to see a good number of different asteroids right away."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "advancedrocketry:observatory",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "libvulpes:motor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "advancedrocketry:blocklens",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "125:10": {
+      "questID:3": 125,
+      "preRequisites:11": [
+        124
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "libvulpes:advancedmotor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Advanced",
+          "desc:8": "Upgrading the motor in your observatory will allow you to find more types of asteroids"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "libvulpes:advancedmotor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "126:10": {
+      "questID:3": 126,
+      "preRequisites:11": [
+        125
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "libvulpes:enhancedmotor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Enhanced",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "libvulpes:enhancedmotor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "127:10": {
+      "questID:3": 127,
+      "preRequisites:11": [
+        126
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "libvulpes:elitemotor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Elite",
+          "desc:8": "The rarest of asteroids will be difficult to find even with a perfected observatory"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "libvulpes:elitemotor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "128:10": {
+      "questID:3": 128,
+      "preRequisites:11": [
+        124
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalfoundation:ore",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Low Density Asteroid",
+          "desc:8": "Rich with light metals like aluminum and tin,"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "129:10": {
+      "questID:3": 129,
+      "preRequisites:11": [
+        124
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalfoundation:ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Conductive Asteroid",
+          "desc:8": "Contains highly electrically conductive metals like copper and small amounts of gold."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "130:10": {
+      "questID:3": 130,
+      "preRequisites:11": [
+        124
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "libvulpes:ore0",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Rutile Asteroid",
+          "desc:8": "The only source of titanium ore within rocket range of Nodiclite."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "131:10": {
+      "questID:3": 131,
+      "preRequisites:11": [
+        124
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:iron_ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Ferrous Asteroid",
+          "desc:8": "These are some of the most common asteroids, with a generous amount of iron and traces of nickel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "132:10": {
+      "questID:3": 132,
+      "preRequisites:11": [
+        124
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:ice",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Comet",
+          "desc:8": "Water is finite on the moons of Nodiclite. While you can\u0027t reach other planets yet, you can still go just far enough to grab ice-rich asteroids for ice to melt down."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "133:10": {
+      "questID:3": 133,
+      "preRequisites:11": [
+        125
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:ore",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Heavy Asteroid",
+          "desc:8": "Highly dense asteroid with concentrations of lead and boron."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "134:10": {
+      "questID:3": 134,
+      "preRequisites:11": [
+        125
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:sky_stone_block",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Sky Stone",
+          "desc:8": "An asteroid composed entirely of a strange black stone."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "135:10": {
+      "questID:3": 135,
+      "preRequisites:11": [
+        125
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:coal_ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Organic",
+          "desc:8": "Large amounts of coal with diamonds mixed in."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "136:10": {
+      "questID:3": 136,
+      "preRequisites:11": [
+        126
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:emerald_ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Aquamarine Asteroid",
+          "desc:8": "A blend of blue and green - high concentrations of lapis and emerald gems."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "137:10": {
+      "questID:3": 137,
+      "preRequisites:11": [
+        126
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalfoundation:ore",
+            "Count:3": 1,
+            "Damage:2": 6,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Shiny Asteroid",
+          "desc:8": "Just... very shiny. One of the only sources of platinum."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "138:10": {
+      "questID:3": 138,
+      "preRequisites:11": [
+        127
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalfoundation:ore",
+            "Count:3": 1,
+            "Damage:2": 7,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Iridium Enriched Asteroid",
+          "desc:8": "Iridium is exceedingly rare in this galaxy."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "139:10": {
+      "questID:3": 139,
+      "preRequisites:11": [
+        155
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:material_part",
+            "Count:3": 1,
+            "Damage:2": 12,
+            "OreDict:8": "ingotClassGStellarAlloy"
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Stellar Alloy",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:material_part",
+              "Count:3": 4,
+              "Damage:2": 12,
+              "OreDict:8": "ingotClassGStellarAlloy"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "140:10": {
+      "questID:3": 140,
+      "preRequisites:11": [
+        152,
+        154
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:fuel_plutonium",
+            "Count:3": 1,
+            "Damage:2": 7,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Not just any plutonium",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:fuel_plutonium",
+              "Count:3": 1,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "141:10": {
+      "questID:3": 141,
+      "preRequisites:11": [
+        142,
+        146,
+        148,
+        149,
+        150,
+        133,
+        151
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:part",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Elite",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:part",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "142:10": {
+      "questID:3": 142,
+      "preRequisites:11": [
+        143,
+        147
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:part",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "DU",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:part",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "143:10": {
+      "questID:3": 143,
+      "preRequisites:11": [
+        144,
+        153
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:part",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Advanced",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:part",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "144:10": {
+      "questID:3": 144,
+      "preRequisites:11": [
+        145
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:part",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Basic",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:part",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "145:10": {
+      "questID:3": 145,
+      "preRequisites:11": [
+        22
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:materials",
+            "Count:3": 1,
+            "Damage:2": 10,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Slimy",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:materials",
+              "Count:3": 1,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "146:10": {
+      "questID:3": 146,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:crystallizer_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Crystalizer 2",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:crystallizer_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "147:10": {
+      "questID:3": 147,
+      "preRequisites:11": [
+        144
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:isotope_separator_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Isotope Separator",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:isotope_separator_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "148:10": {
+      "questID:3": 148,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:rock_crusher_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Rock Crusher",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:rock_crusher_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "149:10": {
+      "questID:3": 149,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:dissolver_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Fluid Enricher",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:dissolver_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "150:10": {
+      "questID:3": 150,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:chemical_reactor_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Chemical Reactor",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:chemical_reactor_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "151:10": {
+      "questID:3": 151,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:melter_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Melter 2",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:melter_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "152:10": {
+      "questID:3": 152,
+      "preRequisites:11": [
+        144
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:fuel_reprocessor_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Fuel Reprocessor",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:fuel_reprocessor_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "153:10": {
+      "questID:3": 153,
+      "preRequisites:11": [
+        144
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:alloy_furnace_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Alloy Furnace",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:alloy_furnace_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "154:10": {
+      "questID:3": 154,
+      "preRequisites:11": [
+        144
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:fission_controller_new_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Fission",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:fission_controller_new_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "nuclearcraft:fission_block",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "nuclearcraft:cell_block",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "155:10": {
+      "questID:3": 155,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:quartz_vibrant_glass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Antimatter Manipulation",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "modularmachinery:blockcontroller",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "modularmachinery:blockcasing",
+              "Count:3": 18,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "netherex:quartz_fence",
+              "Count:3": 12,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "modularmachinery:blockoutputbus",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "modularmachinery:blockinputbus",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "modularmachinery:blockenergyinputhatch",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "thebetweenlands:polished_dentrothyst",
+              "Count:3": 17,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "7:10": {
+              "id:8": "appliedenergistics2:quartz_vibrant_glass",
+              "Count:3": 7,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "8:10": {
+              "id:8": "thebetweenlands:green_middle_gem_block",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "9:10": {
+              "id:8": "advancedrocketry:warpcore",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "10:10": {
+              "id:8": "modularmachinery:blockfluidinputhatch",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "11:10": {
+              "id:8": "modularmachinery:blockcasing",
+              "Count:3": 4,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "156:10": {
+      "questID:3": 156,
+      "preRequisites:11": [
+        158,
+        27
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:inscriber",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Inscriber",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:inscriber",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "157:10": {
+      "questID:3": 157,
+      "preRequisites:11": [
+        156
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "chisel:futura",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Easy Mode Storage",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:controller",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:drive",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "appliedenergistics2:part",
+              "Count:3": 1,
+              "Damage:2": 380,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "158:10": {
+      "questID:3": 158,
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:material",
+            "Count:3": 1,
+            "Damage:2": 19,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Treasure Hunt",
+          "desc:8": "Inscriber presses are needed to get started on Applied Energistics 2. Bad news: there are no magical meteors that you can find them in. Good news: the old inhabitants of Senguvis may have left some behind."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 13,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 14,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 15,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 19,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "159:10": {
+      "questID:3": 160,
+      "preRequisites:11": [
+        157
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:molecular_assembler",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Easy mode crafting",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:crafting_storage_1k",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:molecular_assembler",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "appliedenergistics2:interface",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "appliedenergistics2:part",
+              "Count:3": 1,
+              "Damage:2": 340,
               "OreDict:8": ""
             }
           },
@@ -7628,7 +9852,7 @@
       "lineID:3": 0,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "Exploring the Galaxy",
           "icon:10": {
             "id:8": "advancedrocketry:satelliteprimaryfunction",
@@ -7641,7 +9865,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 4
+      "order:3": 0
     },
     "1:10": {
       "quests:9": {
@@ -7662,71 +9886,92 @@
         "2:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": 72,
+          "y:3": 108,
           "id:3": 50,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": 180,
+          "y:3": 216,
           "id:3": 51,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 144,
+          "x:3": 48,
+          "y:3": 180,
           "id:3": 52,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 144,
+          "x:3": 12,
+          "y:3": 180,
           "id:3": 53,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 144,
+          "x:3": 84,
+          "y:3": 180,
           "id:3": 54,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 144,
+          "x:3": 120,
+          "y:3": 180,
           "id:3": 55,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 144,
+          "x:3": 156,
+          "y:3": 180,
           "id:3": 56,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 144,
+          "x:3": 192,
+          "y:3": 180,
           "id:3": 57,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": 108,
+          "y:3": 144,
           "id:3": 58,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 72,
+          "id:3": 119,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 108,
+          "id:3": 120,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": 108,
+          "id:3": 121,
           "sizeY:3": 24
         }
       },
       "lineID:3": 1,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "Grounded",
           "icon:10": {
             "id:8": "minecraft:grass",
@@ -7739,7 +9984,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 1
+      "order:3": 2
     },
     "2:10": {
       "quests:9": {
@@ -7915,7 +10160,7 @@
       "lineID:3": 2,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "Tool Improvement",
           "icon:10": {
             "id:8": "minecraft:diamond_pickaxe",
@@ -7928,84 +10173,84 @@
           "desc:8": "Climbing the ladder of tool materials"
         }
       },
-      "order:3": 0
+      "order:3": 1
     },
     "3:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
           "x:3": 108,
-          "y:3": -156,
+          "y:3": -84,
           "id:3": 59,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": -120,
+          "x:3": 132,
+          "y:3": -48,
           "id:3": 60,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": -84,
+          "x:3": 96,
+          "y:3": 0,
           "id:3": 61,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
           "x:3": 144,
-          "y:3": -84,
+          "y:3": 0,
           "id:3": 62,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 0,
+          "x:3": -24,
+          "y:3": 48,
           "id:3": 63,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 48,
+          "x:3": -96,
+          "y:3": 0,
           "id:3": 64,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 84,
+          "x:3": -84,
+          "y:3": -48,
           "id:3": 65,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
           "x:3": -24,
-          "y:3": 108,
+          "y:3": -48,
           "id:3": 66,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 120,
+          "x:3": -48,
+          "y:3": 0,
           "id:3": 67,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 84,
+          "x:3": 24,
+          "y:3": -72,
           "id:3": 68,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 108,
+          "x:3": -60,
+          "y:3": 84,
           "id:3": 69,
           "sizeY:3": 24
         },
@@ -8018,148 +10263,148 @@
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": 0,
+          "x:3": -60,
+          "y:3": -84,
           "id:3": 71,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -48,
+          "x:3": -24,
+          "y:3": -108,
           "id:3": 72,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": -84,
+          "x:3": -24,
+          "y:3": 108,
           "id:3": 73,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -132,
+          "x:3": 24,
+          "y:3": -168,
           "id:3": 74,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -180,
+          "x:3": -24,
+          "y:3": -156,
           "id:3": 75,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": -120,
+          "x:3": 72,
+          "y:3": -108,
           "id:3": 76,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
           "x:3": 24,
-          "y:3": -180,
+          "y:3": -120,
           "id:3": 77,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 300,
-          "y:3": -132,
+          "x:3": 420,
+          "y:3": 12,
           "id:3": 78,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": -204,
+          "x:3": 336,
+          "y:3": -72,
           "id:3": 79,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 336,
-          "y:3": -144,
+          "x:3": 372,
+          "y:3": -36,
           "id:3": 80,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 372,
-          "y:3": -132,
+          "x:3": 408,
+          "y:3": -24,
           "id:3": 81,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 444,
-          "y:3": -204,
+          "x:3": 384,
+          "y:3": -72,
           "id:3": 82,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 408,
-          "y:3": -168,
+          "x:3": 372,
+          "y:3": -108,
           "id:3": 83,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 0,
+          "x:3": 192,
+          "y:3": 96,
           "id:3": 84,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 48,
+          "x:3": 156,
+          "y:3": 132,
           "id:3": 85,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 96,
+          "x:3": 120,
+          "y:3": 168,
           "id:3": 86,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 384,
-          "y:3": -96,
+          "x:3": 408,
+          "y:3": 48,
           "id:3": 87,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
           "x:3": 372,
-          "y:3": -60,
+          "y:3": 60,
           "id:3": 88,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": 336,
-          "y:3": -48,
+          "x:3": 192,
+          "y:3": 12,
           "id:3": 89,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 336,
-          "y:3": -96,
+          "x:3": 372,
+          "y:3": 12,
           "id:3": 90,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": -48,
+          "x:3": 240,
+          "y:3": 144,
           "id:3": 91,
           "sizeY:3": 24
         },
@@ -8173,113 +10418,127 @@
         "34:10": {
           "sizeX:3": 24,
           "x:3": 192,
-          "y:3": 0,
+          "y:3": 48,
           "id:3": 93,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": -36,
+          "x:3": 228,
+          "y:3": 60,
           "id:3": 94,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": -96,
+          "x:3": 336,
+          "y:3": -24,
           "id:3": 106,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": -132,
+          "x:3": 300,
+          "y:3": -36,
           "id:3": 107,
           "sizeY:3": 24
         },
         "38:10": {
           "sizeX:3": 24,
-          "x:3": 336,
-          "y:3": 0,
+          "x:3": 240,
+          "y:3": -72,
           "id:3": 108,
           "sizeY:3": 24
         },
         "39:10": {
           "sizeX:3": 24,
-          "x:3": 372,
-          "y:3": 0,
+          "x:3": 192,
+          "y:3": -24,
           "id:3": 109,
           "sizeY:3": 24
         },
         "40:10": {
           "sizeX:3": 24,
-          "x:3": 408,
-          "y:3": 0,
+          "x:3": 192,
+          "y:3": -72,
           "id:3": 110,
           "sizeY:3": 24
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 444,
-          "y:3": 0,
+          "x:3": 192,
+          "y:3": -120,
           "id:3": 111,
           "sizeY:3": 24
         },
         "42:10": {
           "sizeX:3": 24,
-          "x:3": 480,
-          "y:3": 0,
+          "x:3": 240,
+          "y:3": -168,
           "id:3": 112,
           "sizeY:3": 24
         },
         "43:10": {
           "sizeX:3": 24,
-          "x:3": 408,
-          "y:3": 36,
+          "x:3": 240,
+          "y:3": -120,
           "id:3": 113,
           "sizeY:3": 24
         },
         "44:10": {
           "sizeX:3": 24,
-          "x:3": 408,
-          "y:3": 72,
+          "x:3": 288,
+          "y:3": -120,
           "id:3": 114,
           "sizeY:3": 24
         },
         "45:10": {
           "sizeX:3": 24,
-          "x:3": 336,
-          "y:3": 36,
+          "x:3": 288,
+          "y:3": -72,
           "id:3": 115,
           "sizeY:3": 24
         },
         "46:10": {
           "sizeX:3": 24,
-          "x:3": 372,
-          "y:3": 72,
+          "x:3": 336,
+          "y:3": -120,
           "id:3": 116,
           "sizeY:3": 24
         },
         "47:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": -48,
+          "x:3": 288,
+          "y:3": 144,
           "id:3": 117,
           "sizeY:3": 24
         },
         "48:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 0,
+          "x:3": 276,
+          "y:3": 180,
           "id:3": 118,
+          "sizeY:3": 24
+        },
+        "49:10": {
+          "sizeX:3": 24,
+          "x:3": 204,
+          "y:3": 180,
+          "id:3": 122,
+          "sizeY:3": 24
+        },
+        "50:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": -48,
+          "id:3": 123,
           "sizeY:3": 24
         }
       },
       "lineID:3": 3,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "Moon Landing(s)",
           "icon:10": {
             "id:8": "advancedrocketry:rocketmotor",
@@ -8292,22 +10551,169 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 2
+      "order:3": 3
     },
     "4:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -120,
-          "y:3": -84,
+          "x:3": -72,
+          "y:3": -72,
           "id:3": 95,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": -120,
+          "id:3": 139,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 24,
+          "id:3": 140,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -168,
+          "id:3": 141,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": -72,
+          "id:3": 142,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -252,
+          "y:3": -168,
+          "id:3": 143,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -288,
+          "y:3": -72,
+          "id:3": 144,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -324,
+          "y:3": -72,
+          "id:3": 145,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": -108,
+          "id:3": 146,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -252,
+          "y:3": 24,
+          "id:3": 147,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": -36,
+          "id:3": 148,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": -144,
+          "id:3": 149,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": 0,
+          "id:3": 150,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": -192,
+          "id:3": 151,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": 48,
+          "id:3": 152,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -288,
+          "y:3": -168,
+          "id:3": 153,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -216,
+          "y:3": 36,
+          "id:3": 154,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": -168,
+          "id:3": 155,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": -24,
+          "id:3": 156,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -24,
+          "id:3": 157,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": 24,
+          "id:3": 158,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": -24,
+          "id:3": 160,
           "sizeY:3": 24
         }
       },
       "lineID:3": 4,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "name:8": "Around the Sun",
           "icon:10": {
             "id:8": "advancedrocketry:warpcore",
@@ -8320,7 +10726,133 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 3
+      "order:3": 5
+    },
+    "5:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -108,
+          "id:3": 124,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -36,
+          "id:3": 125,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 36,
+          "id:3": 126,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 108,
+          "id:3": 127,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -72,
+          "id:3": 128,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -72,
+          "id:3": 129,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -72,
+          "id:3": 130,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": -72,
+          "id:3": 131,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -228,
+          "y:3": -72,
+          "id:3": 132,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": 0,
+          "id:3": 133,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 0,
+          "id:3": 134,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": 0,
+          "id:3": 135,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": 72,
+          "id:3": 136,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 72,
+          "id:3": 137,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 144,
+          "id:3": 138,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 5,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "name:8": "Asteroid Mining",
+          "icon:10": {
+            "id:8": "advancedrocketry:asteroidchip",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Descriptio"
+        }
+      },
+      "order:3": 4
     }
   },
   "questSettings:10": {
@@ -8330,7 +10862,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
       "party_enable:1": 1,
