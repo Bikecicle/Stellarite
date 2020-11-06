@@ -1806,6 +1806,7 @@ extracells:pattern.fluid:0, ME Fluid Pattern: Stagnant Water
 extracells:pattern.fluid:0, ME Fluid Pattern: Tar
 extracells:pattern.fluid:0, ME Fluid Pattern: Rubber
 extracells:pattern.fluid:0, ME Fluid Pattern: Fog
+extracells:pattern.fluid:0, ME Fluid Pattern: Shallowbreath
 extracells:pattern.fluid:0, ME Fluid Pattern: Oxygen
 extracells:pattern.fluid:0, ME Fluid Pattern: Hydrogen
 extracells:pattern.fluid:0, ME Fluid Pattern: Deuterium
@@ -2195,6 +2196,10 @@ extracells:pattern.fluid:0, ME Fluid Pattern: Molten Pewter
 extracells:pattern.fluid:0, ME Fluid Pattern: Molten NiAl
 extracells:pattern.fluid:0, ME Fluid Pattern: Molten Inconel
 extracells:pattern.fluid:0, ME Fluid Pattern: Molten Zircaloy
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Cerulean
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Moonstone
+extracells:pattern.fluid:0, ME Fluid Pattern: Moonwater
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Aurorian Steel
 extracells:pattern.fluid:0, ME Fluid Pattern: Plant Oil
 extracells:pattern.fluid:0, ME Fluid Pattern: Biodiesel
 extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Concrete
@@ -2202,9 +2207,6 @@ extracells:pattern.fluid:0, ME Fluid Pattern: Miasma
 extracells:pattern.fluid:0, ME Fluid Pattern: Dark Water
 extracells:pattern.fluid:0, ME Fluid Pattern: Rocket Fuel
 extracells:pattern.fluid:0, ME Fluid Pattern: Enriched Lava
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Cerulean
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Moonstone
-extracells:pattern.fluid:0, ME Fluid Pattern: Moonwater
 extracells:pattern.fluid:0, ME Fluid Pattern: Seared Stone
 extracells:pattern.fluid:0, ME Fluid Pattern: Molten Obsidian
 extracells:pattern.fluid:0, ME Fluid Pattern: Molten Clay
@@ -4152,7 +4154,7 @@ advancedrocketry:spaceelevatorcontroller, Space Elevator
 advancedrocketry:beacon, Beacon
 advancedrocketry:planks, Lightwood planks
 advancedrocketry:thermitetorch, Thermite Torch
-advancedrocketry:wirelesstransciever, Wireless Transciever
+advancedrocketry:wirelesstransciever, Wireless Transceiver
 advancedrocketry:blockpump, Fluid Pump
 advancedrocketry:centrifuge, Centrifuge
 advancedrocketry:basalt, Basalt
@@ -6579,183 +6581,6 @@ chisel:chisel_iron, Chisel
 chisel:chisel_diamond, Diamond Chisel
 chisel:chisel_hitech, iChisel
 chisel:offsettool, Ender Offset Wand
-theaurorian:absorptionorb, Orb of Absorption
-theaurorian:darkamulet, Dark Amulet
-theaurorian:keeperamulet, Dungeon Keeper Amulet
-theaurorian:aurorianbacon, Aurorian Bacon
-theaurorian:auroriancoal, Aurorian Coal
-theaurorian:aurorianiteaxe, Aurorianite Axe
-theaurorian:aurorianitepickaxe, Aurorianite Pickaxe
-theaurorian:aurorianitesword, Aurorianite Sword
-theaurorian:aurorianpork, Aurorian Pork
-theaurorian:aurorianporkcooked, Cooked Aurorian Pork
-theaurorian:aurorianslimeball, Aurorian Slimeball
-theaurorian:aurorianslimeboots, Aurorian Slime Boots
-theaurorian:aurorianstoneaxe, Aurorian Stone Axe
-theaurorian:aurorianstonehoe, Aurorian Stone Hoe
-theaurorian:aurorianstonepickaxe, Aurorian Stone Pickaxe
-theaurorian:aurorianstoneshovel, Aurorian Stone Shovel
-theaurorian:aurorianstonesickle, Aurorian Stone Sickle
-theaurorian:aurorianstonesword, Aurorian Stone Sword
-theaurorian:bepsi, Bepsi
-theaurorian:ceruleanboots, Cerulean Boots
-theaurorian:ceruleanchestplate, Cerulean Chestplate
-theaurorian:ceruleanhelmet, Cerulean Helmet
-theaurorian:ceruleanleggings, Cerulean Leggings
-theaurorian:ceruleanarrow, Cerulean Arrow
-theaurorian:ceruleanbucket, Cerulean Bucket
-theaurorian:ceruleanshield, Cerulean Shield
-theaurorian:crystal, Crystal
-theaurorian:crystallinepickaxe, Crystalline Pickaxe
-theaurorian:crystallineshield, Crystalline Shield
-theaurorian:crystallinesprite, item.theaurorian.crystallinesprite.name
-theaurorian:crystallinesword, Crystalline Sword
-theaurorian:cup, Cup
-theaurorian:debugger, Debugger
-theaurorian:aurorianiteingot, Aurorianite Ingot
-theaurorian:auroriansteel, Aurorian Steel
-theaurorian:ceruleaningot, Cerulean Ingot
-theaurorian:crystallineingot, Crystalline Ingot
-theaurorian:moonstoneingot, Moonstone Ingot
-theaurorian:umbraingot, Umbra Ingot
-theaurorian:darkstonekey, Darkstone Key
-theaurorian:moontemplekey, Moontemple Key
-theaurorian:moontemplecellkey, Moontemple Cell Key
-theaurorian:runestonekey, Runestone Key
-theaurorian:runestonelootkey, Runestone Loot Key
-theaurorian:knightboots, Knight Boots
-theaurorian:knightchestplate, Knight Chestplate
-theaurorian:knighthelmet, Knight Helmet
-theaurorian:knightleggings, Knight Leggings
-theaurorian:lavender, Lavender
-theaurorian:livingdiviningrod, Living Divining Rod
-theaurorian:locator, Dungeon Locator
-theaurorian:lockpicks, Lockpicks
-theaurorian:moonshield, Moon Shield
-theaurorian:moonstoneaxe, Moonstone Axe
-theaurorian:moonstonehoe, Moonstone Hoe
-theaurorian:moonstonepickaxe, Moonstone Pickaxe
-theaurorian:moonstoneshovel, Moonstone Shovel
-theaurorian:moonstonesickle, Moonstone Sickle
-theaurorian:moonstonesword, Moonstone Sword
-theaurorian:moontemplecellkeyfragment, Moontemple Cell Key Fragment
-theaurorian:ceruleannugget, Cerulean Nugget
-theaurorian:auroriancoalnugget, Aurorian Coal Nugget
-theaurorian:moonstonenugget, Moonstone Nugget
-theaurorian:plantfiber, Plant Fiber
-theaurorian:scrapaurorianite, Aurorianite Scrap
-theaurorian:scrapcrystalline, Crystalline Scrap
-theaurorian:scrapumbra, Umbra Scrap
-theaurorian:lavenderseeds, Lavender Seeds
-theaurorian:silentwoodaxe, Silentwood Axe
-theaurorian:silentwoodbow, Silentwood Bow
-theaurorian:silentwoodhoe, Silentwood Hoe
-theaurorian:silentwoodpickaxe, Silentwood Pickaxe
-theaurorian:silentwoodshovel, Silentwood Shovel
-theaurorian:silentwoodsickle, Silentwood Sickle
-theaurorian:silentwoodstick, Silentwood Stick
-theaurorian:silentwoodsword, Silentwood Sword
-theaurorian:silkberry, Silkberry
-theaurorian:silkberryrasin, Silkberry Rasin
-theaurorian:silkshroomstew, Silkshroom Stew
-theaurorian:spikedchestplate, Spiked Chestplate
-theaurorian:stickyspiker, Sticky Spiker
-theaurorian:strangemeat, Strange Meat
-theaurorian:tealavender, Lavender Tea
-theaurorian:teapetunia, Petunia Tea
-theaurorian:teaseedy, Lavender Seed Tea
-theaurorian:teasilkberry, Silkberry Tea
-theaurorian:umbrapickaxe, Umbra Pickaxe
-theaurorian:umbrashield, Umbra Shield
-theaurorian:umbrasword, Umbra Sword
-theaurorian:auroriancobblestone, Aurorian Cobblestone
-theaurorian:auroriancobblestonestairs, Aurorian Cobblestone Stairs
-theaurorian:auroriandirt, Aurorian Dirt
-theaurorian:aurorianfarmtile, Aurorian Farm Tile
-theaurorian:aurorianfurnacechimney, Aurorian Furnace Chimney
-theaurorian:aurorianfurnace, Aurorian Furnace
-theaurorian:aurorianfurnacelit, tile.theaurorian.aurorianfurnacelit.name
-theaurorian:auroriangrasslight, Light Aurorian Grass
-theaurorian:auroriangrass, Aurorian Grass
-theaurorian:aurorianportal, tile.theaurorian.aurorianportal.name
-theaurorian:aurorianportalframebricks, Aurorian Portal Frame
-theaurorian:aurorianstone, Aurorian Stone
-theaurorian:aurorianstonebrick, Aurorian Stone Brick
-theaurorian:aurorianstonestairs, Aurorian Stone Brick Stairs
-theaurorian:bossspawnerkeeper, Runestone Dungeon Keeper Boss Spawner
-theaurorian:bossspawnermoonqueen, Moon Queen Boss Spawner
-theaurorian:darkstonebricks, Darkstone Bricks
-theaurorian:darkstonefancy, Darkstone Fancy
-theaurorian:darkstonegate, Darkstone Gate
-theaurorian:darkstonegatekeyhole, Darkstone Gate Keyhole
-theaurorian:darkstonelamp, Darkstone Lamp
-theaurorian:darkstonelayers, Darkstone Layers
-theaurorian:darkstonestairs, Darkstone Stairs
-theaurorian:moontemplebricks, Moon Temple Bricks
-theaurorian:moontemplebars, Moon Temple Bars
-theaurorian:moontemplegate, Moon Temple Gate
-theaurorian:moontemplecellgate, Moon Temple Cell Gate
-theaurorian:moontemplegatekeyhole, Moon Temple Gate Keyhole
-theaurorian:moontemplecellgatekeyhole, Moon Temple Cell Gate Keyhole
-theaurorian:moontemplelamp, Moon Temple Lamp
-theaurorian:moontemplebrickssmooth, Smooth Moon Temple Bricks
-theaurorian:moontemplestairs, Moon Temple Stairs
-theaurorian:runestone, Runestone
-theaurorian:runestonebars, Runestone Bars
-theaurorian:runestonegate, Runestone Gate
-theaurorian:runestonegatekeyhole, Runestone Gate Keyhole
-theaurorian:runestonelootgatekeyhole, Runestone Loot Gate Keyhole
-theaurorian:runestonelootgate, Runestone Loot Gate
-theaurorian:runestonelamp, Runestone Lamp
-theaurorian:runestonesmooth, Smooth Runestone
-theaurorian:runestonestairs, Runestone Stairs
-theaurorian:tamoltencerulean, tile.tamoltencerulean.name
-theaurorian:tamoltenmoonstone, tile.tamoltenmoonstone.name
-theaurorian:tamoonwater, Moonwater
-theaurorian:aurorianglass, Aurorian Glass
-theaurorian:moonglass, Moon Glass
-theaurorian:aurorianglasspane, Aurorian Glass Pane
-theaurorian:moonglasspane, Moon Glass Pane
-theaurorian:ceruleanblock, Cerulean Block
-theaurorian:auroriancoalblock, Aurorian Coal Block
-theaurorian:moonstoneblock, Moonstone Block
-theaurorian:moongem, Moon Gem
-theaurorian:moonsand, Moon Sand
-theaurorian:mushroom, Indigo Mushroom
-theaurorian:mushroomcrystal, Mushroom Crystal
-theaurorian:mushroomsmall, Indigo Mushroom
-theaurorian:mushroomstem, Indigo Mushroom Stem
-theaurorian:mysticalbarrier, Mystical Barrier
-theaurorian:auroriancoalore, Aurorian Coal Ore
-theaurorian:ceruleanore, Cerulean Ore
-theaurorian:geodeore, Geode Ore
-theaurorian:moonstoneore, Moonstone Ore
-theaurorian:aurorianperidotite, Aurorian Peridotite
-theaurorian:aurorianperidotitesmooth, Smooth Aurorian Peridotite
-theaurorian:lavenderplant, Lavender Plant
-theaurorian:lavendercrop, tile.theaurorian.lavendercrop.name
-theaurorian:petuniaplant, Petunia Plant
-theaurorian:silentwoodsapling, Silentwood Sapling
-theaurorian:silkberryplant, Silkberry Plant
-theaurorian:silkberrycrop, tile.theaurorian.silkberrycrop.name
-theaurorian:auroriantallgrass, Aurorian Tall Grass
-theaurorian:auroriantallgrasslight, Light Aurorian Tall Grass
-theaurorian:silentwoodladder, Silentwood Ladder
-theaurorian:silentwoodleaves, Silentwood Leaves
-theaurorian:silentwoodlog, Silentwood Log
-theaurorian:silentwoodplanks, Silentwood Planks
-theaurorian:silentwoodstairs, Silentwood Stairs
-theaurorian:silentwoodtorch, Silentwood Torch
-theaurorian:silentwoodcraftingtable, Silentwood Crafting Table
-theaurorian:umbrastone, Umbra Stone
-theaurorian:umbrastonecracked, Cracked Umbra Stone
-theaurorian:umbrastonerooftiles, Umbra Stone Roof Tiles
-theaurorian:umbrastoneroofstairs, Umbra Stone Roof Tiles Stairs
-theaurorian:urn, Urn
-theaurorian:weepingwillowleaves, Weeping Willow Leaves
-theaurorian:weepingwillowlog, Weeping Willow Log
-theaurorian:weepingwillowplanks, Weeping Willow Planks
-theaurorian:weepingwillowsapling, Weeping Willow Sapling
 toolprogression:magic_mushroom, Magic™ Mushroom
 tconstruct:book, Materials and You
 tconstruct:soil:0, Grout
@@ -6891,39 +6716,35 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Chisel Head Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Binding Pattern
 tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Fletching Pattern
 tconstruct:pattern:0, Kama Head Pattern
-tconstruct:shard:0, Cerulean Shard
-tconstruct:shard:0, Moonstone Shard
-tconstruct:shard:0, Silentwood Shard
-tconstruct:shard:0, Aurorian Stone Shard
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Chisel Head Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -6997,10 +6818,11 @@ tconstruct:shard:0, Uranium Shard
 tconstruct:shard:0, Magnesium Shard
 tconstruct:shard:0, Chocolate Shard
 tconstruct:shard:0, Treated Wood Shard
-tconstruct:sharpening_kit:0, Cerulean Sharpening Kit
-tconstruct:sharpening_kit:0, Moonstone Sharpening Kit
-tconstruct:sharpening_kit:0, Silentwood Sharpening Kit
-tconstruct:sharpening_kit:0, Aurorian Stone Sharpening Kit
+tconstruct:shard:0, Cerulean Shard
+tconstruct:shard:0, Moonstone Shard
+tconstruct:shard:0, Aurorian Steel Shard
+tconstruct:shard:0, Silentwood Shard
+tconstruct:shard:0, Aurorian Stone Shard
 tconstruct:sharpening_kit:0, Wooden Sharpening Kit
 tconstruct:sharpening_kit:0, Stone Sharpening Kit
 tconstruct:sharpening_kit:0, Flint Sharpening Kit
@@ -7074,10 +6896,11 @@ tconstruct:sharpening_kit:0, Uranium Sharpening Kit
 tconstruct:sharpening_kit:0, Magnesium Sharpening Kit
 tconstruct:sharpening_kit:0, Chocolate Sharpening Kit
 tconstruct:sharpening_kit:0, Treated Wood Sharpening Kit
-tconstruct:pick_head:0, Cerulean Pickaxe Head
-tconstruct:pick_head:0, Moonstone Pickaxe Head
-tconstruct:pick_head:0, Silentwood Pickaxe Head
-tconstruct:pick_head:0, Aurorian Stone Pickaxe Head
+tconstruct:sharpening_kit:0, Cerulean Sharpening Kit
+tconstruct:sharpening_kit:0, Moonstone Sharpening Kit
+tconstruct:sharpening_kit:0, Aurorian Steel Sharpening Kit
+tconstruct:sharpening_kit:0, Silentwood Sharpening Kit
+tconstruct:sharpening_kit:0, Aurorian Stone Sharpening Kit
 tconstruct:pick_head:0, Wooden Pickaxe Head
 tconstruct:pick_head:0, Stone Pickaxe Head
 tconstruct:pick_head:0, Flint Pickaxe Head
@@ -7151,10 +6974,11 @@ tconstruct:pick_head:0, Uranium Pickaxe Head
 tconstruct:pick_head:0, Magnesium Pickaxe Head
 tconstruct:pick_head:0, Chocolate Pickaxe Head
 tconstruct:pick_head:0, Treated Wood Pickaxe Head
-tconstruct:shovel_head:0, Cerulean Shovel Head
-tconstruct:shovel_head:0, Moonstone Shovel Head
-tconstruct:shovel_head:0, Silentwood Shovel Head
-tconstruct:shovel_head:0, Aurorian Stone Shovel Head
+tconstruct:pick_head:0, Cerulean Pickaxe Head
+tconstruct:pick_head:0, Moonstone Pickaxe Head
+tconstruct:pick_head:0, Aurorian Steel Pickaxe Head
+tconstruct:pick_head:0, Silentwood Pickaxe Head
+tconstruct:pick_head:0, Aurorian Stone Pickaxe Head
 tconstruct:shovel_head:0, Wooden Shovel Head
 tconstruct:shovel_head:0, Stone Shovel Head
 tconstruct:shovel_head:0, Flint Shovel Head
@@ -7228,10 +7052,11 @@ tconstruct:shovel_head:0, Uranium Shovel Head
 tconstruct:shovel_head:0, Magnesium Shovel Head
 tconstruct:shovel_head:0, Chocolate Shovel Head
 tconstruct:shovel_head:0, Treated Wood Shovel Head
-tconstruct:axe_head:0, Cerulean Axe Head
-tconstruct:axe_head:0, Moonstone Axe Head
-tconstruct:axe_head:0, Silentwood Axe Head
-tconstruct:axe_head:0, Aurorian Stone Axe Head
+tconstruct:shovel_head:0, Cerulean Shovel Head
+tconstruct:shovel_head:0, Moonstone Shovel Head
+tconstruct:shovel_head:0, Aurorian Steel Shovel Head
+tconstruct:shovel_head:0, Silentwood Shovel Head
+tconstruct:shovel_head:0, Aurorian Stone Shovel Head
 tconstruct:axe_head:0, Wooden Axe Head
 tconstruct:axe_head:0, Stone Axe Head
 tconstruct:axe_head:0, Flint Axe Head
@@ -7305,10 +7130,11 @@ tconstruct:axe_head:0, Uranium Axe Head
 tconstruct:axe_head:0, Magnesium Axe Head
 tconstruct:axe_head:0, Chocolate Axe Head
 tconstruct:axe_head:0, Treated Wood Axe Head
-tconstruct:broad_axe_head:0, Cerulean Broad Axe Head
-tconstruct:broad_axe_head:0, Moonstone Broad Axe Head
-tconstruct:broad_axe_head:0, Silentwood Broad Axe Head
-tconstruct:broad_axe_head:0, Aurorian Stone Broad Axe Head
+tconstruct:axe_head:0, Cerulean Axe Head
+tconstruct:axe_head:0, Moonstone Axe Head
+tconstruct:axe_head:0, Aurorian Steel Axe Head
+tconstruct:axe_head:0, Silentwood Axe Head
+tconstruct:axe_head:0, Aurorian Stone Axe Head
 tconstruct:broad_axe_head:0, Wooden Broad Axe Head
 tconstruct:broad_axe_head:0, Stone Broad Axe Head
 tconstruct:broad_axe_head:0, Flint Broad Axe Head
@@ -7382,10 +7208,11 @@ tconstruct:broad_axe_head:0, Uranium Broad Axe Head
 tconstruct:broad_axe_head:0, Magnesium Broad Axe Head
 tconstruct:broad_axe_head:0, Chocolate Broad Axe Head
 tconstruct:broad_axe_head:0, Treated Wood Broad Axe Head
-tconstruct:sword_blade:0, Cerulean Sword Blade
-tconstruct:sword_blade:0, Moonstone Sword Blade
-tconstruct:sword_blade:0, Silentwood Sword Blade
-tconstruct:sword_blade:0, Aurorian Stone Sword Blade
+tconstruct:broad_axe_head:0, Cerulean Broad Axe Head
+tconstruct:broad_axe_head:0, Moonstone Broad Axe Head
+tconstruct:broad_axe_head:0, Aurorian Steel Broad Axe Head
+tconstruct:broad_axe_head:0, Silentwood Broad Axe Head
+tconstruct:broad_axe_head:0, Aurorian Stone Broad Axe Head
 tconstruct:sword_blade:0, Wooden Sword Blade
 tconstruct:sword_blade:0, Stone Sword Blade
 tconstruct:sword_blade:0, Flint Sword Blade
@@ -7459,10 +7286,11 @@ tconstruct:sword_blade:0, Uranium Sword Blade
 tconstruct:sword_blade:0, Magnesium Sword Blade
 tconstruct:sword_blade:0, Chocolate Sword Blade
 tconstruct:sword_blade:0, Treated Wood Sword Blade
-tconstruct:large_sword_blade:0, Cerulean Large Sword Blade
-tconstruct:large_sword_blade:0, Moonstone Large Sword Blade
-tconstruct:large_sword_blade:0, Silentwood Large Sword Blade
-tconstruct:large_sword_blade:0, Aurorian Stone Large Sword Blade
+tconstruct:sword_blade:0, Cerulean Sword Blade
+tconstruct:sword_blade:0, Moonstone Sword Blade
+tconstruct:sword_blade:0, Aurorian Steel Sword Blade
+tconstruct:sword_blade:0, Silentwood Sword Blade
+tconstruct:sword_blade:0, Aurorian Stone Sword Blade
 tconstruct:large_sword_blade:0, Wooden Large Sword Blade
 tconstruct:large_sword_blade:0, Stone Large Sword Blade
 tconstruct:large_sword_blade:0, Flint Large Sword Blade
@@ -7536,10 +7364,11 @@ tconstruct:large_sword_blade:0, Uranium Large Sword Blade
 tconstruct:large_sword_blade:0, Magnesium Large Sword Blade
 tconstruct:large_sword_blade:0, Chocolate Large Sword Blade
 tconstruct:large_sword_blade:0, Treated Wood Large Sword Blade
-tconstruct:hammer_head:0, Cerulean Hammer Head
-tconstruct:hammer_head:0, Moonstone Hammer Head
-tconstruct:hammer_head:0, Silentwood Hammer Head
-tconstruct:hammer_head:0, Aurorian Stone Hammer Head
+tconstruct:large_sword_blade:0, Cerulean Large Sword Blade
+tconstruct:large_sword_blade:0, Moonstone Large Sword Blade
+tconstruct:large_sword_blade:0, Aurorian Steel Large Sword Blade
+tconstruct:large_sword_blade:0, Silentwood Large Sword Blade
+tconstruct:large_sword_blade:0, Aurorian Stone Large Sword Blade
 tconstruct:hammer_head:0, Wooden Hammer Head
 tconstruct:hammer_head:0, Stone Hammer Head
 tconstruct:hammer_head:0, Flint Hammer Head
@@ -7613,10 +7442,11 @@ tconstruct:hammer_head:0, Uranium Hammer Head
 tconstruct:hammer_head:0, Magnesium Hammer Head
 tconstruct:hammer_head:0, Chocolate Hammer Head
 tconstruct:hammer_head:0, Treated Wood Hammer Head
-tconstruct:excavator_head:0, Cerulean Excavator Head
-tconstruct:excavator_head:0, Moonstone Excavator Head
-tconstruct:excavator_head:0, Silentwood Excavator Head
-tconstruct:excavator_head:0, Aurorian Stone Excavator Head
+tconstruct:hammer_head:0, Cerulean Hammer Head
+tconstruct:hammer_head:0, Moonstone Hammer Head
+tconstruct:hammer_head:0, Aurorian Steel Hammer Head
+tconstruct:hammer_head:0, Silentwood Hammer Head
+tconstruct:hammer_head:0, Aurorian Stone Hammer Head
 tconstruct:excavator_head:0, Wooden Excavator Head
 tconstruct:excavator_head:0, Stone Excavator Head
 tconstruct:excavator_head:0, Flint Excavator Head
@@ -7690,10 +7520,11 @@ tconstruct:excavator_head:0, Uranium Excavator Head
 tconstruct:excavator_head:0, Magnesium Excavator Head
 tconstruct:excavator_head:0, Chocolate Excavator Head
 tconstruct:excavator_head:0, Treated Wood Excavator Head
-tconstruct:kama_head:0, Cerulean Kama Head
-tconstruct:kama_head:0, Moonstone Kama Head
-tconstruct:kama_head:0, Silentwood Kama Head
-tconstruct:kama_head:0, Aurorian Stone Kama Head
+tconstruct:excavator_head:0, Cerulean Excavator Head
+tconstruct:excavator_head:0, Moonstone Excavator Head
+tconstruct:excavator_head:0, Aurorian Steel Excavator Head
+tconstruct:excavator_head:0, Silentwood Excavator Head
+tconstruct:excavator_head:0, Aurorian Stone Excavator Head
 tconstruct:kama_head:0, Wooden Kama Head
 tconstruct:kama_head:0, Stone Kama Head
 tconstruct:kama_head:0, Flint Kama Head
@@ -7767,10 +7598,11 @@ tconstruct:kama_head:0, Uranium Kama Head
 tconstruct:kama_head:0, Magnesium Kama Head
 tconstruct:kama_head:0, Chocolate Kama Head
 tconstruct:kama_head:0, Treated Wood Kama Head
-tconstruct:scythe_head:0, Cerulean Scythe Head
-tconstruct:scythe_head:0, Moonstone Scythe Head
-tconstruct:scythe_head:0, Silentwood Scythe Head
-tconstruct:scythe_head:0, Aurorian Stone Scythe Head
+tconstruct:kama_head:0, Cerulean Kama Head
+tconstruct:kama_head:0, Moonstone Kama Head
+tconstruct:kama_head:0, Aurorian Steel Kama Head
+tconstruct:kama_head:0, Silentwood Kama Head
+tconstruct:kama_head:0, Aurorian Stone Kama Head
 tconstruct:scythe_head:0, Wooden Scythe Head
 tconstruct:scythe_head:0, Stone Scythe Head
 tconstruct:scythe_head:0, Flint Scythe Head
@@ -7844,10 +7676,11 @@ tconstruct:scythe_head:0, Uranium Scythe Head
 tconstruct:scythe_head:0, Magnesium Scythe Head
 tconstruct:scythe_head:0, Chocolate Scythe Head
 tconstruct:scythe_head:0, Treated Wood Scythe Head
-tconstruct:pan_head:0, Cerulean Pan
-tconstruct:pan_head:0, Moonstone Pan
-tconstruct:pan_head:0, Silentwood Pan
-tconstruct:pan_head:0, Aurorian Stone Pan
+tconstruct:scythe_head:0, Cerulean Scythe Head
+tconstruct:scythe_head:0, Moonstone Scythe Head
+tconstruct:scythe_head:0, Aurorian Steel Scythe Head
+tconstruct:scythe_head:0, Silentwood Scythe Head
+tconstruct:scythe_head:0, Aurorian Stone Scythe Head
 tconstruct:pan_head:0, Wooden Pan
 tconstruct:pan_head:0, Stone Pan
 tconstruct:pan_head:0, Flint Pan
@@ -7921,10 +7754,11 @@ tconstruct:pan_head:0, Uranium Pan
 tconstruct:pan_head:0, Magnesium Pan
 tconstruct:pan_head:0, Chocolate Pan
 tconstruct:pan_head:0, Treated Wood Pan
-tconstruct:sign_head:0, Cerulean Sign Plate
-tconstruct:sign_head:0, Moonstone Sign Plate
-tconstruct:sign_head:0, Silentwood Sign Plate
-tconstruct:sign_head:0, Aurorian Stone Sign Plate
+tconstruct:pan_head:0, Cerulean Pan
+tconstruct:pan_head:0, Moonstone Pan
+tconstruct:pan_head:0, Aurorian Steel Pan
+tconstruct:pan_head:0, Silentwood Pan
+tconstruct:pan_head:0, Aurorian Stone Pan
 tconstruct:sign_head:0, Wooden Sign Plate
 tconstruct:sign_head:0, Stone Sign Plate
 tconstruct:sign_head:0, Flint Sign Plate
@@ -7998,10 +7832,11 @@ tconstruct:sign_head:0, Uranium Sign Plate
 tconstruct:sign_head:0, Magnesium Sign Plate
 tconstruct:sign_head:0, Chocolate Sign Plate
 tconstruct:sign_head:0, Treated Wood Sign Plate
-tconstruct:tool_rod:0, Cerulean Tool Rod
-tconstruct:tool_rod:0, Moonstone Tool Rod
-tconstruct:tool_rod:0, Silentwood Tool Rod
-tconstruct:tool_rod:0, Aurorian Stone Tool Rod
+tconstruct:sign_head:0, Cerulean Sign Plate
+tconstruct:sign_head:0, Moonstone Sign Plate
+tconstruct:sign_head:0, Aurorian Steel Sign Plate
+tconstruct:sign_head:0, Silentwood Sign Plate
+tconstruct:sign_head:0, Aurorian Stone Sign Plate
 tconstruct:tool_rod:0, Wooden Tool Rod
 tconstruct:tool_rod:0, Stone Tool Rod
 tconstruct:tool_rod:0, Flint Tool Rod
@@ -8069,10 +7904,11 @@ tconstruct:tool_rod:0, Uranium Tool Rod
 tconstruct:tool_rod:0, Magnesium Tool Rod
 tconstruct:tool_rod:0, Chocolate Tool Rod
 tconstruct:tool_rod:0, Treated Wood Tool Rod
-tconstruct:tough_tool_rod:0, Cerulean Tough Tool Rod
-tconstruct:tough_tool_rod:0, Moonstone Tough Tool Rod
-tconstruct:tough_tool_rod:0, Silentwood Tough Tool Rod
-tconstruct:tough_tool_rod:0, Aurorian Stone Tough Tool Rod
+tconstruct:tool_rod:0, Cerulean Tool Rod
+tconstruct:tool_rod:0, Moonstone Tool Rod
+tconstruct:tool_rod:0, Aurorian Steel Tool Rod
+tconstruct:tool_rod:0, Silentwood Tool Rod
+tconstruct:tool_rod:0, Aurorian Stone Tool Rod
 tconstruct:tough_tool_rod:0, Wooden Tough Tool Rod
 tconstruct:tough_tool_rod:0, Stone Tough Tool Rod
 tconstruct:tough_tool_rod:0, Flint Tough Tool Rod
@@ -8140,10 +7976,11 @@ tconstruct:tough_tool_rod:0, Uranium Tough Tool Rod
 tconstruct:tough_tool_rod:0, Magnesium Tough Tool Rod
 tconstruct:tough_tool_rod:0, Chocolate Tough Tool Rod
 tconstruct:tough_tool_rod:0, Treated Wood Tough Tool Rod
-tconstruct:binding:0, Cerulean Binding
-tconstruct:binding:0, Moonstone Binding
-tconstruct:binding:0, Silentwood Binding
-tconstruct:binding:0, Aurorian Stone Binding
+tconstruct:tough_tool_rod:0, Cerulean Tough Tool Rod
+tconstruct:tough_tool_rod:0, Moonstone Tough Tool Rod
+tconstruct:tough_tool_rod:0, Aurorian Steel Tough Tool Rod
+tconstruct:tough_tool_rod:0, Silentwood Tough Tool Rod
+tconstruct:tough_tool_rod:0, Aurorian Stone Tough Tool Rod
 tconstruct:binding:0, Wooden Binding
 tconstruct:binding:0, Stone Binding
 tconstruct:binding:0, Flint Binding
@@ -8210,10 +8047,11 @@ tconstruct:binding:0, Uranium Binding
 tconstruct:binding:0, Magnesium Binding
 tconstruct:binding:0, Chocolate Binding
 tconstruct:binding:0, Treated Wood Binding
-tconstruct:tough_binding:0, Cerulean Tough Binding
-tconstruct:tough_binding:0, Moonstone Tough Binding
-tconstruct:tough_binding:0, Silentwood Tough Binding
-tconstruct:tough_binding:0, Aurorian Stone Tough Binding
+tconstruct:binding:0, Cerulean Binding
+tconstruct:binding:0, Moonstone Binding
+tconstruct:binding:0, Aurorian Steel Binding
+tconstruct:binding:0, Silentwood Binding
+tconstruct:binding:0, Aurorian Stone Binding
 tconstruct:tough_binding:0, Wooden Tough Binding
 tconstruct:tough_binding:0, Stone Tough Binding
 tconstruct:tough_binding:0, Flint Tough Binding
@@ -8280,10 +8118,11 @@ tconstruct:tough_binding:0, Uranium Tough Binding
 tconstruct:tough_binding:0, Magnesium Tough Binding
 tconstruct:tough_binding:0, Chocolate Tough Binding
 tconstruct:tough_binding:0, Treated Wood Tough Binding
-tconstruct:wide_guard:0, Cerulean Wide Guard
-tconstruct:wide_guard:0, Moonstone Wide Guard
-tconstruct:wide_guard:0, Silentwood Wide Guard
-tconstruct:wide_guard:0, Aurorian Stone Wide Guard
+tconstruct:tough_binding:0, Cerulean Tough Binding
+tconstruct:tough_binding:0, Moonstone Tough Binding
+tconstruct:tough_binding:0, Aurorian Steel Tough Binding
+tconstruct:tough_binding:0, Silentwood Tough Binding
+tconstruct:tough_binding:0, Aurorian Stone Tough Binding
 tconstruct:wide_guard:0, Wooden Wide Guard
 tconstruct:wide_guard:0, Stone Wide Guard
 tconstruct:wide_guard:0, Flint Wide Guard
@@ -8350,10 +8189,11 @@ tconstruct:wide_guard:0, Uranium Wide Guard
 tconstruct:wide_guard:0, Magnesium Wide Guard
 tconstruct:wide_guard:0, Chocolate Wide Guard
 tconstruct:wide_guard:0, Treated Wood Wide Guard
-tconstruct:hand_guard:0, Cerulean Hand Guard
-tconstruct:hand_guard:0, Moonstone Hand Guard
-tconstruct:hand_guard:0, Silentwood Hand Guard
-tconstruct:hand_guard:0, Aurorian Stone Hand Guard
+tconstruct:wide_guard:0, Cerulean Wide Guard
+tconstruct:wide_guard:0, Moonstone Wide Guard
+tconstruct:wide_guard:0, Aurorian Steel Wide Guard
+tconstruct:wide_guard:0, Silentwood Wide Guard
+tconstruct:wide_guard:0, Aurorian Stone Wide Guard
 tconstruct:hand_guard:0, Wooden Hand Guard
 tconstruct:hand_guard:0, Stone Hand Guard
 tconstruct:hand_guard:0, Flint Hand Guard
@@ -8420,10 +8260,11 @@ tconstruct:hand_guard:0, Uranium Hand Guard
 tconstruct:hand_guard:0, Magnesium Hand Guard
 tconstruct:hand_guard:0, Chocolate Hand Guard
 tconstruct:hand_guard:0, Treated Wood Hand Guard
-tconstruct:cross_guard:0, Cerulean Cross Guard
-tconstruct:cross_guard:0, Moonstone Cross Guard
-tconstruct:cross_guard:0, Silentwood Cross Guard
-tconstruct:cross_guard:0, Aurorian Stone Cross Guard
+tconstruct:hand_guard:0, Cerulean Hand Guard
+tconstruct:hand_guard:0, Moonstone Hand Guard
+tconstruct:hand_guard:0, Aurorian Steel Hand Guard
+tconstruct:hand_guard:0, Silentwood Hand Guard
+tconstruct:hand_guard:0, Aurorian Stone Hand Guard
 tconstruct:cross_guard:0, Wooden Cross Guard
 tconstruct:cross_guard:0, Stone Cross Guard
 tconstruct:cross_guard:0, Flint Cross Guard
@@ -8490,10 +8331,11 @@ tconstruct:cross_guard:0, Uranium Cross Guard
 tconstruct:cross_guard:0, Magnesium Cross Guard
 tconstruct:cross_guard:0, Chocolate Cross Guard
 tconstruct:cross_guard:0, Treated Wood Cross Guard
-tconstruct:large_plate:0, Cerulean Large Plate
-tconstruct:large_plate:0, Moonstone Large Plate
-tconstruct:large_plate:0, Silentwood Large Plate
-tconstruct:large_plate:0, Aurorian Stone Large Plate
+tconstruct:cross_guard:0, Cerulean Cross Guard
+tconstruct:cross_guard:0, Moonstone Cross Guard
+tconstruct:cross_guard:0, Aurorian Steel Cross Guard
+tconstruct:cross_guard:0, Silentwood Cross Guard
+tconstruct:cross_guard:0, Aurorian Stone Cross Guard
 tconstruct:large_plate:0, Wooden Large Plate
 tconstruct:large_plate:0, Stone Large Plate
 tconstruct:large_plate:0, Flint Large Plate
@@ -8567,10 +8409,11 @@ tconstruct:large_plate:0, Uranium Large Plate
 tconstruct:large_plate:0, Magnesium Large Plate
 tconstruct:large_plate:0, Chocolate Large Plate
 tconstruct:large_plate:0, Treated Wood Large Plate
-tconstruct:knife_blade:0, Cerulean Knife Blade
-tconstruct:knife_blade:0, Moonstone Knife Blade
-tconstruct:knife_blade:0, Silentwood Knife Blade
-tconstruct:knife_blade:0, Aurorian Stone Knife Blade
+tconstruct:large_plate:0, Cerulean Large Plate
+tconstruct:large_plate:0, Moonstone Large Plate
+tconstruct:large_plate:0, Aurorian Steel Large Plate
+tconstruct:large_plate:0, Silentwood Large Plate
+tconstruct:large_plate:0, Aurorian Stone Large Plate
 tconstruct:knife_blade:0, Wooden Knife Blade
 tconstruct:knife_blade:0, Stone Knife Blade
 tconstruct:knife_blade:0, Flint Knife Blade
@@ -8636,10 +8479,11 @@ tconstruct:knife_blade:0, Uranium Knife Blade
 tconstruct:knife_blade:0, Magnesium Knife Blade
 tconstruct:knife_blade:0, Chocolate Knife Blade
 tconstruct:knife_blade:0, Treated Wood Knife Blade
-tconstruct:bow_limb:0, Cerulean Bowlimb
-tconstruct:bow_limb:0, Moonstone Bowlimb
-tconstruct:bow_limb:0, Silentwood Bowlimb
-tconstruct:bow_limb:0, Aurorian Stone Bowlimb
+tconstruct:knife_blade:0, Cerulean Knife Blade
+tconstruct:knife_blade:0, Moonstone Knife Blade
+tconstruct:knife_blade:0, Aurorian Steel Knife Blade
+tconstruct:knife_blade:0, Silentwood Knife Blade
+tconstruct:knife_blade:0, Aurorian Stone Knife Blade
 tconstruct:bow_limb:0, Wooden Bowlimb
 tconstruct:bow_limb:0, Stone Bowlimb
 tconstruct:bow_limb:0, Flint Bowlimb
@@ -8706,16 +8550,17 @@ tconstruct:bow_limb:0, Uranium Bowlimb
 tconstruct:bow_limb:0, Magnesium Bowlimb
 tconstruct:bow_limb:0, Chocolate Bowlimb
 tconstruct:bow_limb:0, Treated Wood Bowlimb
+tconstruct:bow_limb:0, Cerulean Bowlimb
+tconstruct:bow_limb:0, Moonstone Bowlimb
+tconstruct:bow_limb:0, Aurorian Steel Bowlimb
+tconstruct:bow_limb:0, Silentwood Bowlimb
+tconstruct:bow_limb:0, Aurorian Stone Bowlimb
 tconstruct:bow_string:0, String Bowstring
 tconstruct:bow_string:0, Slimevine Bowstring
 tconstruct:bow_string:0, Slimevine Bowstring
 tconstruct:bow_string:0, Vines Bowstring
 tconstruct:bow_string:0, Rubber Bowstring
 tconstruct:bow_string:0, Hemp Fiber Bowstring
-tconstruct:arrow_head:0, Cerulean Arrow Head
-tconstruct:arrow_head:0, Moonstone Arrow Head
-tconstruct:arrow_head:0, Silentwood Arrow Head
-tconstruct:arrow_head:0, Aurorian Stone Arrow Head
 tconstruct:arrow_head:0, Wooden Arrow Head
 tconstruct:arrow_head:0, Stone Arrow Head
 tconstruct:arrow_head:0, Flint Arrow Head
@@ -8781,6 +8626,11 @@ tconstruct:arrow_head:0, Uranium Arrow Head
 tconstruct:arrow_head:0, Magnesium Arrow Head
 tconstruct:arrow_head:0, Chocolate Arrow Head
 tconstruct:arrow_head:0, Treated Wood Arrow Head
+tconstruct:arrow_head:0, Cerulean Arrow Head
+tconstruct:arrow_head:0, Moonstone Arrow Head
+tconstruct:arrow_head:0, Aurorian Steel Arrow Head
+tconstruct:arrow_head:0, Silentwood Arrow Head
+tconstruct:arrow_head:0, Aurorian Stone Arrow Head
 tconstruct:arrow_shaft:0, Wooden Arrow Shaft
 tconstruct:arrow_shaft:0, Bone Arrow Shaft
 tconstruct:arrow_shaft:0, Blazerod Arrow Shaft
@@ -9022,8 +8872,6 @@ tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
-tconstruct:toolforge:0, Tool Forge
-tconstruct:toolforge:0, Tool Forge
 tconstruct:pickaxe, Pickaxe
 tconstruct:shovel, Shovel
 tconstruct:hatchet, Hatchet
@@ -9094,64 +8942,64 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Chisel Head Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Binding Cast
 tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Excavator Head Cast
 tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Chisel Head Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Large Sword Blade Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Chisel Head Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
 tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
 tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Chisel Head Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -11704,57 +11552,6 @@ appliedenergistics2:facade:0, Cable Facade - Orange Wool
 appliedenergistics2:facade:0, Cable Facade - Orange Wool
 appliedenergistics2:facade:0, Cable Facade - Wool
 appliedenergistics2:facade:0, Cable Facade - Wool
-appliedenergistics2:facade:0, Cable Facade - Aurorian Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Aurorian Dirt
-appliedenergistics2:facade:0, Cable Facade - Light Aurorian Grass
-appliedenergistics2:facade:0, Cable Facade - Aurorian Grass
-appliedenergistics2:facade:0, Cable Facade - Aurorian Portal Frame
-appliedenergistics2:facade:0, Cable Facade - Aurorian Stone
-appliedenergistics2:facade:0, Cable Facade - Aurorian Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Darkstone Bricks
-appliedenergistics2:facade:0, Cable Facade - Darkstone Fancy
-appliedenergistics2:facade:0, Cable Facade - Darkstone Gate
-appliedenergistics2:facade:0, Cable Facade - Darkstone Gate Keyhole
-appliedenergistics2:facade:0, Cable Facade - Darkstone Lamp
-appliedenergistics2:facade:0, Cable Facade - Darkstone Layers
-appliedenergistics2:facade:0, Cable Facade - Moon Temple Bricks
-appliedenergistics2:facade:0, Cable Facade - Moon Temple Gate
-appliedenergistics2:facade:0, Cable Facade - Moon Temple Cell Gate
-appliedenergistics2:facade:0, Cable Facade - Moon Temple Gate Keyhole
-appliedenergistics2:facade:0, Cable Facade - Moon Temple Cell Gate Keyhole
-appliedenergistics2:facade:0, Cable Facade - Moon Temple Lamp
-appliedenergistics2:facade:0, Cable Facade - Smooth Moon Temple Bricks
-appliedenergistics2:facade:0, Cable Facade - Runestone
-appliedenergistics2:facade:0, Cable Facade - Runestone Gate
-appliedenergistics2:facade:0, Cable Facade - Runestone Gate Keyhole
-appliedenergistics2:facade:0, Cable Facade - Runestone Loot Gate Keyhole
-appliedenergistics2:facade:0, Cable Facade - Runestone Loot Gate
-appliedenergistics2:facade:0, Cable Facade - Runestone Lamp
-appliedenergistics2:facade:0, Cable Facade - Smooth Runestone
-appliedenergistics2:facade:0, Cable Facade - Cerulean Block
-appliedenergistics2:facade:0, Cable Facade - Aurorian Coal Block
-appliedenergistics2:facade:0, Cable Facade - Moonstone Block
-appliedenergistics2:facade:0, Cable Facade - Moon Gem
-appliedenergistics2:facade:0, Cable Facade - Moon Sand
-appliedenergistics2:facade:0, Cable Facade - Indigo Mushroom
-appliedenergistics2:facade:0, Cable Facade - Mushroom Crystal
-appliedenergistics2:facade:0, Cable Facade - Indigo Mushroom Stem
-appliedenergistics2:facade:0, Cable Facade - Aurorian Coal Ore
-appliedenergistics2:facade:0, Cable Facade - Cerulean Ore
-appliedenergistics2:facade:0, Cable Facade - Geode Ore
-appliedenergistics2:facade:0, Cable Facade - Moonstone Ore
-appliedenergistics2:facade:0, Cable Facade - Aurorian Peridotite
-appliedenergistics2:facade:0, Cable Facade - Smooth Aurorian Peridotite
-appliedenergistics2:facade:0, Cable Facade - Silentwood Leaves
-appliedenergistics2:facade:0, Cable Facade - Silentwood Log
-appliedenergistics2:facade:0, Cable Facade - Silentwood Planks
-appliedenergistics2:facade:0, Cable Facade - Silentwood Crafting Table
-appliedenergistics2:facade:0, Cable Facade - Umbra Stone
-appliedenergistics2:facade:0, Cable Facade - Cracked Umbra Stone
-appliedenergistics2:facade:0, Cable Facade - Umbra Stone Roof Tiles
-appliedenergistics2:facade:0, Cable Facade - Weeping Willow Leaves
-appliedenergistics2:facade:0, Cable Facade - Weeping Willow Log
-appliedenergistics2:facade:0, Cable Facade - Weeping Willow Planks
 appliedenergistics2:facade:0, Cable Facade - Grout
 appliedenergistics2:facade:0, Cable Facade - Green Slimy Mud
 appliedenergistics2:facade:0, Cable Facade - Blue Slimy Mud
@@ -12285,6 +12082,58 @@ appliedenergistics2:facade:0, Cable Facade - Didymium Glass (Bricks)
 appliedenergistics2:facade:0, Cable Facade - Dry Waterlock
 appliedenergistics2:facade:0, Cable Facade - Wet Waterlock
 appliedenergistics2:facade:0, Cable Facade - Reinforced Metal Block
+appliedenergistics2:facade:0, Cable Facade - Aurorian Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Aurorian Dirt
+appliedenergistics2:facade:0, Cable Facade - Aurorian Grass
+appliedenergistics2:facade:0, Cable Facade - Light Aurorian Grass
+appliedenergistics2:facade:0, Cable Facade - Aurorian Portal Frame
+appliedenergistics2:facade:0, Cable Facade - Aurorian Stone
+appliedenergistics2:facade:0, Cable Facade - Aurorian Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Darkstone Bricks
+appliedenergistics2:facade:0, Cable Facade - Darkstone Fancy
+appliedenergistics2:facade:0, Cable Facade - Darkstone Gate
+appliedenergistics2:facade:0, Cable Facade - Darkstone Gate Keyhole
+appliedenergistics2:facade:0, Cable Facade - Darkstone Lamp
+appliedenergistics2:facade:0, Cable Facade - Darkstone Layers
+appliedenergistics2:facade:0, Cable Facade - Moon Temple Bricks
+appliedenergistics2:facade:0, Cable Facade - Moon Temple Gate
+appliedenergistics2:facade:0, Cable Facade - Moon Temple Cell Gate
+appliedenergistics2:facade:0, Cable Facade - Moon Temple Gate Keyhole
+appliedenergistics2:facade:0, Cable Facade - Moon Temple Cell Gate Keyhole
+appliedenergistics2:facade:0, Cable Facade - Moon Temple Lamp
+appliedenergistics2:facade:0, Cable Facade - Smooth Moon Temple Bricks
+appliedenergistics2:facade:0, Cable Facade - Runestone
+appliedenergistics2:facade:0, Cable Facade - Runestone Gate
+appliedenergistics2:facade:0, Cable Facade - Runestone Gate Keyhole
+appliedenergistics2:facade:0, Cable Facade - Runestone Loot Gate Keyhole
+appliedenergistics2:facade:0, Cable Facade - Runestone Loot Gate
+appliedenergistics2:facade:0, Cable Facade - Runestone Lamp
+appliedenergistics2:facade:0, Cable Facade - Smooth Runestone
+appliedenergistics2:facade:0, Cable Facade - Aurorian Steel Block
+appliedenergistics2:facade:0, Cable Facade - Cerulean Block
+appliedenergistics2:facade:0, Cable Facade - Aurorian Coal Block
+appliedenergistics2:facade:0, Cable Facade - Moonstone Block
+appliedenergistics2:facade:0, Cable Facade - Moon Gem
+appliedenergistics2:facade:0, Cable Facade - Moon Sand
+appliedenergistics2:facade:0, Cable Facade - Indigo Mushroom
+appliedenergistics2:facade:0, Cable Facade - Mushroom Crystal
+appliedenergistics2:facade:0, Cable Facade - Indigo Mushroom Stem
+appliedenergistics2:facade:0, Cable Facade - Aurorian Coal Ore
+appliedenergistics2:facade:0, Cable Facade - Cerulean Ore
+appliedenergistics2:facade:0, Cable Facade - Geode Ore
+appliedenergistics2:facade:0, Cable Facade - Moonstone Ore
+appliedenergistics2:facade:0, Cable Facade - Aurorian Peridotite
+appliedenergistics2:facade:0, Cable Facade - Smooth Aurorian Peridotite
+appliedenergistics2:facade:0, Cable Facade - Silentwood Leaves
+appliedenergistics2:facade:0, Cable Facade - Silentwood Log
+appliedenergistics2:facade:0, Cable Facade - Silentwood Planks
+appliedenergistics2:facade:0, Cable Facade - Silentwood Crafting Table
+appliedenergistics2:facade:0, Cable Facade - Umbra Stone
+appliedenergistics2:facade:0, Cable Facade - Cracked Umbra Stone
+appliedenergistics2:facade:0, Cable Facade - Umbra Stone Roof Tiles
+appliedenergistics2:facade:0, Cable Facade - Weeping Willow Leaves
+appliedenergistics2:facade:0, Cable Facade - Weeping Willow Log
+appliedenergistics2:facade:0, Cable Facade - Weeping Willow Planks
 appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
 appliedenergistics2:facade:0, Cable Facade - Block of Steel
 appliedenergistics2:facade:0, Cable Facade - Chunk O' Head
@@ -13381,6 +13230,9 @@ buildinggadgets:constructionpastecontainer, Paste Container
 buildinggadgets:constructionpastecontainert2, Paste Container T2
 buildinggadgets:constructionpastecontainert3, Paste Container T3
 buildinggadgets:constructionpastecontainercreative, Creative Paste Container
+cd4017be_lib:energy_supp, §dLaboratory Power Supply
+cd4017be_lib:item_supp, §dLaboratory Item Supply
+cd4017be_lib:fluid_supp, §dLaboratory Fluid Supply
 cd4017be_lib:rrwi, §4Disabled Recipe!
 cd4017be_lib:m:0, item.cd4017be.m
 compactmachines3:tunnel, Tunnel
@@ -13593,139 +13445,6 @@ emergingtechnology:circuit, Blank Circuit Board
 emergingtechnology:circuitbasic, Basic Circuit Board
 emergingtechnology:circuitadvanced, Advanced Circuit Board
 emergingtechnology:circuitsuperior, Superior Circuit Board
-erebus:erebus_food:0, Beetle Larva
-erebus:erebus_food:1, Cooked Beetle Larva
-erebus:erebus_food:2, Grasshopper Leg
-erebus:erebus_food:3, Cooked Grasshopper Leg
-erebus:erebus_food:4, Tarantula Leg
-erebus:erebus_food:5, Crispy Tarantula Leg
-erebus:erebus_food:6, Bamboo Soup
-erebus:erebus_food:7, Melonade
-erebus:erebus_food:8, Sparkly Melonade
-erebus:erebus_food:9, Larvae-on-a-Stick
-erebus:erebus_food:10, Honey Sandwich
-erebus:erebus_food:11, Dark Fruit
-erebus:erebus_food:12, Raw Titan Chop
-erebus:erebus_food:13, Cooked Titan Chop
-erebus:erebus_food:14, Swampberries
-erebus:erebus_food:15, Cabbage
-erebus:erebus_food:16, Cooked Titan Stew
-erebus:erebus_food:17, Raw Prickly Pear
-erebus:erebus_food:18, Cooked Prickly Pear
-erebus:erebus_food:19, Dark Fruit Pie
-erebus:heart_berries, Heartberries
-erebus:life_blood, Life Blood
-erebus:turnip, Turnips
-erebus:cabbage_seeds, Cabbage Seeds
-erebus:mandrake_root, Mandrake Root
-erebus:stag_heart_raw, Heart of the Stag
-erebus:stag_heart_cooked, Roasted Heart of the Stag
-erebus:smoothie:0, Green Tea Grasshopper Smoothie
-erebus:smoothie:1, Money Honey Smoothie
-erebus:smoothie:2, Nothing In The Middle Smoothie
-erebus:smoothie:3, Green Giant Smoothie
-erebus:smoothie:4, Seedy Goodness Smoothie
-erebus:smoothie:5, Givin' Me The Blues Smoothie
-erebus:smoothie:6, Hot Hot Baby Smoothie
-erebus:smoothie:7, Don't Meddle With The Nettle Smoothie
-erebus:smoothie:8, Liquid Gold Smoothie
-erebus:smoothie:9, Bryuf's Brew Smoothie
-erebus:idols:0, Mud Scarab
-erebus:idols:1, Iron Scarab
-erebus:idols:2, Gold Scarab
-erebus:idols:3, Jade Scarab
-erebus:idols:4, Spawn Mud Umbergolem
-erebus:idols:5, Spawn Iron Umbergolem
-erebus:idols:6, Spawn Gold Umbergolem
-erebus:idols:7, Spawn Jade Umbergolem
-erebus:jade_helmet, Jade Helmet
-erebus:jade_chestplate, Jade Chestplate
-erebus:jade_leggings, Jade Leggings
-erebus:jade_boots, Jade Boots
-erebus:jade_sword, Jade Sword
-erebus:jade_pickaxe, Jade Pickaxe
-erebus:jade_axe, Jade Axe
-erebus:jade_shovel, Jade Shovel
-erebus:jade_paxel, Jade Paxel
-erebus:jade_hoe, Jade Hoe
-erebus:exoskeleton_helmet, Exoskeleton Helmet
-erebus:exoskeleton_chestplate, Exoskeleton Chestplate
-erebus:exoskeleton_leggings, Exoskeleton Leggings
-erebus:exoskeleton_boots, Exoskeleton Boots
-erebus:rein_exoskeleton_helmet, Reinforced Exoskeleton Helmet
-erebus:rein_exoskeleton_chestplate, Reinforced Exoskeleton Chestplate
-erebus:rein_exoskeleton_leggings, Reinforced Exoskeleton Leggings
-erebus:rein_exoskeleton_boots, Reinforced Exoskeleton Boots
-erebus:rhino_exoskeleton_helmet, Rhino Plate Helmet
-erebus:rhino_exoskeleton_chestplate, Rhino Plate Chestplate
-erebus:rhino_exoskeleton_leggings, Rhino Plate Leggings
-erebus:rhino_exoskeleton_boots, Rhino Plate Boots
-erebus:bamboo_helmet, Bamboo Helmet
-erebus:bamboo_chestplate, Bamboo Chestplate
-erebus:bamboo_leggings, Bamboo Leggings
-erebus:bamboo_boots, Bamboo Boots
-erebus:bambucket, Bambucket
-erebus:rein_compound_goggles, Reinforced Compound Goggles
-erebus:compound_goggles, Compound Goggles
-erebus:sprint_leggings, Sprint Leggings
-erebus:jump_boots, Jump Boots
-erebus:glider_chestplate, Glider Chestplate
-erebus:glider_chestplate_powered, Powered Glider Chestplate
-erebus:mushroom_helmet, Mush Helm
-erebus:spider_t_shirt, Tarantula Boss Trophy
-erebus:water_striders, Water Striders
-erebus:bamboo_shield, Bamboo Shield
-erebus:exoskeleton_shield, Exoskeleton Shield
-erebus:jade_shield, Jade Shield
-erebus:rein_exoskeleton_shield, Reinforced Exoskeleton Shield
-erebus:rhino_exoskeleton_shield, Rhino Plate Shield
-erebus:rolled_newspaper, Rolled-up Newspaper
-erebus:wasp_sword, Wasp Sword
-erebus:wasp_dagger, Wasp Dagger
-erebus:enhanced_scorpion_pincer, Augmented Scorpion Pincer
-erebus:war_hammer, Quake Hammer
-erebus:web_slinger, Web Slinger
-erebus:web_slinger_wither, Wither Web Slinger
-erebus:max_speed_bow, Maximum Speed Bow
-erebus:nectar_collector, Nectar Collector
-erebus:ant_taming_amulet, Ant Taming Amulet
-erebus:bee_taming_amulet, Bee Taming Amulet
-erebus:woodlouse_ball, Woodlouse Ball
-erebus:wand_of_animation, Wand of Animation
-erebus:anti_venom_bottle, Bottle of Anti-Venom
-erebus:flower_seed:0, Black Flower Seeds
-erebus:flower_seed:1, Red Flower Seeds
-erebus:flower_seed:2, Brown Flower Seeds
-erebus:flower_seed:3, Blue Flower Seeds
-erebus:flower_seed:4, Purple Flower Seeds
-erebus:flower_seed:5, Cyan Flower Seeds
-erebus:flower_seed:6, Light Gray Flower Seeds
-erebus:flower_seed:7, Gray Flower Seeds
-erebus:flower_seed:8, Pink Flower Seeds
-erebus:flower_seed:9, Yellow Flower Seeds
-erebus:flower_seed:10, Light Blue Flower Seeds
-erebus:flower_seed:11, Magenta Flower Seeds
-erebus:flower_seed:12, Orange Flower Seeds
-erebus:flower_seed:13, White Flower Seeds
-erebus:flower_seed:14, Rainbow Flower Seeds
-erebus:death_compass, Death Compass
-erebus:spray_can, Insect Repellent
-erebus:whetstone:0, Whetstone
-erebus:whetstone:1, Whetstone
-erebus:whetstone:2, Whetstone
-erebus:whetstone:3, Whetstone
-erebus:whetstone:4, Whetstone
-erebus:whetstone:5, Whetstone
-erebus:portal_activator, Staff of Gaea
-erebus:homing_beecon, Homing Beecon
-erebus:homing_beecon_advanced, Advanced Homing Beecon
-erebus:wand_of_preservation, Wand of Preservation
-erebus:compost, Compost
-erebus:planticide, Planticide
-erebus:smoothie_book, Smoothie-matic 2000
-erebus:horn_of_summoning, Horn of Bee Summoning
-erebus:erebus_map, Empty Papyrus Map (N.Y.I)
-erebus:erebus_map_filled:0, Papyrus Map (N.Y.I)
 erebus:umberstone:0, Umberstone
 erebus:umberstone:1, Umbercobble
 erebus:umberstone:2, Mossy Umbercobble
@@ -14106,6 +13825,139 @@ erebus:stairs_varnished, Varnished Stairs
 erebus:slab_planks_varnished, Varnished Slab
 erebus:fence_varnished, Varnished Fence
 erebus:fence_gate_varnished, Varnished Fence Gate
+erebus:erebus_food:0, Beetle Larva
+erebus:erebus_food:1, Cooked Beetle Larva
+erebus:erebus_food:2, Grasshopper Leg
+erebus:erebus_food:3, Cooked Grasshopper Leg
+erebus:erebus_food:4, Tarantula Leg
+erebus:erebus_food:5, Crispy Tarantula Leg
+erebus:erebus_food:6, Bamboo Soup
+erebus:erebus_food:7, Melonade
+erebus:erebus_food:8, Sparkly Melonade
+erebus:erebus_food:9, Larvae-on-a-Stick
+erebus:erebus_food:10, Honey Sandwich
+erebus:erebus_food:11, Dark Fruit
+erebus:erebus_food:12, Raw Titan Chop
+erebus:erebus_food:13, Cooked Titan Chop
+erebus:erebus_food:14, Swampberries
+erebus:erebus_food:15, Cabbage
+erebus:erebus_food:16, Cooked Titan Stew
+erebus:erebus_food:17, Raw Prickly Pear
+erebus:erebus_food:18, Cooked Prickly Pear
+erebus:erebus_food:19, Dark Fruit Pie
+erebus:heart_berries, Heartberries
+erebus:life_blood, Life Blood
+erebus:turnip, Turnips
+erebus:cabbage_seeds, Cabbage Seeds
+erebus:mandrake_root, Mandrake Root
+erebus:stag_heart_raw, Heart of the Stag
+erebus:stag_heart_cooked, Roasted Heart of the Stag
+erebus:smoothie:0, Green Tea Grasshopper Smoothie
+erebus:smoothie:1, Money Honey Smoothie
+erebus:smoothie:2, Nothing In The Middle Smoothie
+erebus:smoothie:3, Green Giant Smoothie
+erebus:smoothie:4, Seedy Goodness Smoothie
+erebus:smoothie:5, Givin' Me The Blues Smoothie
+erebus:smoothie:6, Hot Hot Baby Smoothie
+erebus:smoothie:7, Don't Meddle With The Nettle Smoothie
+erebus:smoothie:8, Liquid Gold Smoothie
+erebus:smoothie:9, Bryuf's Brew Smoothie
+erebus:idols:0, Mud Scarab
+erebus:idols:1, Iron Scarab
+erebus:idols:2, Gold Scarab
+erebus:idols:3, Jade Scarab
+erebus:idols:4, Spawn Mud Umbergolem
+erebus:idols:5, Spawn Iron Umbergolem
+erebus:idols:6, Spawn Gold Umbergolem
+erebus:idols:7, Spawn Jade Umbergolem
+erebus:jade_helmet, Jade Helmet
+erebus:jade_chestplate, Jade Chestplate
+erebus:jade_leggings, Jade Leggings
+erebus:jade_boots, Jade Boots
+erebus:jade_sword, Jade Sword
+erebus:jade_pickaxe, Jade Pickaxe
+erebus:jade_axe, Jade Axe
+erebus:jade_shovel, Jade Shovel
+erebus:jade_paxel, Jade Paxel
+erebus:jade_hoe, Jade Hoe
+erebus:exoskeleton_helmet, Exoskeleton Helmet
+erebus:exoskeleton_chestplate, Exoskeleton Chestplate
+erebus:exoskeleton_leggings, Exoskeleton Leggings
+erebus:exoskeleton_boots, Exoskeleton Boots
+erebus:rein_exoskeleton_helmet, Reinforced Exoskeleton Helmet
+erebus:rein_exoskeleton_chestplate, Reinforced Exoskeleton Chestplate
+erebus:rein_exoskeleton_leggings, Reinforced Exoskeleton Leggings
+erebus:rein_exoskeleton_boots, Reinforced Exoskeleton Boots
+erebus:rhino_exoskeleton_helmet, Rhino Plate Helmet
+erebus:rhino_exoskeleton_chestplate, Rhino Plate Chestplate
+erebus:rhino_exoskeleton_leggings, Rhino Plate Leggings
+erebus:rhino_exoskeleton_boots, Rhino Plate Boots
+erebus:bamboo_helmet, Bamboo Helmet
+erebus:bamboo_chestplate, Bamboo Chestplate
+erebus:bamboo_leggings, Bamboo Leggings
+erebus:bamboo_boots, Bamboo Boots
+erebus:bambucket, Bambucket
+erebus:rein_compound_goggles, Reinforced Compound Goggles
+erebus:compound_goggles, Compound Goggles
+erebus:sprint_leggings, Sprint Leggings
+erebus:jump_boots, Jump Boots
+erebus:glider_chestplate, Glider Chestplate
+erebus:glider_chestplate_powered, Powered Glider Chestplate
+erebus:mushroom_helmet, Mush Helm
+erebus:spider_t_shirt, Tarantula Boss Trophy
+erebus:water_striders, Water Striders
+erebus:bamboo_shield, Bamboo Shield
+erebus:exoskeleton_shield, Exoskeleton Shield
+erebus:jade_shield, Jade Shield
+erebus:rein_exoskeleton_shield, Reinforced Exoskeleton Shield
+erebus:rhino_exoskeleton_shield, Rhino Plate Shield
+erebus:rolled_newspaper, Rolled-up Newspaper
+erebus:wasp_sword, Wasp Sword
+erebus:wasp_dagger, Wasp Dagger
+erebus:enhanced_scorpion_pincer, Augmented Scorpion Pincer
+erebus:war_hammer, Quake Hammer
+erebus:web_slinger, Web Slinger
+erebus:web_slinger_wither, Wither Web Slinger
+erebus:max_speed_bow, Maximum Speed Bow
+erebus:nectar_collector, Nectar Collector
+erebus:ant_taming_amulet, Ant Taming Amulet
+erebus:bee_taming_amulet, Bee Taming Amulet
+erebus:woodlouse_ball, Woodlouse Ball
+erebus:wand_of_animation, Wand of Animation
+erebus:anti_venom_bottle, Bottle of Anti-Venom
+erebus:flower_seed:0, Black Flower Seeds
+erebus:flower_seed:1, Red Flower Seeds
+erebus:flower_seed:2, Brown Flower Seeds
+erebus:flower_seed:3, Blue Flower Seeds
+erebus:flower_seed:4, Purple Flower Seeds
+erebus:flower_seed:5, Cyan Flower Seeds
+erebus:flower_seed:6, Light Gray Flower Seeds
+erebus:flower_seed:7, Gray Flower Seeds
+erebus:flower_seed:8, Pink Flower Seeds
+erebus:flower_seed:9, Yellow Flower Seeds
+erebus:flower_seed:10, Light Blue Flower Seeds
+erebus:flower_seed:11, Magenta Flower Seeds
+erebus:flower_seed:12, Orange Flower Seeds
+erebus:flower_seed:13, White Flower Seeds
+erebus:flower_seed:14, Rainbow Flower Seeds
+erebus:death_compass, Death Compass
+erebus:spray_can, Insect Repellent
+erebus:whetstone:0, Whetstone
+erebus:whetstone:1, Whetstone
+erebus:whetstone:2, Whetstone
+erebus:whetstone:3, Whetstone
+erebus:whetstone:4, Whetstone
+erebus:whetstone:5, Whetstone
+erebus:portal_activator, Staff of Gaea
+erebus:homing_beecon, Homing Beecon
+erebus:homing_beecon_advanced, Advanced Homing Beecon
+erebus:wand_of_preservation, Wand of Preservation
+erebus:compost, Compost
+erebus:planticide, Planticide
+erebus:smoothie_book, Smoothie-matic 2000
+erebus:horn_of_summoning, Horn of Bee Summoning
+erebus:erebus_map, Empty Papyrus Map (N.Y.I)
+erebus:erebus_map_filled:0, Papyrus Map (N.Y.I)
 gaiadimension:crystallized_redstone, Crystallized Redstone
 gaiadimension:crystallized_lapis_lazuli, Crystallized Lapis Lazuli
 gaiadimension:glint_and_gold, Glint and Gold
@@ -14470,6 +14322,10 @@ gaiadimension:cinnabar_ore, Cinnabar Ore
 gaiadimension:speckled_rock, Speckled Rock
 gaiadimension:coarse_rock, Coarse Rock
 gaiadimension:precious_rock, Precious Rock
+gbook:guidebook:0, Demo / Feature test book
+gbook:guidebook:0, Guidebook Manual
+gbook:guidebook:0, Rockhounding Chemistry Quest Book
+gbook:guidebook:0, Rockhounding Chemistry Guide book
 teslacorelib:base_addon, Base Addon
 teslacorelib:energy_tier1, Energy Upgrade I
 teslacorelib:energy_tier2, Energy Upgrade II
@@ -14790,7 +14646,7 @@ netherex:wither_bone_helmet, Wither Bone Helmet
 netherex:wither_bone_chestplate, Wither Bone Chestplate
 netherex:wither_bone_leggings, Wither Bone Leggings
 netherex:wither_bone_boots, Wither Bone Boots
-netherex:orange_salamander_hide_helmet, OrangeSalamander Hide Helmet
+netherex:orange_salamander_hide_helmet, Orange Salamander Hide Helmet
 netherex:orange_salamander_hide_chestplate, Orange Salamander Hide Chestplate
 netherex:orange_salamander_hide_leggings, Orange Salamander Hide Leggings
 netherex:orange_salamander_hide_boots, Orange Salamander Hide Boots
@@ -14970,59 +14826,6 @@ rockhounding_core:heat_inductor, Induction Heating Interface
 rockhounding_core:gas_turbine, Gas Turbine
 rockhounding_core:fuel_blend, Fuel Blend
 rockhounding_core:mod_wrench, Mod Wrench
-gbook:guidebook:0, Demo / Feature test book
-gbook:guidebook:0, Guidebook Manual
-gbook:guidebook:0, Rockhounding Chemistry Quest Book
-gbook:guidebook:0, Rockhounding Chemistry Guide book
-rockhounding_chemistry:fluid.molten_inconel, Molten Inconel
-rockhounding_chemistry:fluid.organic_slurry, Organic Slurry
-rockhounding_chemistry:fluid.molten_nial, Molten NiAl
-rockhounding_chemistry:fluid.chloromethane, Chloromethane
-rockhounding_chemistry:fluid.krypton, Krypton
-rockhounding_chemistry:fluid.raw_syngas, Raw Syngas
-rockhounding_chemistry:fluid.liquid_ammonia, Liquid Ammonia
-rockhounding_chemistry:fluid.flue_gas, Flue Gas
-rockhounding_chemistry:fluid.molten_scal, Molten ScAl
-rockhounding_chemistry:fluid.virgin_water, Virgin Water
-rockhounding_chemistry:fluid.cooled_air, Cooled Air
-rockhounding_chemistry:fluid.salt_brine, Saturated Brine
-rockhounding_chemistry:fluid.mother_liquor, Mother Liquor
-rockhounding_chemistry:fluid.molten_vanasteel, Molten Vanasteel
-rockhounding_chemistry:fluid.molten_cube, Molten CuBe
-rockhounding_chemistry:fluid.acrylic_acid, Acrylic Acid
-rockhounding_chemistry:fluid.argon, Argon
-rockhounding_chemistry:fluid.toxic_waste, Toxic Waste
-rockhounding_chemistry:fluid.molten_nichrome, Molten Nichrome
-rockhounding_chemistry:fluid.raw_flue_gas, Raw Flue Gas
-rockhounding_chemistry:fluid.molten_bam, Molten BAM
-rockhounding_chemistry:fluid.xenon, Xenon
-rockhounding_chemistry:fluid.molten_tantaloy, Molten Tantaloy
-rockhounding_chemistry:fluid.molten_hydronalium, Molten Hydronalium
-rockhounding_chemistry:fluid.molten_vanadium, Molten Vanadium
-rockhounding_chemistry:fluid.coal_slurry, Coal Slurry
-rockhounding_chemistry:fluid.molten_pewter, Molten Pewter
-rockhounding_chemistry:fluid.neon, Neon
-rockhounding_chemistry:fluid.refined_air, Refined Air
-rockhounding_chemistry:fluid.molten_corten, Molten Corten Steel
-rockhounding_chemistry:fluid.nitric_acid, Nitric Acid
-rockhounding_chemistry:fluid.leachate, Leachate
-rockhounding_chemistry:fluid.compressed_air, Compressed Air
-rockhounding_chemistry:fluid.molten_nimonic, Molten Nimonic
-rockhounding_chemistry:fluid.molten_cunife, Molten CuNiFe
-rockhounding_chemistry:fluid.dense_brine, Dense Brine
-rockhounding_chemistry:fluid.molten_cupronickel, Molten Cupronickel
-rockhounding_chemistry:fluid.hydrochloric_acid, Hydrochloric Acid
-rockhounding_chemistry:fluid.liquid_oxygen, Liquid Oxygen
-rockhounding_chemistry:fluid.silicone, Silicone
-rockhounding_chemistry:fluid.molten_hastelloy, Molten Hastelloy
-rockhounding_chemistry:fluid.molten_titanium, Molten Titanium
-rockhounding_chemistry:fluid.toxic_sludge, Toxic Sludge
-rockhounding_chemistry:fluid.molten_stellite, Molten Stellite
-rockhounding_chemistry:fluid.sodium_hydroxide, Sodium Hydroxide
-rockhounding_chemistry:fluid.coal_tar, Coal Tar
-rockhounding_chemistry:fluid.sodium_cyanide, Sodium Cyanide
-rockhounding_chemistry:fluid.molten_zircaloy, Molten Zircaloy
-rockhounding_chemistry:fluid.water_vapour, Water Vapour
 rockhounding_chemistry:tile_nullifier, Tile Nullifier
 rockhounding_chemistry:crushing_gear, Crushing Gear
 rockhounding_chemistry:slurry_agitator, Slurry Agitator
@@ -15756,6 +15559,55 @@ rockhounding_chemistry:didymium_glass:2, Didymium Glass (Bricks)
 rockhounding_chemistry:waterlock:0, Dry Waterlock
 rockhounding_chemistry:waterlock:1, Wet Waterlock
 rockhounding_chemistry:toxic_cloud, Toxic Cloud
+rockhounding_chemistry:fluid.cooled_air, Cooled Air
+rockhounding_chemistry:fluid.organic_slurry, Organic Slurry
+rockhounding_chemistry:fluid.molten_cube, Molten CuBe
+rockhounding_chemistry:fluid.molten_nichrome, Molten Nichrome
+rockhounding_chemistry:fluid.chloromethane, Chloromethane
+rockhounding_chemistry:fluid.molten_hastelloy, Molten Hastelloy
+rockhounding_chemistry:fluid.molten_scal, Molten ScAl
+rockhounding_chemistry:fluid.molten_cupronickel, Molten Cupronickel
+rockhounding_chemistry:fluid.molten_inconel, Molten Inconel
+rockhounding_chemistry:fluid.nitric_acid, Nitric Acid
+rockhounding_chemistry:fluid.molten_stellite, Molten Stellite
+rockhounding_chemistry:fluid.xenon, Xenon
+rockhounding_chemistry:fluid.leachate, Leachate
+rockhounding_chemistry:fluid.silicone, Silicone
+rockhounding_chemistry:fluid.toxic_waste, Toxic Waste
+rockhounding_chemistry:fluid.mother_liquor, Mother Liquor
+rockhounding_chemistry:fluid.raw_syngas, Raw Syngas
+rockhounding_chemistry:fluid.molten_nimonic, Molten Nimonic
+rockhounding_chemistry:fluid.coal_tar, Coal Tar
+rockhounding_chemistry:fluid.molten_nial, Molten NiAl
+rockhounding_chemistry:fluid.virgin_water, Virgin Water
+rockhounding_chemistry:fluid.krypton, Krypton
+rockhounding_chemistry:fluid.molten_cunife, Molten CuNiFe
+rockhounding_chemistry:fluid.molten_zircaloy, Molten Zircaloy
+rockhounding_chemistry:fluid.raw_flue_gas, Raw Flue Gas
+rockhounding_chemistry:fluid.hydrochloric_acid, Hydrochloric Acid
+rockhounding_chemistry:fluid.toxic_sludge, Toxic Sludge
+rockhounding_chemistry:fluid.liquid_oxygen, Liquid Oxygen
+rockhounding_chemistry:fluid.flue_gas, Flue Gas
+rockhounding_chemistry:fluid.liquid_ammonia, Liquid Ammonia
+rockhounding_chemistry:fluid.dense_brine, Dense Brine
+rockhounding_chemistry:fluid.sodium_cyanide, Sodium Cyanide
+rockhounding_chemistry:fluid.salt_brine, Saturated Brine
+rockhounding_chemistry:fluid.refined_air, Refined Air
+rockhounding_chemistry:fluid.coal_slurry, Coal Slurry
+rockhounding_chemistry:fluid.water_vapour, Water Vapour
+rockhounding_chemistry:fluid.molten_tantaloy, Molten Tantaloy
+rockhounding_chemistry:fluid.acrylic_acid, Acrylic Acid
+rockhounding_chemistry:fluid.molten_hydronalium, Molten Hydronalium
+rockhounding_chemistry:fluid.molten_bam, Molten BAM
+rockhounding_chemistry:fluid.compressed_air, Compressed Air
+rockhounding_chemistry:fluid.molten_vanadium, Molten Vanadium
+rockhounding_chemistry:fluid.neon, Neon
+rockhounding_chemistry:fluid.molten_corten, Molten Corten Steel
+rockhounding_chemistry:fluid.molten_vanasteel, Molten Vanasteel
+rockhounding_chemistry:fluid.molten_titanium, Molten Titanium
+rockhounding_chemistry:fluid.molten_pewter, Molten Pewter
+rockhounding_chemistry:fluid.sodium_hydroxide, Sodium Hydroxide
+rockhounding_chemistry:fluid.argon, Argon
 bq_standard:loot_chest, Loot Chest
 stevescarts:blockcartassembler, Cart Assembler
 stevescarts:blockcargomanager, Cargo Manager
@@ -15941,6 +15793,215 @@ stevescarts:cartmodule:96, Creative Incinerator
 stevescarts:cartmodule:97, Creative Supplies
 stevescarts:cartmodule:99, Cake Server
 stevescarts:cartmodule:101, Color Randomizer
+theaurorian:absorptionorb, Orb of Absorption
+theaurorian:darkamulet, Dark Amulet
+theaurorian:keeperamulet, Dungeon Keeper Amulet
+theaurorian:aurorianbacon, Aurorian Bacon
+theaurorian:auroriancoal, Aurorian Coal
+theaurorian:auroriancoalnugget, Aurorian Coal Nugget
+theaurorian:aurorianiteaxe, Aurorianite Axe
+theaurorian:aurorianitepickaxe, Aurorianite Pickaxe
+theaurorian:aurorianitesword, Aurorianite Sword
+theaurorian:aurorianpork, Aurorian Pork
+theaurorian:aurorianporkcooked, Cooked Aurorian Pork
+theaurorian:aurorianslimeball, Aurorian Slimeball
+theaurorian:aurorianslimeboots, Aurorian Slime Boots
+theaurorian:auroriansteelboots, Aurorian Steel Boots
+theaurorian:auroriansteelchestplate, Aurorian Steel Chestplate
+theaurorian:auroriansteelhelmet, Aurorian Steel Helmet
+theaurorian:auroriansteelleggings, Aurorian Steel Leggings
+theaurorian:auroriansteelaxe, Aurorian Steel Axe
+theaurorian:auroriansteelhoe, Aurorian Steel Hoe
+theaurorian:auroriansteelnugget, Aurorian Steel Nugget
+theaurorian:auroriansteelpickaxe, Aurorian Steel Pickaxe
+theaurorian:auroriansteelshovel, Aurorian Steel Shovel
+theaurorian:auroriansteelsword, Aurorian Steel Sword
+theaurorian:aurorianstoneaxe, Aurorian Stone Axe
+theaurorian:aurorianstonehoe, Aurorian Stone Hoe
+theaurorian:aurorianstonepickaxe, Aurorian Stone Pickaxe
+theaurorian:aurorianstoneshovel, Aurorian Stone Shovel
+theaurorian:aurorianstonesickle, Aurorian Stone Sickle
+theaurorian:aurorianstonesword, Aurorian Stone Sword
+theaurorian:bepsi, Bepsi
+theaurorian:ceruleanboots, Cerulean Boots
+theaurorian:ceruleanchestplate, Cerulean Chestplate
+theaurorian:ceruleanhelmet, Cerulean Helmet
+theaurorian:ceruleanleggings, Cerulean Leggings
+theaurorian:ceruleanarrow, Cerulean Arrow
+theaurorian:ceruleanbucket, Cerulean Bucket
+theaurorian:ceruleannugget, Cerulean Nugget
+theaurorian:ceruleanshield, Cerulean Shield
+theaurorian:crystallinepickaxe, Crystalline Pickaxe
+theaurorian:crystallineshield, Crystalline Shield
+theaurorian:crystallinesprite, item.theaurorian.crystallinesprite.name
+theaurorian:crystallinesword, Crystalline Sword
+theaurorian:cup, Cup
+theaurorian:debugger, Debugger
+theaurorian:aurorianiteingot, Aurorianite Ingot
+theaurorian:auroriansteel, Aurorian Steel
+theaurorian:ceruleaningot, Cerulean Ingot
+theaurorian:crystallineingot, Crystalline Ingot
+theaurorian:moonstoneingot, Moonstone Ingot
+theaurorian:umbraingot, Umbra Ingot
+theaurorian:keepersbow, Keepers Bow
+theaurorian:darkstonekey, Darkstone Key
+theaurorian:moontemplekey, Moontemple Key
+theaurorian:moontemplecellkey, Moontemple Cell Key
+theaurorian:runestonekey, Runestone Key
+theaurorian:runestonelootkey, Runestone Loot Key
+theaurorian:knightboots, Knight Boots
+theaurorian:knightchestplate, Knight Chestplate
+theaurorian:knighthelmet, Knight Helmet
+theaurorian:knightleggings, Knight Leggings
+theaurorian:lavender, Lavender
+theaurorian:lavenderbread, Lavender Bread
+theaurorian:livingdiviningrod, Living Divining Rod
+theaurorian:locator, Dungeon Locator
+theaurorian:lockpicks, Lockpicks
+theaurorian:moonshield, Moon's Shield
+theaurorian:moonstoneaxe, Moonstone Axe
+theaurorian:moonstonehoe, Moonstone Hoe
+theaurorian:moonstonenugget, Moonstone Nugget
+theaurorian:moonstonepickaxe, Moonstone Pickaxe
+theaurorian:moonstoneshield, Moonstone Shield
+theaurorian:moonstoneshovel, Moonstone Shovel
+theaurorian:moonstonesickle, Moonstone Sickle
+theaurorian:moonstonesword, Moonstone Sword
+theaurorian:moontemplecellkeyfragment, Moontemple Cell Key Fragment
+theaurorian:plantfiber, Plant Fiber
+theaurorian:scrapaurorianite, Aurorianite Scrap
+theaurorian:scrapcrystalline, Crystalline Scrap
+theaurorian:scrapumbra, Umbra Scrap
+theaurorian:lavenderseeds, Lavender Seeds
+theaurorian:silentwoodaxe, Silentwood Axe
+theaurorian:silentwoodbow, Silentwood Bow
+theaurorian:silentwoodhoe, Silentwood Hoe
+theaurorian:silentwoodpickaxe, Silentwood Pickaxe
+theaurorian:silentwoodshovel, Silentwood Shovel
+theaurorian:silentwoodsickle, Silentwood Sickle
+theaurorian:silentwoodstick, Silentwood Stick
+theaurorian:silentwoodsword, Silentwood Sword
+theaurorian:silkberry, Silkberry
+theaurorian:silkberryjam, Silkberry Jam
+theaurorian:silkberryjamsandwich, Silkberry Jam Sandwich
+theaurorian:silkshroomstew, Silkshroom Stew
+theaurorian:soullessflesh, Soulless Flesh
+theaurorian:spectralsilk, Spectral Silk
+theaurorian:spectralboots, Spectral Boots
+theaurorian:spectralchestplate, Spectral Chestplate
+theaurorian:spectralhelmet, Spectral Helmet
+theaurorian:spectralleggings, Spectral Leggings
+theaurorian:spikedchestplate, Spiked Chestplate
+theaurorian:stickyspiker, Sticky Spiker
+theaurorian:strangemeat, Strange Meat
+theaurorian:tealavender, Lavender Tea
+theaurorian:teapetunia, Petunia Tea
+theaurorian:teaseedy, Lavender Seed Tea
+theaurorian:teasilkberry, Silkberry Tea
+theaurorian:trophykeeper, Runestone Dungeon Keeper Trophy
+theaurorian:trophymoonqueen, Moon Queen Trophy
+theaurorian:trophyspider, Spider Mother Trophy
+theaurorian:umbrapickaxe, Umbra Pickaxe
+theaurorian:umbrashield, Umbra Shield
+theaurorian:umbrasword, Umbra Sword
+theaurorian:webbing, item.theaurorian.webbing.name
+theaurorian:weepingwillowsap, Weeping Willow Sap
+theaurorian:auroriancobblestone, Aurorian Cobblestone
+theaurorian:auroriancobblestonestairs, Aurorian Cobblestone Stairs
+theaurorian:auroriandirt, Aurorian Dirt
+theaurorian:aurorianfarmtile, Aurorian Farm Tile
+theaurorian:aurorianfurnacechimney, Aurorian Furnace Chimney
+theaurorian:aurorianfurnace, Aurorian Furnace
+theaurorian:aurorianfurnacelit, tile.theaurorian.aurorianfurnacelit.name
+theaurorian:auroriangrass, Aurorian Grass
+theaurorian:auroriangrasslight, Light Aurorian Grass
+theaurorian:aurorianportal, tile.theaurorian.aurorianportal.name
+theaurorian:aurorianportalframebricks, Aurorian Portal Frame
+theaurorian:aurorianstone, Aurorian Stone
+theaurorian:aurorianstonebrick, Aurorian Stone Brick
+theaurorian:aurorianstonestairs, Aurorian Stone Brick Stairs
+theaurorian:bossspawnerkeeper, Runestone Dungeon Keeper Boss Spawner
+theaurorian:bossspawnermoonqueen, Moon Queen Boss Spawner
+theaurorian:bossspawnerspider, Spider Boss Spawner
+theaurorian:crystal, Crystal
+theaurorian:darkstonebricks, Darkstone Bricks
+theaurorian:darkstonefancy, Darkstone Fancy
+theaurorian:darkstonegate, Darkstone Gate
+theaurorian:darkstonegatekeyhole, Darkstone Gate Keyhole
+theaurorian:darkstonelamp, Darkstone Lamp
+theaurorian:darkstonelayers, Darkstone Layers
+theaurorian:darkstonestairs, Darkstone Stairs
+theaurorian:moontemplebricks, Moon Temple Bricks
+theaurorian:moontemplebars, Moon Temple Bars
+theaurorian:moontemplegate, Moon Temple Gate
+theaurorian:moontemplecellgate, Moon Temple Cell Gate
+theaurorian:moontemplegatekeyhole, Moon Temple Gate Keyhole
+theaurorian:moontemplecellgatekeyhole, Moon Temple Cell Gate Keyhole
+theaurorian:moontemplelamp, Moon Temple Lamp
+theaurorian:moontemplebrickssmooth, Smooth Moon Temple Bricks
+theaurorian:moontemplestairs, Moon Temple Stairs
+theaurorian:runestone, Runestone
+theaurorian:runestonebars, Runestone Bars
+theaurorian:runestonegate, Runestone Gate
+theaurorian:runestonegatekeyhole, Runestone Gate Keyhole
+theaurorian:runestonelootgatekeyhole, Runestone Loot Gate Keyhole
+theaurorian:runestonelootgate, Runestone Loot Gate
+theaurorian:runestonelamp, Runestone Lamp
+theaurorian:runestonesmooth, Smooth Runestone
+theaurorian:runestonestairs, Runestone Stairs
+theaurorian:tamoltencerulean, tile.tamoltencerulean.name
+theaurorian:tamoltenmoonstone, tile.tamoltenmoonstone.name
+theaurorian:tamoltenauroriansteel, tile.tamoltenauroriansteel.name
+theaurorian:tamoonwater, Moonwater
+theaurorian:aurorianglass, Aurorian Glass
+theaurorian:moonglass, Moon Glass
+theaurorian:aurorianglasspane, Aurorian Glass Pane
+theaurorian:moonglasspane, Moon Glass Pane
+theaurorian:auroriansteelblock, Aurorian Steel Block
+theaurorian:ceruleanblock, Cerulean Block
+theaurorian:auroriancoalblock, Aurorian Coal Block
+theaurorian:moonstoneblock, Moonstone Block
+theaurorian:moongem, Moon Gem
+theaurorian:moonlightforge, Moonlight Forge
+theaurorian:moonsand, Moon Sand
+theaurorian:mushroom, Indigo Mushroom
+theaurorian:mushroomcrystal, Mushroom Crystal
+theaurorian:mushroomsmall, Indigo Mushroom
+theaurorian:mushroomstem, Indigo Mushroom Stem
+theaurorian:mysticalbarrier, Mystical Barrier
+theaurorian:auroriancoalore, Aurorian Coal Ore
+theaurorian:ceruleanore, Cerulean Ore
+theaurorian:geodeore, Geode Ore
+theaurorian:moonstoneore, Moonstone Ore
+theaurorian:aurorianperidotite, Aurorian Peridotite
+theaurorian:aurorianperidotitesmooth, Smooth Aurorian Peridotite
+theaurorian:aurorianperidotitesmoothstairs, Smooth Aurorian Peridotite Stairs
+theaurorian:lavenderplant, Lavender Plant
+theaurorian:lavendercrop, tile.theaurorian.lavendercrop.name
+theaurorian:petuniaplant, Petunia Plant
+theaurorian:silentwoodsapling, Silentwood Sapling
+theaurorian:silkberryplant, Silkberry Plant
+theaurorian:silkberrycrop, tile.theaurorian.silkberrycrop.name
+theaurorian:auroriantallgrass, Aurorian Tall Grass
+theaurorian:auroriantallgrasslight, Light Aurorian Tall Grass
+theaurorian:scrapper, Scrapper
+theaurorian:silentwoodladder, Silentwood Ladder
+theaurorian:silentwoodleaves, Silentwood Leaves
+theaurorian:silentwoodlog, Silentwood Log
+theaurorian:silentwoodplanks, Silentwood Planks
+theaurorian:silentwoodstairs, Silentwood Stairs
+theaurorian:silentwoodtorch, Silentwood Torch
+theaurorian:silentwoodcraftingtable, Silentwood Crafting Table
+theaurorian:umbrastone, Umbra Stone
+theaurorian:umbrastonecracked, Cracked Umbra Stone
+theaurorian:umbrastonerooftiles, Umbra Stone Roof Tiles
+theaurorian:umbrastoneroofstairs, Umbra Stone Roof Tiles Stairs
+theaurorian:urn, Urn
+theaurorian:weepingwillowleaves, Weeping Willow Leaves
+theaurorian:weepingwillowlog, Weeping Willow Log
+theaurorian:weepingwillowplanks, Weeping Willow Planks
+theaurorian:weepingwillowplanksstairs, Weeping Willow Planks Stairs
+theaurorian:weepingwillowsapling, Weeping Willow Sapling
 tcomplement:materials:0, Stone Bucket
 tcomplement:materials:1, Scorched Brick
 tcomplement:materials:6, iModifier
@@ -16014,10 +16075,6 @@ tcomplement:scorched_stairs_brick_small:0, Small Scorched Bricks Stairs
 tcomplement:scorched_stairs_road:0, Scorched Road Stairs
 tcomplement:scorched_stairs_tile:0, Scorched Tile Stairs
 tcomplement:scorched_stairs_creeper:0, Scorched Creeperface Stairs
-tcomplement:chisel_head:0, Cerulean Chisel Head
-tcomplement:chisel_head:0, Moonstone Chisel Head
-tcomplement:chisel_head:0, Silentwood Chisel Head
-tcomplement:chisel_head:0, Aurorian Stone Chisel Head
 tcomplement:chisel_head:0, Wooden Chisel Head
 tcomplement:chisel_head:0, Stone Chisel Head
 tcomplement:chisel_head:0, Flint Chisel Head
@@ -16091,6 +16148,11 @@ tcomplement:chisel_head:0, Uranium Chisel Head
 tcomplement:chisel_head:0, Magnesium Chisel Head
 tcomplement:chisel_head:0, Chocolate Chisel Head
 tcomplement:chisel_head:0, Treated Wood Chisel Head
+tcomplement:chisel_head:0, Cerulean Chisel Head
+tcomplement:chisel_head:0, Moonstone Chisel Head
+tcomplement:chisel_head:0, Aurorian Steel Chisel Head
+tcomplement:chisel_head:0, Silentwood Chisel Head
+tcomplement:chisel_head:0, Aurorian Stone Chisel Head
 tcomplement:chisel, Chisel
 tropicraft:chunk, Chunk O' Head
 tropicraft:ore:0, Azurite Ore
@@ -16669,6 +16731,7 @@ immersiveengineering:tool:3, Engineer's Manual
 immersiveengineering:pickaxe_steel, Steel Pickaxe
 immersiveengineering:shovel_steel, Steel Shovel
 immersiveengineering:axe_steel, Steel Axe
+immersiveengineering:hoe_steel, Steel Hoe
 immersiveengineering:sword_steel, Steel Sword
 immersiveengineering:toolbox, Engineer's Toolbox
 immersiveengineering:wirecoil:0, LV Wire Coil
@@ -16739,82 +16802,6 @@ immersiveengineering:steel_armor_feet, Steel Boots
 immersiveengineering:steel_armor_legs, Steel Leggings
 immersiveengineering:steel_armor_chest, Steel Chestplate
 immersiveengineering:steel_armor_head, Steel Helmet
-midnight:shadowroot_door, Shadowroot Door
-midnight:dark_willow_door, Dark Willow Door
-midnight:dead_wood_door, Dead Wood Door
-midnight:nightshroom_door, Nightshroom Door
-midnight:dewshroom_door, Dewshroom Door
-midnight:viridshroom_door, Viridshroom Door
-midnight:tenebrum_door, Tenebrum Door
-midnight:geode, Geode
-midnight:bogshroom_powder, Bogshroom Powder
-midnight:nightshroom_powder, Nightshroom Powder
-midnight:dewshroom_powder, Dewshroom Powder
-midnight:viridshroom_powder, Viridshroom Powder
-midnight:dark_pearl, Dark Pearl
-midnight:dark_stick, Dark Stick
-midnight:rockshroom_clump, Rockshroom Clump
-midnight:tenebrum_ingot, Tenebrum Ingot
-midnight:tenebrum_nugget, Tenebrum Nugget
-midnight:nagrilite_ingot, Nagrilite Ingot
-midnight:nagrilite_nugget, Nagrilite Nugget
-midnight:ebonys, Ebonite
-midnight:archaic_shard, Archaic Shard
-midnight:bladeshroom_cap, Bladeshroom Cap
-midnight:bladeshroom_spores, Bladeshroom Spores
-midnight:raw_suavis, Raw Suavis Slice
-midnight:cook_suavis, Cooked Suavis Slice
-midnight:deceitful_snapper, Deceitful Snapper
-midnight:raw_stag_flank, Raw Stag Flank
-midnight:cook_stag_flank, Cooked Stag Flank
-midnight:cook_stinger_egg, Cooked Stinger Egg
-midnight:hunter_wing, Hunter Wing
-midnight:cook_hunter_wing, Cooked Hunter Wing
-midnight:bulb_fungus_hand, Glob Fungus Hand
-midnight:unstable_seeds, Unstable Seeds
-midnight:unstable_fruit_blue, Blue Unstable Fruit 
-midnight:unstable_fruit_lime, Lime Unstable Fruit
-midnight:unstable_fruit_green, Green Unstable Fruit
-midnight:spore_bomb:0, Nightshroom Spore Bomb
-midnight:spore_bomb:1, Dewshroom Spore Bomb
-midnight:spore_bomb:2, Viridshroom Spore Bomb
-midnight:spore_bomb:3, Bogshroom Spore Bomb
-midnight:shadowroot_pickaxe, Shadowroot Pickaxe
-midnight:shadowroot_axe, Shadowroot Axe
-midnight:shadowroot_shovel, Shadowroot Shovel
-midnight:shadowroot_hoe, Shadowroot Hoe
-midnight:nightstone_pickaxe, Nightstone Pickaxe
-midnight:nightstone_axe, Nightstone Axe
-midnight:nightstone_shovel, Nightstone Shovel
-midnight:nightstone_hoe, Nightstone Hoe
-midnight:ebonys_pickaxe, Ebonite Pickaxe
-midnight:ebonys_axe, Ebonite Axe
-midnight:ebonys_shovel, Ebonite Shovel
-midnight:ebonys_hoe, Ebonite Hoe
-midnight:nagrilite_pickaxe, Nagrilite Pickaxe
-midnight:nagrilite_axe, Nagrilite Axe
-midnight:nagrilite_shovel, Nagrilite Shovel
-midnight:nagrilite_hoe, Nagrilite Hoe
-midnight:tenebrum_pickaxe, Tenebrum Pickaxe
-midnight:tenebrum_axe, Tenebrum Axe
-midnight:tenebrum_shovel, Tenebrum Shovel
-midnight:tenebrum_hoe, Tenebrum Hoe
-midnight:shadowroot_sword, Shadowroot Sword
-midnight:nightstone_sword, Nightstone Sword
-midnight:ebonys_sword, Ebonite Sword
-midnight:nagrilite_sword, Nagrilite Sword
-midnight:tenebrum_sword, Tenebrum Sword
-midnight:rockshroom_helmet, Rockshroom Helmet
-midnight:rockshroom_chestplate, Rockshroom Chestplate
-midnight:rockshroom_leggings, Rockshroom Leggings
-midnight:rockshroom_boots, Rockshroom Boots
-midnight:tenebrum_helmet, Tenebrum Helmet
-midnight:tenebrum_chestplate, Tenebrum Chestplate
-midnight:tenebrum_leggings, Tenebrum Leggings
-midnight:tenebrum_boots, Tenebrum Boots
-midnight:rockshroom_shield, Rockshroom Shield
-midnight:advancement_snapper, item.midnight.advancement_snapper.name
-midnight:advancement_highness, item.midnight.advancement_highness.name
 midnight:shadowroot_log, Shadowroot Log
 midnight:shadowroot_leaves, Shadowroot Leaves
 midnight:shadowroot_planks, Shadowroot Planks
@@ -16979,6 +16966,82 @@ midnight:dewshroom_slab, Dewshroom Slab
 midnight:viridshroom_slab, Viridshroom Slab
 midnight:nightshroom_slab, Nightshroom Slab
 midnight:rockshroom_bricks_slab, Rockshroom Brick Slab
+midnight:shadowroot_door, Shadowroot Door
+midnight:dark_willow_door, Dark Willow Door
+midnight:dead_wood_door, Dead Wood Door
+midnight:nightshroom_door, Nightshroom Door
+midnight:dewshroom_door, Dewshroom Door
+midnight:viridshroom_door, Viridshroom Door
+midnight:tenebrum_door, Tenebrum Door
+midnight:geode, Geode
+midnight:bogshroom_powder, Bogshroom Powder
+midnight:nightshroom_powder, Nightshroom Powder
+midnight:dewshroom_powder, Dewshroom Powder
+midnight:viridshroom_powder, Viridshroom Powder
+midnight:dark_pearl, Dark Pearl
+midnight:dark_stick, Dark Stick
+midnight:rockshroom_clump, Rockshroom Clump
+midnight:tenebrum_ingot, Tenebrum Ingot
+midnight:tenebrum_nugget, Tenebrum Nugget
+midnight:nagrilite_ingot, Nagrilite Ingot
+midnight:nagrilite_nugget, Nagrilite Nugget
+midnight:ebonys, Ebonite
+midnight:archaic_shard, Archaic Shard
+midnight:bladeshroom_cap, Bladeshroom Cap
+midnight:bladeshroom_spores, Bladeshroom Spores
+midnight:raw_suavis, Raw Suavis Slice
+midnight:cook_suavis, Cooked Suavis Slice
+midnight:deceitful_snapper, Deceitful Snapper
+midnight:raw_stag_flank, Raw Stag Flank
+midnight:cook_stag_flank, Cooked Stag Flank
+midnight:cook_stinger_egg, Cooked Stinger Egg
+midnight:hunter_wing, Hunter Wing
+midnight:cook_hunter_wing, Cooked Hunter Wing
+midnight:bulb_fungus_hand, Glob Fungus Hand
+midnight:unstable_seeds, Unstable Seeds
+midnight:unstable_fruit_blue, Blue Unstable Fruit 
+midnight:unstable_fruit_lime, Lime Unstable Fruit
+midnight:unstable_fruit_green, Green Unstable Fruit
+midnight:spore_bomb:0, Nightshroom Spore Bomb
+midnight:spore_bomb:1, Dewshroom Spore Bomb
+midnight:spore_bomb:2, Viridshroom Spore Bomb
+midnight:spore_bomb:3, Bogshroom Spore Bomb
+midnight:shadowroot_pickaxe, Shadowroot Pickaxe
+midnight:shadowroot_axe, Shadowroot Axe
+midnight:shadowroot_shovel, Shadowroot Shovel
+midnight:shadowroot_hoe, Shadowroot Hoe
+midnight:nightstone_pickaxe, Nightstone Pickaxe
+midnight:nightstone_axe, Nightstone Axe
+midnight:nightstone_shovel, Nightstone Shovel
+midnight:nightstone_hoe, Nightstone Hoe
+midnight:ebonys_pickaxe, Ebonite Pickaxe
+midnight:ebonys_axe, Ebonite Axe
+midnight:ebonys_shovel, Ebonite Shovel
+midnight:ebonys_hoe, Ebonite Hoe
+midnight:nagrilite_pickaxe, Nagrilite Pickaxe
+midnight:nagrilite_axe, Nagrilite Axe
+midnight:nagrilite_shovel, Nagrilite Shovel
+midnight:nagrilite_hoe, Nagrilite Hoe
+midnight:tenebrum_pickaxe, Tenebrum Pickaxe
+midnight:tenebrum_axe, Tenebrum Axe
+midnight:tenebrum_shovel, Tenebrum Shovel
+midnight:tenebrum_hoe, Tenebrum Hoe
+midnight:shadowroot_sword, Shadowroot Sword
+midnight:nightstone_sword, Nightstone Sword
+midnight:ebonys_sword, Ebonite Sword
+midnight:nagrilite_sword, Nagrilite Sword
+midnight:tenebrum_sword, Tenebrum Sword
+midnight:rockshroom_helmet, Rockshroom Helmet
+midnight:rockshroom_chestplate, Rockshroom Chestplate
+midnight:rockshroom_leggings, Rockshroom Leggings
+midnight:rockshroom_boots, Rockshroom Boots
+midnight:tenebrum_helmet, Tenebrum Helmet
+midnight:tenebrum_chestplate, Tenebrum Chestplate
+midnight:tenebrum_leggings, Tenebrum Leggings
+midnight:tenebrum_boots, Tenebrum Boots
+midnight:rockshroom_shield, Rockshroom Shield
+midnight:advancement_snapper, item.midnight.advancement_snapper.name
+midnight:advancement_highness, item.midnight.advancement_highness.name
 abyssalcraft:stone:0, Darkstone
 abyssalcraft:stone:1, §9Abyssal Stone
 abyssalcraft:stone:2, Dreadstone
@@ -17553,6 +17616,11 @@ abyssalcraft:antidote:1, Dread Plague Antidote
 abyssalcraft:door_dlt, Darklands Oak Wood Door
 abyssalcraft:door_drt, Dreadlands Wood Door
 abyssalcraft:charcoal, Cha'rcoal
+abyssalcraft:configurator, Spirit Tablet
+abyssalcraft:configurator_shard:0, Spirit Tablet Shard #1
+abyssalcraft:configurator_shard:1, Spirit Tablet Shard #2
+abyssalcraft:configurator_shard:2, Spirit Tablet Shard #3
+abyssalcraft:configurator_shard:3, Spirit Tablet Shard #4
 acintegration:dust:0, Abyssalnite Dust
 acintegration:dust:1, Refined Coralium Dust
 acintegration:dust:2, Dreadium Dust
@@ -18082,7 +18150,7 @@ industrialforegoing:ore_sieve, Fluid Sieving Machine
 industrialforegoing:pitiful_fuel_generator, Pitiful Fuel Generator
 industrialforegoing:tinydryrubber, Tiny Dry Rubber
 industrialforegoing:dryrubber, Dry Rubber
-industrialforegoing:plastic, Plastic
+industrialforegoing:plastic, Rubber Sheet
 industrialforegoing:fertilizer, Fertilizer
 industrialforegoing:meat_feeder, Meat Feeder
 industrialforegoing:mob_imprisonment_tool, Mob Imprisonment Tool
@@ -18419,7 +18487,7 @@ thebetweenlands:amate_paper_pane_3, Rounded Amate Paper Pane
 thebetweenlands:smooth_pitstone_stairs, Smooth Pitstone Stairs
 thebetweenlands:tar_solid_stairs, Solid Tar Stairs
 thebetweenlands:temple_brick_stairs, Temple Brick Stairs
-thebetweenlands:spike_trap, Spike Trap
+thebetweenlands:spike_trap, Polished Limestone Spike Trap
 thebetweenlands:weedwood_plank_stairs, Weedwood Plank Stairs
 thebetweenlands:rubber_tree_plank_stairs, Rubber Tree Plank Stairs
 thebetweenlands:giant_root_plank_stairs, Giant Root Plank Stairs
@@ -18638,6 +18706,8 @@ thebetweenlands:tall_cattail, Tall Cattail
 thebetweenlands:swamp_tallgrass, Swamp Tallgrass
 thebetweenlands:dead_weedwood_bush, Dead Weedwood Bush
 thebetweenlands:weedwood_bush, Weedwood Bush
+thebetweenlands:nesting_block_sticks, Nesting Block
+thebetweenlands:nesting_block_bones, Nesting Block
 thebetweenlands:hollow_log, Hollow Log
 thebetweenlands:cave_moss, Cave Moss
 thebetweenlands:cryptweed, Cryptweed
@@ -18748,10 +18818,11 @@ thebetweenlands:items_misc:42, Octine Nugget
 thebetweenlands:items_misc:43, Valonite Splinter
 thebetweenlands:items_misc:44, Cremains
 thebetweenlands:items_misc:45, Undying Embers
-thebetweenlands:items_misc:46, Pebble
+thebetweenlands:items_misc:46, Inanimate Angry Pebble
 thebetweenlands:items_misc:47, Ancient Remnant
 thebetweenlands:items_misc:48, Loot Scraps
 thebetweenlands:items_misc:49, Fabricated Scroll
+thebetweenlands:items_misc:50, Betweenstone Pebble
 thebetweenlands:items_crushed:0, Ground Leaf
 thebetweenlands:items_crushed:1, Ground Cattail
 thebetweenlands:items_crushed:2, Ground Swamp Tallgrass
@@ -18937,6 +19008,10 @@ thebetweenlands:valonite_helmet, Valonite Helmet
 thebetweenlands:valonite_chestplate, Valonite Chestplate
 thebetweenlands:valonite_leggings, Valonite Leggings
 thebetweenlands:valonite_boots, Valonite Boots
+thebetweenlands:ancient_helmet, Ancient Helmet
+thebetweenlands:ancient_chestplate, Ancient Chestplate
+thebetweenlands:ancient_leggings, Ancient Leggings
+thebetweenlands:ancient_boots, Ancient Boots
 thebetweenlands:rubber_boots, Rubber Boots
 thebetweenlands:marsh_runner_boots, Boots of the Marsh Runner
 thebetweenlands:skull_mask, Skull Mask
@@ -18984,6 +19059,8 @@ thebetweenlands:poisoned_angler_tooth_arrow, Poisoned Angler Tooth Arrow
 thebetweenlands:octine_arrow, Octine Arrow
 thebetweenlands:basilisk_arrow, Basilisk Arrow
 thebetweenlands:sludge_worm_arrow, Sludge Worm Arrow
+thebetweenlands:shock_arrow, Shock Arrow
+thebetweenlands:chiromaw_barb, Chiromaw Barb
 thebetweenlands:weedwood_bow, Weedwood Bow
 thebetweenlands:predator_bow, Predator Bow
 thebetweenlands:wights_bane, Wight's Bane
@@ -19000,6 +19077,9 @@ thebetweenlands:lurker_skin_pouch, Lurker Skin Pouch
 thebetweenlands:caving_rope, Caving Rope
 thebetweenlands:grappling_hook, Grappling Hook
 thebetweenlands:volarkite, Volarkite
+thebetweenlands:simple_slingshot, Simple Slingshot
+thebetweenlands:chirobarb_erupter, Chirobarb Erupter
+thebetweenlands:chirobarb_shock_erupter, Chirobarb Shock Erupter
 thebetweenlands:bl_bucket:0, Weedwood Bucket
 thebetweenlands:bl_bucket:1, Syrmorite Bucket
 thebetweenlands:bl_bucket:0, Weedwood Bucket (§fLiquid Coralium§f)
@@ -19043,9 +19123,12 @@ thebetweenlands:test_item_chimp, Test Banana
 thebetweenlands:test_item_chimp_ruler, Test Ruler
 thebetweenlands:location_debug, Location Debug
 thebetweenlands:pyrad_flame, Pyrad Flame
-thebetweenlands:gecko, Gecko
-thebetweenlands:firefly, Firefly
+thebetweenlands:critter, item.thebetweenlands.critter.name
 thebetweenlands:sludge_worm_egg_sac, Sludge Worm Egg Sac
+thebetweenlands:chiromaw_egg, Chiromaw Hatchling
+thebetweenlands:chiromaw_egg_lightning, Lightning Chiromaw Hatchling
+thebetweenlands:chiromaw_tame, Tamed Chiromaw
+thebetweenlands:chiromaw_tame_lightning, Tamed Lightning Chiromaw
 thebetweenlands:shimmer_stone, Shimmerstone
 thebetweenlands:tarminion, Tarminion
 thebetweenlands:moss_bed_item, Moss Bed
@@ -19166,7 +19249,9 @@ thebetweenlands:dentrothyst_vial:0, Green Dentrothyst Vial
 thebetweenlands:dentrothyst_vial:1, Dirty Dentrothyst Vial
 thebetweenlands:dentrothyst_vial:2, Orange Dentrothyst Vial
 thebetweenlands:dentrothyst_fluid_vial:0, Bottled Fog
+thebetweenlands:dentrothyst_fluid_vial:0, Bottled Shallowbreath
 thebetweenlands:dentrothyst_fluid_vial:1, Bottled Fog
+thebetweenlands:dentrothyst_fluid_vial:1, Bottled Shallowbreath
 thebetweenlands:aspect_vial:0, Green Dentrothyst Aspect Vial
 thebetweenlands:aspect_vial:1, Orange Dentrothyst Aspect Vial
 thebetweenlands:aspect_vial:0, Azuwynn (2)
@@ -19225,6 +19310,14 @@ thebetweenlands:magic_item_magnet, Magic Item Magnet
 thebetweenlands:gem_singer, Gem Singer
 thebetweenlands:shambler_tongue, Shambler Tongue
 thebetweenlands:rune_door_key, Rune Door Key
+thebetweenlands:lurker_skin_patch, Lurker Skin Patch
+thebetweenlands:draeton_balloon, Draeton Balloon
+thebetweenlands:draeton_burner, Draeton Burner
+thebetweenlands:draeton, Draeton
+thebetweenlands:draeton_upgrade_furnace, Draeton Furnace Upgrade
+thebetweenlands:draeton_upgrade_anchor, Draeton Anchor Upgrade
+thebetweenlands:draeton_upgrade_crafting, Draeton Crafting Upgrade
+thebetweenlands:weedwood_rowboat_upgrade_lantern, Weedwood Rowboat Lantern Upgrade
 theoneprobe:probe, The One Probe
 theoneprobe:creativeprobe, The Creative Probe
 theoneprobe:probenote, The One Probe Read Me

@@ -108,6 +108,8 @@ import crafttweaker.liquid.ILiquidStack;
 # uncastable gears
 	mods.rockhounding_chemistry.ProfilingBench.add(<ore:blockHSLASteel>.firstItem, <ore:gearHSLASteel>.firstItem*2, 6);
 	mods.rockhounding_chemistry.ProfilingBench.add(<ore:blockExtreme>.firstItem, <ore:gearExtreme>.firstItem*2, 6);
+	mods.rockhounding_chemistry.ProfilingBench.add(<ore:blockTitaniumAluminide>.firstItem, <ore:gearTitaniumAluminide>.firstItem*2, 6);
+	mods.rockhounding_chemistry.ProfilingBench.add(<ore:blockTitaniumIridium>.firstItem, <ore:gearTitaniumIridium>.firstItem*2, 6);
 
 # ---- RODS ----
 

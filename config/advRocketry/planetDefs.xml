@@ -27,7 +27,7 @@
 				<isKnown>true</isKnown>
 				<fogColor>0.5,0,0</fogColor>
 				<skyColor>0.5,0,0</skyColor>
-				<atmosphereDensity>50</atmosphereDensity>
+				<atmosphereDensity>100</atmosphereDensity>
 				<orbitalDistance>75</orbitalDistance>
 				<orbitalTheta>346</orbitalTheta>
 				<orbitalPhi>0</orbitalPhi>
