@@ -180,3 +180,12 @@ print("--- loading nuclearcraft.zs ---");
 		[<ore:dustQuartz>, <ore:gearCube>, <ore:dustQuartz>],
 		[<ore:dustObsidian>, <ore:dustQuartz>, <ore:dustObsidian>]]);
 		
+# ---- SUPERCOOLER ----
+
+# Liquid Helium
+	mods.nuclearcraft.supercooler.removeRecipeWithInput([<liquid:helium>*8000]);
+	mods.nuclearcraft.supercooler.addRecipe([<liquid:helium>*2000, <liquid:liquidhelium>*25]);
+	
+# Liquid Helium
+	mods.nuclearcraft.supercooler.removeRecipeWithInput([<liquid:nitrogen>*8000]);
+	mods.nuclearcraft.supercooler.addRecipe([<liquid:nitrogen>*2000, <liquid:liquid_nitrogen>*25]);
