@@ -85,7 +85,7 @@ print("--- loading advancedrocketry.zs ---");
 	);
 	
 # Jetpack
-	mods.advancedrocketry.PrecisionAssembler.removeRecipe(<advancedrocketry:jetpack>);
+	recipes.remove(<advancedrocketry:jetpack>);
 	recipes.addShaped(<advancedrocketry:jetpack>,
 		[[<advancedrocketry:pressuretank:3>, <ore:plateElite>, <advancedrocketry:pressuretank:3>],
 		[<ore:leather>, <advancedrocketry:ic:2>, <ore:leather>],
